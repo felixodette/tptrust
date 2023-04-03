@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const CausesPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Causes">
+        <Layout pageTitle="TP Trust | Causes">
             <NavOne />
             <PageHeader title="Causes" />
             <Causes />
