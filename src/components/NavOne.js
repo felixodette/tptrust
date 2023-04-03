@@ -115,7 +115,7 @@ class NavOne extends Component {
                             </li>
                             <li><a href="#">causes</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior href="/causes"><a>causes</a></Link></li>
+                                <li><Link legacyBehavior href="/pages/causes"><a>causes</a></Link></li>
                                 <li><Link legacyBehavior href="/causes-detail"><a>causes detail</a></Link></li>
                                 <li><Link legacyBehavior href="/donate"><a>donate now</a></Link></li>
                               </ul>
@@ -171,7 +171,7 @@ class NavOne extends Component {
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
                     <li><Link legacyBehavior href="/causes"><a>causes</a></Link></li>
-                    <li><Link legacyBehavior href="/causes-detail"><a>causes detail</a></Link></li>
+                    <li><Link legacyBehavior href="/causes-detail"><a>causes details</a></Link></li>
                     <li><Link legacyBehavior href="/donate"><a>donate now</a></Link></li>
                   </ul>
                 </li>
