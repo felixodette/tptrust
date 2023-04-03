@@ -2,7 +2,7 @@
 import Layout from "./components/Layout";
 import NavOne from "./components/NavOne";
 import SliderOne from "./components/SliderOne";
-
+import Map from "./components/Map";
 import EntryArea from "./components/EntryArea";
 import HiwArea from "./components/HiwArea";
 import ServiceArea from "./components/ServiceArea";
@@ -27,6 +27,7 @@ function App() {
       <HelpingArea />
       <TeamArea />
       <CallToAction />
+      <Map />
       <Footer />
     </Layout>
   );
