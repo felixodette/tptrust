@@ -25,6 +25,7 @@ import News from './pages/news';
 import NewsSinglePage from "./pages/single-news";
 import AboutPage from "./pages/about";
 import GalleryPage from "./pages/gallery";
+import VolunteerPage from "./pages/volunteer";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/news-detail" element={<NewsSinglePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/volunteer" element={<VolunteerPage />} />
       </Routes>
     </BrowserRouter>
   );
