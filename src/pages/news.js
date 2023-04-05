@@ -7,7 +7,7 @@ import News from "../components/News";
 
 const NewsPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | News">
+        <Layout pageTitle="TP Trust | News">
             <NavOne />
             <PageHeader title="News" />
             <News />
