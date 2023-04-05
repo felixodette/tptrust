@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import Accordion from "accordion/src/accordion.mjs";
+// import Accordion from "accordion/src/accordion.mjs";
 
 class FaqArea extends Component {
 
-    componentDidMount() {
-        new Accordion('.accordion-container');
-    }
+    // componentDidMount() {
+    //     new Accordion('.accordion-container');
+    // }
 
     render() {
         return (
