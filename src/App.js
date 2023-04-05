@@ -27,6 +27,7 @@ import AboutPage from "./pages/about";
 import GalleryPage from "./pages/gallery";
 import VolunteerPage from "./pages/volunteer";
 import TeamPage from "./pages/team";
+import SponsorPage from "./pages/sponsor";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/volunteer" element={<VolunteerPage />} />
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/sponsor" element={<SponsorPage />} />
       </Routes>
     </BrowserRouter>
   );
