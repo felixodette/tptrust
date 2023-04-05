@@ -7,7 +7,7 @@ import EventsDetail from "../components/EventsDetail";
 
 const EventsDetailPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Events Detail">
+        <Layout pageTitle="TP Trust | Events Detail">
             <NavOne />
             <PageHeader title="Events Detail" />
             <EventsDetail />
