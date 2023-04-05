@@ -7,7 +7,7 @@ import Donate from "../components/Donate";
 
 const DonatePage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Donate">
+        <Layout pageTitle="TP Trust | Donate">
             <NavOne />
             <PageHeader title="Donate" />
             <Donate />
