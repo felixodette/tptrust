@@ -33,6 +33,7 @@ function App() {
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/events" element ={<Events />} />
         <Route path="/events-detail" element={<EventsDetailPage />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </BrowserRouter>
   );
