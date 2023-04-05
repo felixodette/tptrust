@@ -1,13 +1,5 @@
 import React, {Component} from 'react';
-// import Link from 'next/link';
-// import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Outlet, Link } from 'react-router-dom';
-// import NavigationBar from './NavigationBar';
-// import HomePage from './HomePage';
-import CausesPage from '../pages/causes';
-import CausesPageDetail from '../pages/causes-detail';
-import ContactsPage from '../pages/contact';
-import EventsPage from "../pages/events";
 
 class NavOne extends Component {
   constructor(){
@@ -105,7 +97,7 @@ class NavOne extends Component {
                     </div>
                     <div className="header-btn ml-auto">
                       <Link legacyBehavior to="/donate">
-                        <a className="theme-btn">donate now</a>
+                        <a className="theme-btn text-light">donate now</a>
                       </Link>
                     </div>
                   </div>
