@@ -21,6 +21,8 @@ import ContactsPage from "./pages/contact";
 import DonatePage from "./pages/donate";
 import Events from "./pages/events";
 import EventsDetailPage from "./pages/events-detail";
+import News from './pages/news';
+import NewsSinglePage from "./pages/single-news";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
         <Route path="/events" element ={<Events />} />
         <Route path="/events-detail" element={<EventsDetailPage />} />
         <Route path="/news" element={<News />} />
+        <Route path="/news-detail" element={<NewsSinglePage />} />
       </Routes>
     </BrowserRouter>
   );

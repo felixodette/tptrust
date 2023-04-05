@@ -9,7 +9,7 @@ const NewsSingle = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img20.jpg" alt="" />
+                                    <img src="/assets/images/img20.jpg" alt="" />
                                         <span className="blog__date">26 feb, 2019</span>
                                 </div>
                                 <div className="blog-inner-content">
@@ -78,7 +78,7 @@ const NewsSingle = () => {
                                     <div className="single-comment">
                                         <div className="post__boxed">
                                             <div className="post__boxed-img">
-                                                <img src="/images/post-box-img.jpg" alt="" />
+                                                <img src="/assets/images/post-box-img.jpg" alt="" />
                                             </div>
                                             <div className="post__boxed-content">
                                                 <h3 className="post__boxed-title">kevin martin</h3>
@@ -97,7 +97,7 @@ const NewsSingle = () => {
                                                     <div className="comment">
                                                         <div className="avatar-img">
                                                             <img className="avatar__img" alt=""
-                                                                 src="/images/comment-avatar.jpg" />
+                                                                 src="/assets/images/comment-avatar.jpg" />
                                                         </div>
                                                         <div className="comment-body">
                                                             <div className="meta-data">
@@ -121,7 +121,7 @@ const NewsSingle = () => {
                                                     <div className="comment">
                                                         <div className="avatar-img">
                                                             <img className="avatar__img" alt=""
-                                                                 src="/images/comment-avatar2.jpg" />
+                                                                 src="/assets/images/comment-avatar2.jpg" />
                                                         </div>
                                                         <div className="comment-body">
                                                             <div className="meta-data">
@@ -197,7 +197,7 @@ const NewsSingle = () => {
                                 <h2 className="widget__title">Recent Posts</h2>
                                 <div className="author-box recent-donate-item">
                                     <div className="author__avatar">
-                                        <img src="/images/author-avatar5.jpg" alt="" />
+                                        <img src="/assets/images/author-avatar5.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
                                         <h4 className="author__title author__title2"><a href="/single-news">Learn
@@ -206,7 +206,7 @@ const NewsSingle = () => {
                                 </div>
                                 <div className="author-box recent-donate-item">
                                     <div className="author__avatar">
-                                        <img src="/images/author-avatar6.jpg" alt="" />
+                                        <img src="/assets/images/author-avatar6.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
                                         <h4 className="author__title author__title2"><a href="/single-news">Build
@@ -215,7 +215,7 @@ const NewsSingle = () => {
                                 </div>
                                 <div className="author-box recent-donate-item">
                                     <div className="author__avatar">
-                                        <img src="/images/author-avatar7.jpg" alt="" />
+                                        <img src="/assets/images/author-avatar7.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
                                         <h4 className="author__title author__title2"><a href="/single-news">Together
