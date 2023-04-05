@@ -7,7 +7,7 @@ import MixerAreaTwo from "../components/MixerAreaTwo";
 import TeamArea from "../components/TeamArea";
 import FaqArea from "../components/FaqArea";
 import ServiceArea from "../components/ServiceArea";
-import ClientsLogoTwo from "../components/ClientsLogoTwo";
+// import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
@@ -20,7 +20,7 @@ const AboutPage = () => {
             <TeamArea />
             <FaqArea />
             <ServiceArea />
-            <ClientsLogoTwo />
+            {/*<ClientsLogoTwo />*/}
             <Footer />
         </Layout>
     );

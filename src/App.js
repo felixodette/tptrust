@@ -23,6 +23,7 @@ import Events from "./pages/events";
 import EventsDetailPage from "./pages/events-detail";
 import News from './pages/news';
 import NewsSinglePage from "./pages/single-news";
+import AboutPage from "./pages/about";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/events-detail" element={<EventsDetailPage />} />
         <Route path="/news" element={<News />} />
         <Route path="/news-detail" element={<NewsSinglePage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );
