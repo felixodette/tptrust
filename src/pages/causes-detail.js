@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import CausesDetail from "../components/CausesDetail";
 
-const CausesPage = () => {
+const CausesPageDetail = () => {
     return (
         <Layout pageTitle="Oxpitan | Causes Detail">
             <NavOne />
@@ -16,4 +16,4 @@ const CausesPage = () => {
     );
 };
 
-export default CausesPage;
+export default CausesPageDetail;

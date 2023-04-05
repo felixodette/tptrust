@@ -11,7 +11,7 @@ const CausesPage = () => {
             <NavOne />
             <PageHeader title="Causes" />
             <Causes />
-            <Footer />
+            {/*<Footer />*/}
         </Layout>
     );
 };

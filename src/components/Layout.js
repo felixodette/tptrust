@@ -1,11 +1,12 @@
 import React from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
+import {Helmet} from "react-helmet";
 
 const Layout = (props) => {
 
   return (
     <div>
-      <Head>
+      <Helmet>
         <title>{props.pageTitle}</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +21,7 @@ const Layout = (props) => {
         <link rel="stylesheet" href="/assets/css/style.css" />
         <link rel="stylesheet" href="/assets/css/responsive.css" />
 
-      </Head>
+      </Helmet>
 
       {props.children}
 

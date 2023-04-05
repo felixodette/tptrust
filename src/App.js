@@ -1,35 +1,34 @@
 // import './App.css';
-import Layout from "./components/Layout";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from "./pages/index";
+// import Layout from "./components/Layout";
+// import NavOne from "./components/NavOne";
+// import SliderOne from "./components/SliderOne";
+// import Map from "./components/Map";
+// import EntryArea from "./components/EntryArea";
+// import HiwArea from "./components/HiwArea";
+// import ServiceArea from "./components/ServiceArea";
+// import MixerArea from "./components/MixerArea";
+// import Causes from "./components/Causes";
+// import HelpingArea from "./components/HelpingArea";
+// import TeamArea from "./components/TeamArea";
+// import CallToAction from "./components/CallToAction";
+// import Footer from "./components/Footer";
+import CausesPage from "./pages/causes";
+import CausesPageDetail from "./pages/causes-detail";
+import ContactsPage from "./pages/contact";
 import NavOne from "./components/NavOne";
-import SliderOne from "./components/SliderOne";
-import Map from "./components/Map";
-import EntryArea from "./components/EntryArea";
-import HiwArea from "./components/HiwArea";
-import ServiceArea from "./components/ServiceArea";
-import MixerArea from "./components/MixerArea";
-import Causes from "./components/Causes";
-import HelpingArea from "./components/HelpingArea";
-import TeamArea from "./components/TeamArea";
-import CallToAction from "./components/CallToAction";
-import Footer from "./components/Footer";
-
 
 function App() {
   return (
-    <Layout pageTitle="TP Trust">
-      <NavOne />
-      <SliderOne />
-      <EntryArea />
-      <HiwArea />
-      <ServiceArea />
-      <MixerArea />
-      <Causes />
-      <HelpingArea />
-      <TeamArea />
-      <CallToAction />
-      <Map />
-      <Footer />
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/causes" element={<CausesPage />} />
+        <Route path="/causes-detail" element={<CausesPageDetail />} />
+        <Route path="/contacts" element={<ContactsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
