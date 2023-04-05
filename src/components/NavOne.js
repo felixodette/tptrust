@@ -117,10 +117,10 @@ class NavOne extends Component {
                         <nav className="main-navigation">
                           <ul>
                             <li className="active"><Link legacyBehavior to="/">Home</Link>
-                              <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior to="/">Home 1</Link></li>
-                                <li><Link legacyBehavior to="/index2">Home 2</Link></li>
-                              </ul>
+                              {/*<ul className="dropdown-menu-item">*/}
+                              {/*  <li><Link legacyBehavior to="/">Home 1</Link></li>*/}
+                              {/*  <li><Link legacyBehavior to="/index2">Home 2</Link></li>*/}
+                              {/*</ul>*/}
                             </li>
                             <li><a href="#">causes</a>
                               <ul className="dropdown-menu-item">
@@ -171,10 +171,10 @@ class NavOne extends Component {
               <ul className="side-menu-ul">
                 <li className="sidenav__item"><a href="/">home</a>
                   <span className="menu-plus-icon"></span>
-                  <ul className="side-sub-menu">
-                    <li><Link legacyBehavior to="/">Home 1</Link></li>
-                    <li><Link legacyBehavior to="/index2">Home 2</Link></li>
-                  </ul>
+                  {/*<ul className="side-sub-menu">*/}
+                  {/*  <li><Link legacyBehavior to="/">Home 1</Link></li>*/}
+                  {/*  <li><Link legacyBehavior to="/index2">Home 2</Link></li>*/}
+                  {/*</ul>*/}
                 </li>
                 <li className="sidenav__item"><a href="#">causes</a>
                   <span className="menu-plus-icon"></span>
