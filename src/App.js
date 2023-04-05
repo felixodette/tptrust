@@ -18,6 +18,7 @@ import CausesPage from "./pages/causes";
 import CausesPageDetail from "./pages/causes-detail";
 import ContactsPage from "./pages/contact";
 import NavOne from "./components/NavOne";
+import DonatePage from "./pages/donate";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/causes" element={<CausesPage />} />
         <Route path="/causes-detail" element={<CausesPageDetail />} />
         <Route path="/contacts" element={<ContactsPage />} />
+        <Route path="/donate" element={<DonatePage />} />
       </Routes>
     </BrowserRouter>
   );
