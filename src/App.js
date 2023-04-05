@@ -28,6 +28,7 @@ import GalleryPage from "./pages/gallery";
 import VolunteerPage from "./pages/volunteer";
 import TeamPage from "./pages/team";
 import SponsorPage from "./pages/sponsor";
+import ContactPage from "./pages/contact";
 
 function App() {
   return (
@@ -41,12 +42,13 @@ function App() {
         <Route path="/events" element ={<Events />} />
         <Route path="/events-detail" element={<EventsDetailPage />} />
         <Route path="/news" element={<News />} />
-        <Route path="/news-detail" element={<NewsSinglePage />} />
+        <Route path="/single-news" element={<NewsSinglePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/volunteer" element={<VolunteerPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/sponsor" element={<SponsorPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );
