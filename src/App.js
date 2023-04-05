@@ -17,8 +17,10 @@ import HomePage from "./pages/index";
 import CausesPage from "./pages/causes";
 import CausesPageDetail from "./pages/causes-detail";
 import ContactsPage from "./pages/contact";
-import NavOne from "./components/NavOne";
+// import NavOne from "./components/NavOne";
 import DonatePage from "./pages/donate";
+import Events from "./pages/events";
+import EventsDetailPage from "./pages/events-detail";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="/causes-detail" element={<CausesPageDetail />} />
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/donate" element={<DonatePage />} />
+        <Route path="/events" element ={<Events />} />
+        <Route path="/events-detail" element={<EventsDetailPage />} />
       </Routes>
     </BrowserRouter>
   );
