@@ -11,6 +11,7 @@ class NavOne extends Component {
 
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('click', this.handleActive);
 
     //Mobile Menu
     this.mobileMenu();
@@ -28,6 +29,14 @@ class NavOne extends Component {
       });
     }
 
+  }
+
+  handleActive = (e) => {
+    let navLinks = document.querySelectorAll("Link");
+    navLinks.forEach((el) => {
+      el.classList.remove("active");
+    });
+    e.target.classList.add("active");
   }
 
   mobileMenu = () => {
@@ -59,8 +68,8 @@ class NavOne extends Component {
                   <div className="top-action-content">
                     <div className="info-box info-box-1 d-flex align-items-center">
                       <ul className="d-flex align-items-center">
-                        <li><a href="#"><i className="fa fa-envelope"></i>info@tptrust.org</a></li>
-                        <li><a href="#"><i className="fa fa-phone-square"></i>+254 794 402 478</a>
+                        <li><a href="#/"><i className="fa fa-envelope"></i>info@tptrust.org</a></li>
+                        <li><a href="#/"><i className="fa fa-phone-square"></i>+254 794 402 478</a>
                         </li>
                       </ul>
                     </div>
@@ -70,12 +79,12 @@ class NavOne extends Component {
                   <div className="top-action-content info-action-content">
                     <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                       <ul className="top-action-list d-flex align-items-center">
-                        <li className="action__text"><a href="#">login</a></li>
-                        <li className="action__text"><a href="#">register</a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                        <li className="action__text"><a href="#/">login</a></li>
+                        <li className="action__text"><a href="#/">register</a></li>
+                        <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                        <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                        <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -89,15 +98,15 @@ class NavOne extends Component {
                 <div className="col-lg-5 col-sm-5 site-branding">
                   <div className="logo-action d-flex align-items-center">
                     <div className="ostion-logo">
-                      <Link legacyBehavior to="/">
+                      <Link to="/">
 
                           <img src="/assets/images/finale-logo.png" alt="TPTrust" title="TPTrust"></img>
 
                       </Link>
                     </div>
                     <div className="header-btn ml-auto">
-                      <Link legacyBehavior to="/donate">
-                        <a className="theme-btn text-light">donate now</a>
+                      <Link to="/donate">
+                        <a href="#/" className="theme-btn text-light">donate now</a>
                       </Link>
                     </div>
                   </div>
@@ -108,41 +117,47 @@ class NavOne extends Component {
                       <div className="navigation-top">
                         <nav className="main-navigation">
                           <ul>
-                            <li className="active"><Link legacyBehavior to="/">Home</Link>
+                            <li className="active"><Link to="/">Home</Link>
                               {/*<ul className="dropdown-menu-item">*/}
-                              {/*  <li><Link legacyBehavior to="/">Home 1</Link></li>*/}
-                              {/*  <li><Link legacyBehavior to="/index2">Home 2</Link></li>*/}
+                              {/*  <li><Link to="/">Home 1</Link></li>*/}
+                              {/*  <li><Link to="/index2">Home 2</Link></li>*/}
                               {/*</ul>*/}
                             </li>
-                            <li><a href="#">causes</a>
+                            <li><a href="#/">about</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior to="/causes">causes</Link></li>
-                                <li><Link legacyBehavior to="/causes-detail">causes detail</Link></li>
-                                <li><Link legacyBehavior to="/donate">donate now</Link></li>
+                                <li><Link to="/about">about us</Link></li>
+                                <li><Link to="/gallery">gallery</Link></li>
+                                <li><Link to="/volunteer">become a volunteer</Link></li>
+                                <li><Link to="/team">our team</Link></li>
+                                <li><Link to="/sponsor">sponsors</Link></li>
                               </ul>
                             </li>
-                            <li><a href="#">events</a>
+                            <li><a href="#/">our work</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior to="/events">events</Link></li>
-                                <li><Link legacyBehavior to="/events-detail">events detail</Link></li>
+                                <li><Link to="/causes">Pre School</Link></li>
+                                <li><Link to="/causes">School Transition</Link></li>
+                                <li><Link to="/causes">Foundation of Hope</Link></li>
+                                <li><Link to="/causes">Community Library</Link></li>
+                                <li><Link to="/causes">School Support</Link></li>
+                                <li><Link to="/causes">Where We Work</Link></li>
+                                <li><Link to="/causes">causes</Link></li>
+                                <li><Link to="/causes-detail">causes detail</Link></li>
+                                <li><Link to="/donate">donate now</Link></li>
                               </ul>
                             </li>
-                            <li><a href="#">news</a>
+                            <li><a href="#/">events</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior to="/news">news</Link></li>
-                                <li><Link legacyBehavior to="/single-news">news detail</Link></li>
+                                <li><Link to="/events">events</Link></li>
+                                <li><Link to="/events-detail">events detail</Link></li>
                               </ul>
                             </li>
-                            <li><a href="#">pages</a>
+                            <li><a href="#/">news</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link legacyBehavior to="/about">about</Link></li>
-                                <li><Link legacyBehavior to="/gallery">gallery</Link></li>
-                                <li><Link legacyBehavior to="/volunteer">become a volunteer</Link></li>
-                                <li><Link legacyBehavior to="/team">our team</Link></li>
-                                <li><Link legacyBehavior to="/sponsor">sponsors</Link></li>
+                                <li><Link to="/news">news</Link></li>
+                                <li><Link to="/single-news">news detail</Link></li>
                               </ul>
                             </li>
-                            <li><Link legacyBehavior to="/contact">contact</Link></li>
+                            <li><Link to="/contact">contact</Link></li>
                           </ul>
                         </nav>
                       </div>
@@ -164,52 +179,52 @@ class NavOne extends Component {
                 <li className="sidenav__item"><a href="/">home</a>
                   <span className="menu-plus-icon"></span>
                   {/*<ul className="side-sub-menu">*/}
-                  {/*  <li><Link legacyBehavior to="/">Home 1</Link></li>*/}
-                  {/*  <li><Link legacyBehavior to="/index2">Home 2</Link></li>*/}
+                  {/*  <li><Link to="/">Home 1</Link></li>*/}
+                  {/*  <li><Link to="/index2">Home 2</Link></li>*/}
                   {/*</ul>*/}
                 </li>
-                <li className="sidenav__item"><a href="#">causes</a>
+                <li className="sidenav__item"><a href="#/">causes</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link legacyBehavior to="/causes">causes</Link></li>
-                    <li><Link legacyBehavior to="/causes-detail">causes details</Link></li>
-                    <li><Link legacyBehavior to="/donate">donate now</Link></li>
+                    <li><Link to="/causes">causes</Link></li>
+                    <li><Link to="/causes-detail">causes details</Link></li>
+                    <li><Link to="/donate">donate now</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><a href="#">event</a>
+                <li className="sidenav__item"><a href="#/">event</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link legacyBehavior to="/events">events</Link></li>
-                    <li><Link legacyBehavior to="/events-detail">events detail</Link></li>
+                    <li><Link to="/events">events</Link></li>
+                    <li><Link to="/events-detail">events detail</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><a href="#">news</a>
+                <li className="sidenav__item"><a href="#/">news</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link legacyBehavior to="/news">news</Link></li>
-                    <li><Link legacyBehavior to="/single-news">news detail</Link></li>
+                    <li><Link to="/news">news</Link></li>
+                    <li><Link to="/single-news">news detail</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><a href="#">pages</a>
+                <li className="sidenav__item"><a href="#/">pages</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link legacyBehavior to="/about">about</Link></li>
-                    <li><Link legacyBehavior to="/gallery">gallery</Link></li>
-                    <li><Link legacyBehavior to="/volunteer">become a volunteer</Link></li>
-                    <li><Link legacyBehavior to="/team">our team</Link></li>
-                    <li><Link legacyBehavior to="/sponsor">sponsors</Link></li>
+                    <li><Link to="/about">about</Link></li>
+                    <li><Link to="/gallery">gallery</Link></li>
+                    <li><Link to="/volunteer">become a volunteer</Link></li>
+                    <li><Link to="/team">our team</Link></li>
+                    <li><Link to="/sponsor">sponsors</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><Link legacyBehavior to="/contact">contact</Link></li>
+                <li className="sidenav__item"><Link to="/contact">contact</Link></li>
               </ul>
               <ul className="side-social">
-                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i className="fa fa-youtube-play"></i></a></li>
-                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                <li><a href="#/"><i className="fa fa-youtube-play"></i></a></li>
+                <li><a href="#/"><i className="fa fa-google-plus"></i></a></li>
               </ul>
               <div className="side-btn">
-                <Link legacyBehavior to="/donate"><a className="theme-btn">donate now</a></Link>
+                <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
               </div>
             </div>
           </div>
