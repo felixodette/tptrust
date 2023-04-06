@@ -52,9 +52,7 @@ const ServiceArea = () => {
                 <div className="service-content">
                   <h4 className="service__title">prayers</h4>
                   <p className="service__desc">
-                    Lorem ipsum is simply free text
-                    available
-                    in the market wesbites.
+                    Join our prayer community and make a difference in the lives of vulnerable children.
                   </p>
                 </div>
               </div>
@@ -69,9 +67,7 @@ const ServiceArea = () => {
                 <div className="service-content">
                   <h4 className="service__title">peace</h4>
                   <p className="service__desc">
-                    Lorem ipsum is simply free text
-                    available
-                    in the market wesbites.
+                    Experience the life-changing impact of peace, bringing hope and transformation.
                   </p>
                 </div>
               </div>
@@ -86,9 +82,7 @@ const ServiceArea = () => {
                 <div className="service-content">
                   <h4 className="service__title">donation</h4>
                   <p className="service__desc">
-                    Lorem ipsum is simply free text
-                    available
-                    in the market wesbites.
+                    Empower vulnerable children in Kibera with your generous donations of hope.
                   </p>
                 </div>
               </div>
