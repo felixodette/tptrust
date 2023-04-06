@@ -1,11 +1,22 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 // import Head from 'next/head';
 import {Helmet} from "react-helmet";
+import ScrollToTop from "./ScrollToTop";
 
 const Layout = (props) => {
+  const [load, updateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      updateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div>
+      <ScrollToTop />
       <Helmet>
         <title>{props.pageTitle}</title>
         <meta charSet="UTF-8" />
