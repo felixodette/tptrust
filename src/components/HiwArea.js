@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const HiwArea = () => {
   return (
@@ -12,7 +13,7 @@ const HiwArea = () => {
                   <img src="/assets/images/kids-window.jpg" alt="" />
                   <h3 className="hiw-title">More charity better lives</h3>
                   <div className="hiw-btn-box">
-                    <a href="#" className="theme-btn">read more</a>
+                    <Link to="/about"><a href="#/" className="theme-btn">read more</a></Link>
                   </div>
                 </figure>
               </div>
@@ -25,7 +26,7 @@ const HiwArea = () => {
                   <img src="/assets/images/kids-window.jpg" alt="" />
                   <h3 className="hiw-title">How to become volunteer</h3>
                   <div className="hiw-btn-box">
-                    <a href="#" className="theme-btn">read more</a>
+                    <Link to="/volunteer"><a href="#/" className="theme-btn">read more</a></Link>
                   </div>
                 </figure>
               </div>
@@ -38,7 +39,7 @@ const HiwArea = () => {
                   <img src="/assets/images/kids-window.jpg" alt="" />
                   <h3 className="hiw-title">Poor children education</h3>
                   <div className="hiw-btn-box">
-                    <a href="#" className="theme-btn">read more</a>
+                    <Link to="/causes"><a href="#/" className="theme-btn">read more</a></Link>
                   </div>
                 </figure>
               </div>

@@ -8,7 +8,7 @@ const Volunteer = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading text-center">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <img src="/assets/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Register Now</h2>
                             <p className="section__meta">join us now</p>
@@ -19,7 +19,7 @@ const Volunteer = () => {
                     <div className="col-lg-6">
                         <div className="form-shared-content">
                             <div className="form-img">
-                                <img src="/images/form-img.jpg" alt="" />
+                                <img src="/assets/images/form-img.jpg" alt="" />
                             </div>
                             <div className="form-content">
                                 <h3 className="form__title">Requirements</h3>
@@ -39,11 +39,11 @@ const Volunteer = () => {
                                 <div className="contact-us-box">
                                     <div className="contact__item">
                                         <h4>Call us</h4>
-                                        <a href="#">666 888 0000</a>
+                                        <a href="#">+254 794 402 478</a>
                                     </div>
                                     <div className="contact__item contact__item2">
                                         <h4>Send email</h4>
-                                        <a href="#">needhelp@oxpitan.com</a>
+                                        <a href="#">info@tptrust.org</a>
                                     </div>
                                 </div>
                             </div>
