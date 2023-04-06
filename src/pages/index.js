@@ -13,7 +13,7 @@ import HelpingArea from "../components/HelpingArea";
 import TeamArea from "../components/TeamArea";
 import CallToAction from "../components/CallToAction";
 import BlogHome from "../components/BlogHome";
-import Map from "../components/Map";
+// import Map from "../components/Map";
 import CallToActionTwo from "../components/CallToActionTwo";
 
 const HomePage = () => {
@@ -31,7 +31,7 @@ const HomePage = () => {
           <TeamArea />
           <CallToAction />
           <BlogHome />
-          <Map />
+          {/*<Map />*/}
           <CallToActionTwo />
           <Footer />
         </Layout>
