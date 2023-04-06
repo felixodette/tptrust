@@ -11,7 +11,7 @@ const HelpingArea = () => {
                                 <div className="section-icon">
                                     <img src="/assets/images/section-icon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">Give a helping hand for homeless childrens</h2>
+                                <h2 className="section__title">Give a helping hand for homeless children</h2>
                             </div>
                             <div className="helping-item">
                                 <div className="row">
