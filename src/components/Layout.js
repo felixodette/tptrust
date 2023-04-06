@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import ScrollToTop from "./ScrollToTop";
 
 const Layout = (props) => {
-  const [load, updateLoad] = useState(true);
+  const [, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
