@@ -22,7 +22,7 @@ const ServiceArea = () => {
                 <img src="/assets/images/section-icon.png" alt="section-icon"/>
               </div>
               <h2 className="section__title">We Believe that
-                We can Save More Lifes with you</h2>
+                We can Save More Lives with you</h2>
               <p className="section__meta">help us now</p>
             </div>
           </div>
