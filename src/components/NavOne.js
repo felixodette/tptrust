@@ -134,7 +134,7 @@ class NavOne extends Component {
                             </li>
                             <li><a href="#/">our work</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link to="/causes">Pre School</Link></li>
+                                <li><Link to="/pre-school">Pre School</Link></li>
                                 <li><Link to="/causes">School Transition</Link></li>
                                 <li><Link to="/causes">Foundation of Hope</Link></li>
                                 <li><Link to="/causes">Community Library</Link></li>
