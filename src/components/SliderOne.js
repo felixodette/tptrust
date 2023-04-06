@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import Swiper from 'react-id-swiper';
 import 'swiper/swiper.css';
+import {Link} from "react-router-dom";
 const SliderOne = () => {
   const [swiper, setSwiper] = useState(null);
 
@@ -29,8 +30,8 @@ const SliderOne = () => {
                     <div className="col-md-7">
                       <div className="slider-heading">
                         <p className="slider__meta">welcome to the turning point trust</p>
-                        <h2 className="slider__title">Lend a hand, get involved</h2>
-                        <a href="#" className="theme-btn">discover more</a>
+                        <h2 className="slider__title">End poverty, Transform Lives, Restore Hope</h2>
+                        <Link to="/about"><a href="#" className="theme-btn">discover more</a></Link>
                       </div>
                     </div>
                   </div>
