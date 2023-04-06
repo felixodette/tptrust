@@ -13,13 +13,13 @@ const Causes = () => {
                                     <img src="../../public/assets/images/img1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail" legacyBehavior><a>Save Poor Childrens</a></Link></h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">Save Poor Children</a></Link></h3>
+                                    <p className="blog__desc">Break the cycle of poverty and give underprivileged children a brighter future.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -32,13 +32,13 @@ const Causes = () => {
                                         <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="/causes-detail"><a>They Want to Study</a></Link></h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">They Want to Study</a></Link></h3>
+                                    <p className="blog__desc">Education is their key to a better life. Your support can help make their dreams of studying a reality.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -50,14 +50,14 @@ const Causes = () => {
                                     <img src="../../public/assets/images/img3.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="/causes-detail"><a>Healthy Food for All</a></Link>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">Healthy Food for All</a></Link>
                                     </h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
+                                    <p className="blog__desc">Join us in fighting hunger and malnutrition, ensuring the children have access to healthy food.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -69,13 +69,13 @@ const Causes = () => {
                                     <img src="../../public/assets/images/img10.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="/causes-detail"><a>Need Educations</a></Link></h3>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">Need Educations</a></Link></h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -87,13 +87,13 @@ const Causes = () => {
                                     <img src="../../public/assets/images/img2.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="/causes-detail"><a>Clean Water Issues</a></Link></h3>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">Clean Water Issues</a></Link></h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -105,14 +105,14 @@ const Causes = () => {
                                     <img src="../../public/assets/images/img11.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link legacyBehavior href="/causes-detail"><a>Help the Eco System</a></Link>
+                                    <h3 className="blog__title"><Link to="/causes-detail"><a href="#/">Help the Eco System</a></Link>
                                     </h3>
                                     <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
                                     <ul className="blog__list">
                                         <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                         <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                     </ul>
-                                    <Link legacyBehavior href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <Link to="/donate"><a href="#/"className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
