@@ -16,8 +16,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>A place where start new
                                     life with peace</a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">3 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
+                                    <li><a href="#/">3 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -38,8 +38,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>We can make a difference
                                     in families lives </a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">jessica brown</a></li>
-                                    <li><a href="#">2 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">jessica brown</a></li>
+                                    <li><a href="#/">2 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -60,8 +60,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>Build school for poor
                                     childrens</a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">john smith</a></li>
-                                    <li><a href="#">0 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">john smith</a></li>
+                                    <li><a href="#/">0 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -82,8 +82,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>Learn how access to clean
                                     water</a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">kevin hart</a></li>
-                                    <li><a href="#">4 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">kevin hart</a></li>
+                                    <li><a href="#/">4 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -104,8 +104,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>Do something crazy to
                                     raise money</a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">christine eve</a></li>
-                                    <li><a href="#">2 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">christine eve</a></li>
+                                    <li><a href="#/">2 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -126,8 +126,8 @@ const News = () => {
                                 <h3 className="news__content-title"><Link href="/single-news"><a>Together to help the
                                     world better</a></Link></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">0 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
+                                    <li><a href="#/">0 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis

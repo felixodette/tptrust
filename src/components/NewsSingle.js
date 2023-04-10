@@ -14,11 +14,11 @@ const NewsSingle = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><a href="#">Do something crazy to raise money</a>
+                                        <h3 className="blog__title"><a href="#/">Do something crazy to raise money</a>
                                         </h3>
                                         <ul className="blog__list">
-                                            <li className="blog__dot-active"><a href="#">christine eve</a></li>
-                                            <li><a href="#">2 comments</a></li>
+                                            <li className="blog__dot-active"><a href="#/">christine eve</a></li>
+                                            <li><a href="#/">2 comments</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -61,17 +61,17 @@ const NewsSingle = () => {
                                         <div className="news-tag-item-left">
                                     <span className="news-meta-tags">
                                         <span className="news-meta-title">Tags</span>
-                                        <a href="#">Charity</a>
-                                        <a href="#">poor</a>
-                                        <a href="#">love</a>
+                                        <a href="#/">Charity</a>
+                                        <a href="#/">poor</a>
+                                        <a href="#/">love</a>
                                     </span>
                                         </div>
                                         <div className="news-tag-item-right">
                                             <ul className="news-share">
-                                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@ const NewsSingle = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <a className="reply__btn theme-btn" href="#/">Reply</a>
                                                                 <p className="comment__text">
                                                                     Sending love. My nephews Nick and Anthony Salaber
                                                                     are your teammates,
@@ -131,7 +131,7 @@ const NewsSingle = () => {
                                                                 </h4>
                                                             </div>
                                                             <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
+                                                                <a className="reply__btn theme-btn" href="#/">Reply</a>
                                                                 <p className="comment__text">
                                                                     You're a champ. Your in my thoughts and prayers
                                                                     every day.
@@ -149,7 +149,7 @@ const NewsSingle = () => {
                                         </div>
                                         <div className="comment__form form-shared">
                                             <h3 className="single__comment-title">Leave a Comment</h3>
-                                            <form action="#">
+                                            <form action="#/">
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <div className="form-group">
@@ -184,7 +184,7 @@ const NewsSingle = () => {
                         <div className="sidebar-shared">
                             <div className="side-widget sidebar-form">
                                 <div className="form-shared">
-                                    <form action="#">
+                                    <form action="#/">
                                         <div className="row">
                                             <div className="col-lg-12">
                                                 <input type="text" className="form-control" placeholder="Search" />
@@ -227,14 +227,14 @@ const NewsSingle = () => {
                                 <h2 className="widget__title">Categories</h2>
                                 <div className="side-cats">
                                     <ul>
-                                        <li><a href="#">charity</a></li>
-                                        <li><a href="#">Fundrising</a></li>
-                                        <li><a href="#">Donations</a></li>
-                                        <li><a href="#">Save Lifes</a></li>
-                                        <li><a href="#">Health</a></li>
-                                        <li><a href="#">Education</a></li>
-                                        <li><a href="#">Food</a></li>
-                                        <li><a href="#">Water</a></li>
+                                        <li><a href="#/">charity</a></li>
+                                        <li><a href="#/">Fundrising</a></li>
+                                        <li><a href="#/">Donations</a></li>
+                                        <li><a href="#/">Save Lifes</a></li>
+                                        <li><a href="#/">Health</a></li>
+                                        <li><a href="#/">Education</a></li>
+                                        <li><a href="#/">Food</a></li>
+                                        <li><a href="#/">Water</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -242,12 +242,12 @@ const NewsSingle = () => {
                                 <h2 className="widget__title">Popular Tags</h2>
                                 <div className="side-tags">
                                     <ul>
-                                        <li><a href="#">charity</a></li>
-                                        <li><a href="#">poor</a></li>
-                                        <li><a href="#">love</a></li>
-                                        <li><a href="#">donations</a></li>
-                                        <li><a href="#">Health</a></li>
-                                        <li><a href="#">save</a></li>
+                                        <li><a href="#/">charity</a></li>
+                                        <li><a href="#/">poor</a></li>
+                                        <li><a href="#/">love</a></li>
+                                        <li><a href="#/">donations</a></li>
+                                        <li><a href="#/">Health</a></li>
+                                        <li><a href="#/">save</a></li>
                                     </ul>
                                 </div>
                             </div>
