@@ -1,14 +1,58 @@
 {
-  "preSchoolText": {
+  "preSchool": {
     "theChallenge": {
       "title": "The Challenge",
       "text": "Preschool builds the foundations for life-long learning and yet 16% of children in Kenya do not attend preschool. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal settlement of Kibera. Evans’ parents are already paying school fees for three older siblings in primary school and cannot afford the fees to send Evans to preschool as well.\nWhen both parents are busy making ends meet, Evans is left with a neighbour. She keeps an eye on him but its easy enough for the inquisitive child to wander off exploring. The risks are numerous to a small child in Kibera. Turning Point’s Preschool provides a safe environment for children like Evans to learn and thrive."
-    }, "ourApproach": {
+    },
+    "ourApproach": {
       "title": "Our Approach",
       "text": "We run a free preschool for children like Evans in Kibera who don’t have the opportunity to attend a preschool.\nOur preschool provides a safe environment for children to play, explore and grow. Each day involves a fun-packed programme of play-based learning, circle games and sports. The kids receive a healthy breakfast and lunch each day and our social workers work closely with families to promote positive parenting at home."
-    }, "ourImpact": {
+    },
+    "ourImpact": {
       "title": "Our Impact",
       "text": "Evans is now in our preschool learning to count and read. He loves doing puzzles and building houses and cars out of playdough. He makes lots of noise with his friends as they play football on the playground. Evans is gaining the foundational knowledge that will help him to do his best in primary school."
+    }
+  },
+  "schoolTransition": {
+    "theChallenge": {
+      "title": "The Challenge",
+      "text": "When you walk the cramped alleys of Kibera you come across many children who should be in school. Instead they are playing in the streets, running errands for their parents or caring for their siblings. Some collect recyclable items out of rubbish mounds to sell for a little pocket money.\n\nPoverty is the main barrier keeping these kids out of school. Their parents cannot afford the cost of sending them to school. Though primary education is free in Kenya, the underfunded and over-subscribed schools charge for many things. From admission to the feeding programme to the pupil’s desks."
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "text": "We work with children who have dropped out of school and support them to return to education. Our school transition programme enrols children in our free primary school and provides extra support as they settle back into school.\n\nWhat kind of support do children receive?\n\nEach child is paired up with a student buddy who helps them make friends and find their way around the school\n\nEach child also has a Mentor Teacher who helps the child set goals, overcome any challenges they are facing and identify where the child might need extra social or academic support\n\nFinally, we help each child catch up on the learning they missed while they were out of school through remedial classes."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "text": "Collins is a rapper; he loves to make up his own songs. A crowd of excited Turning Point kids were wowed by Collins performing one of his songs around the campfire at our annual holiday camps. Collins is also an orphan and was living on the streets, completely homeless with no one to take care of him and no home to sleep in at night.\n\nTurning Point was able to reconnect Collins with an uncle who he now lives with.\n\nCollins was way behind in his education, but it’s never too late to make a change. At 16, he was unable to read or write but Collins is a determined young man and worked hard in Transition Class to catch up. He has persevered and shown amazing progress and is now in Class 8, the equivalent of Year 10 in the UK. He will be taking his final primary school exams this year at age 19. What’s more, he can now write his raps down."
+    }
+  },
+  "foundationOfHope": {
+    "theChallenge": {
+      "title": "The Challenge",
+      "text": "In the few government schools that surround Kibera, a child will share a classroom with 50 to 70 other pupils. In the small non-formal schools run within the slum, a child can share a textbook with 6 other children. Class sizes may be smaller but often the teacher is not trained. As a result, many 10 year olds in Kibera are unable to read at the level of a 7-year-old.\n\nIt is also very rare to have opportunities for arts, drama, music or sports and many talents go unnoticed."
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "text": "At the Fountains of Hope school, we focus on quality and aim to develop the whole child. Each class has no more than 25 pupils, our classrooms are spacious and bright with enough textbooks and learning materials for all. Our pupils enjoy a free feeding programme to keep hunger at bay so they can concentrate in class and grow healthily. Our children study the national curriculum and take extra classes in discipleship, I.T., sports and creative arts.\n\nBecause we work with children from difficult backgrounds, our social worker and pastoral team are vital to our work. We help children to overcome their challenges by building their self-esteem and confidence.We let them know there is always someone on their side rooting for them."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "text": "Lydia is a shy but ambitious 14-year-old whose heart is as warm as the steaming morning chai served at the Fountains of Hope School. She likes nothing more than to hear her four siblings giggling as she shares stories from her day at school. But life isn’t easy for Lydia as her parents are both addicted to alcohol. When social workers visited their home they found the two parents passed out on a single mattress in an otherwise empty room. Lydia and her siblings are largely neglected by their parents.\n\nLydia joined Turning Point through the School Transition Programme and now attends the Fountains of Hope Primary School. Lydia’s shynessis being gradually replaced by confidence.She recited a memory verse at the opening of the new Fountains of Hope School buildings in January 2016. She is now in Class 6, the equivalent of Year 8 in the UK, and is benefiting from the friendshipsshe is building with her class mates. These more settled confidence-building surroundings are helping Lydia to perform well academically and she regularly finishes in the top five in her class’s exam results.\n\nThe care she receives at Turning Point and the new friendships she has made are making a big difference to Lydia. Our prayer is to continue offering Lydia and all the pupils at Fountains of Hope plenty of opportunities to learn and grow. We want to see them build their confidence and reach their full God-given potential."
+    }
+  },
+  "communityLibrary": {
+    "theChallenge": {
+      "title": "The Challenge",
+      "text": "Many children in Kibera return from school to a 10 ft by 10 ft one-roomed home with no school books, no desk to work at, poor lighting and noise and distractions from other family members. Completing their homework or doing revision in this environment is incredibly difficult. Many of the small schools in Kibera are unable to provide enough textbooks and don’t provide any further reading material. There is no option for children to research a topic that interests them further.There is no opportunity to develop their literacy and imagination by sitting down with a storybook."
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "text": "We provide a quiet well-lit space packed full of books and learning resources for children and families in the community to use. Children come every evening to do homework, read their favourite stories and read more about snakes, aeroplanes, ballet dancers or any topic that interests them.\n\nWe aim to compliment what children are learning in school with additional learning opportunities. We organise spelling competitions and holiday art workshops."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "text": "Matasia is 13 years old and in his final year of Primary School at a non-formal school in Kibera. He uses the Turning Point Community Library regularly to do homework and read stories. He loves the wonder of science andhis favourite book, You are here by Christopher Potter, is all about the history of our universe. Matasia says, When I am at home I have a lot of chores to do and I am often sent by my mum to fetch water or go to the shop. Also it is very dark in our house, even during the day. The community library is making a big difference to Matasia who says, I’m improving my reading skills when I read the storybooks. Also, in my school we don’t have enough textbooks so when we are given homework it can be a challenge to copy down all the questions before I leave school."
     }
   }
 }

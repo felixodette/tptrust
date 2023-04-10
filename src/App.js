@@ -30,6 +30,8 @@ import TeamPage from "./pages/team";
 import SponsorPage from "./pages/sponsor";
 import ContactPage from "./pages/contact";
 import PreSchoolPage from "./pages/pre-school";
+import SchoolTransitionPage from "./pages/school-transition";
+import FoundationsOfHopePage from "./pages/foundations-of-hope";
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
         <Route path="/sponsor" element={<SponsorPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/pre-school" element={<PreSchoolPage />} />
+        <Route path="/school-transition" element={<SchoolTransitionPage />} />
+        <Route path="/foundations-of-hope" element={<FoundationsOfHopePage />} />
       </Routes>
     </BrowserRouter>
   );
