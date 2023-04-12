@@ -8,7 +8,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/assets/images/team.jpg" alt="team image" />
+                                <img src="/assets/images/our-team-page-1.jpg" alt="CEO | Judy Akoth" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -27,7 +27,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/assets/images/team2.jpg" alt="team image" />
+                                <img src="/assets/images/our-team-page-2.jpg" alt="Welfare Overseer | Eunice Mulinge" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -46,7 +46,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/assets/images/team3.jpg" alt="team image" />
+                                <img src="/assets/images/team3.jpg" alt="Programmes Coordinator | Brenda Kaloki" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -65,7 +65,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                <img src="/assets/images/team4.jpg" alt="team image" />
+                                <img src="/assets/images/team4.jpg" alt="Comms Manager | John Gachoka" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -103,7 +103,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/assets/images/team6.jpg" alt="team image" />
+                                <img src="/assets/images/our-team-page-6.jpg" alt="ICT Manager | Lio Onyango" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -122,7 +122,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                <img src="/assets/images/team7.jpg" alt="team" />
+                                <img src="/assets/images/our-team-page-7.jpg" alt="team" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -141,7 +141,7 @@ const Team = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                <img src="/assets/images/team8.jpg" alt="team" />
+                                <img src="/assets/images/our-team-page-8.jpg" alt="team" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
@@ -152,11 +152,87 @@ const Team = () => {
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#/">jean smith</a></h3>
-                                <span className="team__title-meta">student</span>
+                                <h3 className="team__title-title"><a href="#/">Teacher Jennipher</a></h3>
+                                <span className="team__title-meta">Head Teacher</span>
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-item team-item1">
+                            <div className="team__img">
+                                <img src="/assets/images/our-team-page-9.jpg" alt="team" />
+                                <div className="team__img-links">
+                                    <ul>
+                                        <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="team__title">
+                                <h3 className="team__title-title"><a href="#/">Pastor David</a></h3>
+                                <span className="team__title-meta">Discipline</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-item team-item2">
+                            <div className="team__img">
+                                <img src="/assets/images/our-team-page-10.jpg" alt="Deputy Head Teacher | Tr. Collins" />
+                                <div className="team__img-links">
+                                    <ul>
+                                        <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="team__title">
+                                <h3 className="team__title-title"><a href="#/">Teacher Collins</a></h3>
+                                <span className="team__title-meta">Deputy Headteacher</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="team-item team-item3">
+                            <div className="team__img">
+                                <img src="/assets/images/our-team-page-13.jpg" alt="team" />
+                                <div className="team__img-links">
+                                    <ul>
+                                        <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="team__title">
+                                <h3 className="team__title-title"><a href="#/">Jackline</a></h3>
+                                <span className="team__title-meta">Finance Officer</span>
+                            </div>
+                        </div>
+                    </div>
+                    {/*<div className="col-lg-3 col-sm-6">*/}
+                    {/*    <div className="team-item team-item4">*/}
+                    {/*        <div className="team__img">*/}
+                    {/*            <img src="/assets/images/team8.jpg" alt="team" />*/}
+                    {/*            <div className="team__img-links">*/}
+                    {/*                <ul>*/}
+                    {/*                    <li><a href="#/"><i className="fa fa-twitter"></i></a></li>*/}
+                    {/*                    <li><a href="#/"><i className="fa fa-facebook"></i></a></li>*/}
+                    {/*                    <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>*/}
+                    {/*                    <li><a href="#/"><i className="fa fa-instagram"></i></a></li>*/}
+                    {/*                </ul>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="team__title">*/}
+                    {/*            <h3 className="team__title-title"><a href="#/">jean smith</a></h3>*/}
+                    {/*            <span className="team__title-meta">student</span>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>
