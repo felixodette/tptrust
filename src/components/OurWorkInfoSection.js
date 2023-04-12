@@ -1,7 +1,7 @@
 import React from 'react';
 import myJson from "../data/data.json";
 
-const OurWorkInfoSection = (props) => {
+const OurWorkInfoSection = () => {
   return (
     <section className="about-area">
       <div className="container">

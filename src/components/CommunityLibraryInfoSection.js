@@ -1,7 +1,7 @@
 import React from 'react';
 import myJson from "../data/data.json";
 
-const PreSchoolInfoSection = (props) => {
+const CommunityLibraryInfoSection = (props) => {
   return (
     <section className="about-area">
       <div className="container">
@@ -22,9 +22,9 @@ const PreSchoolInfoSection = (props) => {
                 <div className="section-icon">
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
-                <h2 className="section__title">{myJson.preSchool.theChallenge.title}</h2>
+                <h2 className="section__title">{myJson.communityLibrary.theChallenge.title}</h2>
                 <p className="section__meta">learn about non profit agency</p>
-                <p className="section__desc">{myJson.preSchool.theChallenge.text}</p>
+                <p className="section__desc">{myJson.communityLibrary.theChallenge.text}</p>
               </div>
             </div>
           </div>
@@ -43,9 +43,9 @@ const PreSchoolInfoSection = (props) => {
                 <div className="section-icon">
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
-                <h2 className="section__title">{myJson.preSchool.ourApproach.title}</h2>
+                <h2 className="section__title">{myJson.communityLibrary.ourApproach.title}</h2>
                 <p className="section__meta">learn about non profit agency</p>
-                <p className="section__desc">{myJson.preSchool.ourApproach.text}</p>
+                <p className="section__desc">{myJson.communityLibrary.ourApproach.text}</p>
               </div>
             </div>
           </div>
@@ -64,9 +64,9 @@ const PreSchoolInfoSection = (props) => {
                 <div className="section-icon">
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
-                <h2 className="section__title">{myJson.preSchool.ourImpact.title}</h2>
+                <h2 className="section__title">{myJson.communityLibrary.ourImpact.title}</h2>
                 <p className="section__meta">learn about non profit agency</p>
-                <p className="section__desc">{myJson.preSchool.ourImpact.text}</p>
+                <p className="section__desc">{myJson.communityLibrary.ourImpact.text}</p>
               </div>
             </div>
           </div>
@@ -76,4 +76,4 @@ const PreSchoolInfoSection = (props) => {
   );
 };
 
-export default PreSchoolInfoSection;
+export default CommunityLibraryInfoSection;
