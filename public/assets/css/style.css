@@ -1,9 +1,8 @@
 /*
-	Template Name: Oxpitan
-	Author: Layerdrops
-	Author Email:  layerdrops@gmail.com
-	Description: Oxpitan - Nonprofit Charity and Fundraising HTML5 Template
-	Tags: one-column, two-columns, three-columns, four-columns, custom-menu, featured-images, translation-ready
+	Template Name: TPTrust
+	Author: Odette
+	Author Email:  felix.odette@gmail.com
+	Description: TPTrust.org - Nonprofit Charity and Fundraising
 	Version: 1.0
 */
 
@@ -923,7 +922,7 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/kibra.png");
+    background-image: url("../images/home-page-1.jpg");
 }
 .slider-area .slide-bg2 {
     background-image: url("../images/poverty.png");
