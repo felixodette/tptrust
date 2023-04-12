@@ -1,7 +1,9 @@
 import React,{ useState } from 'react';
 import Swiper from 'react-id-swiper';
-import 'swiper/swiper.css';
+// import 'swiper/css/swiper.css';
+import 'swiper/swiper-bundle.css';
 import {Link} from "react-router-dom";
+
 const SliderOne = () => {
   const [swiper, setSwiper] = useState(null);
 
@@ -48,7 +50,7 @@ const SliderOne = () => {
                       <div className="slider-heading">
                         <p className="slider__meta">welcome to the turning point trust</p>
                         <h2 className="slider__title">Restore hope where it matters most</h2>
-                        <a href="#/" className="theme-btn">discover more</a>
+                        <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                       </div>
                     </div>
                   </div>
@@ -65,7 +67,7 @@ const SliderOne = () => {
                       <div className="slider-heading">
                         <p className="slider__meta">welcome to the turning point trust</p>
                         <h2 className="slider__title">Help end poverty</h2>
-                        <a href="#/" className="theme-btn">discover more</a>
+                        <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                       </div>
                     </div>
                   </div>
@@ -82,7 +84,7 @@ const SliderOne = () => {
                       <div className="slider-heading">
                         <p className="slider__meta">welcome to the turning point trust</p>
                         <h2 className="slider__title">Support a child in school</h2>
-                        <a href="#/" className="theme-btn">discover more</a>
+                        <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                       </div>
                     </div>
                   </div>
@@ -99,7 +101,7 @@ const SliderOne = () => {
                       <div className="slider-heading">
                         <p className="slider__meta">welcome to the turning point trust</p>
                         <h2 className="slider__title">Education is a right, no a privilege</h2>
-                        <a href="#/" className="theme-btn">discover more</a>
+                        <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                       </div>
                     </div>
                   </div>

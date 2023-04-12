@@ -40,10 +40,10 @@ const Layout = (props) => {
 
       {props.children}
 
-      {/*<script src="assets/plugins/bootstrap/jquery.min.js"></script>*/}
-      {/*<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>*/}
-      {/*<script src="/assets/plugins/accordion.min.js"></script>*/}
-      {/*<script src="/assets/plugins/glightbox.min.js"></script>*/}
+      <script src="assets/plugins/bootstrap/jquery.min.js"></script>
+      <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+      <script src="/assets/plugins/accordion.min.js"></script>
+      <script src="/assets/plugins/glightbox.min.js"></script>
 
     </div>
   )
