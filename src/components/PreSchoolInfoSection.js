@@ -34,7 +34,7 @@ const PreSchoolInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/pre-school-page-2.jpg" alt=""/>
+              <img src="/assets/images/pre-school-page-3.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
@@ -55,7 +55,7 @@ const PreSchoolInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/pre-school-page-3.jpg" alt=""/>
+              <img src="/assets/images/pre-school-page-4.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">

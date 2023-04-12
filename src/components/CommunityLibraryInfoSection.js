@@ -8,12 +8,12 @@ const CommunityLibraryInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="about-large-img">
-              <img src="/assets/images/about-img.jpg" alt=""/>
+              <img src="/assets/images/community-library-page-1.png" alt=""/>
             </div>
           </div>
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/community-library-page-2.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
@@ -34,7 +34,7 @@ const CommunityLibraryInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/community-library-page-3.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
@@ -55,7 +55,7 @@ const CommunityLibraryInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/community-library-page-4.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
