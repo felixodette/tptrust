@@ -30,9 +30,9 @@ const WhereWeWorkPage = () => {
   }, [data]);
 
   return (
-    <Layout pageTitle="TP Trust | Community Library">
+    <Layout pageTitle="TP Trust | Where We Work">
       <NavOne />
-      <PageHeader title="Community Library" />
+      <PageHeader title="Where We Work" />
       <WhereWeWorkInfoSection />
       <MixerAreaTwo />
       {/*<TeamArea />*/}
