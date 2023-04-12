@@ -54,5 +54,33 @@
       "title": "Our Impact",
       "text": "Matasia is 13 years old and in his final year of Primary School at a non-formal school in Kibera. He uses the Turning Point Community Library regularly to do homework and read stories. He loves the wonder of science andhis favourite book, You are here by Christopher Potter, is all about the history of our universe. Matasia says, When I am at home I have a lot of chores to do and I am often sent by my mum to fetch water or go to the shop. Also it is very dark in our house, even during the day. The community library is making a big difference to Matasia who says, I’m improving my reading skills when I read the storybooks. Also, in my school we don’t have enough textbooks so when we are given homework it can be a challenge to copy down all the questions before I leave school."
     }
+  },
+  "schoolSupport": {
+    "theChallenge": {
+      "title": "The Challenge",
+      "text": "The number of children completing primary school and going on to secondary school in Kenya continues to be low. Only about 56% of secondary school age children are enrolled in secondary school (Kenya National Bureau of Statistics). Career opportunities for those with no further education beyond primary school are limited."
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "text": "We support children to attend secondary schools and vocational training. We enable children to gain the further education and practical skills they need to start their chosen career."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "text": "An 11-year-old Elijah first came to Turning Point after his uncle brought him to Nairobi from his rural home. Elijah’s parents were very poor and the concerned uncle wanted Elijah to have more opportunities. Elijah had not missed a lot of school so Turning Point sent him straight back to primary school which he completed in 2010. Likeable and outgoing, Elijah had no problem making friends in a new place. He joined the Turning Point Football Team and never missed a practice. Every year, he joined other children supported by Turning Point to attend a holiday camp. His absolute favourite activity at camp was swimming.\n\nAfter primary school, Elijah went on to study mechanics at a polytechnic college. He earned his certificates after two years and underwent an internship. He so impressed his boss with his skills, hard work and character that he had a job all lined up at a garage in Nairobi when he finished his course.\n\nElijah’s life has turned around – from a poor rural home with very few opportunities to a well-paid and steady job in the city.Elijah has worked hard and grown into a responsible young man who Turning Point are so proud to have a relationship with."
+    }
+  },
+  "whereWeWork": {
+    "theChallenge": {
+      "title": "The Challenge",
+      "text": "We work in Kibera, a vast slum in Kenya’s capital city, Nairobi. It’s unclear just how many people live in Kibera but estimate’s range from 170,000 to 500,000 people living in just 2.25 square kilometres. That’s about the size of Hyde Park and Kensington Gardens in London."
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "text": "Residents often live in cramped one-roomed homes mostly made of mud and iron sheets. Water is collected in jerry cans from water points dotted around the slum. There are no public schools, hospitals or clinics in Kibera though there are many run by community members and NGOs. A good number of homes have access to electricity but many rely on paraffin lamps for lighting.\n\nKibera is a lively place to be. As you walk around you hear music blaring, the sound of men and women at work, friends and neighbours talking, business-people selling their wares, children giggling and playing. Life is hard for many in Kibera but many face those challenges with ingenuity and strength of character. Kibera is a place of great potential."
+    },
+    "ourImpact": {
+      "title": "Our Impact",
+      "text": "This is the context where we work to provide opportunities for children and families to achieve their full God-given potential."
+    }
   }
 }

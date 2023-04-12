@@ -32,6 +32,8 @@ import ContactPage from "./pages/contact";
 import PreSchoolPage from "./pages/pre-school";
 import SchoolTransitionPage from "./pages/school-transition";
 import FoundationsOfHopePage from "./pages/foundations-of-hope";
+import CommunityLibraryPage from "./pages/community-library";
+import SchoolSupportPage from "./pages/school-support";
 
 function App() {
   return (
@@ -55,6 +57,8 @@ function App() {
         <Route path="/pre-school" element={<PreSchoolPage />} />
         <Route path="/school-transition" element={<SchoolTransitionPage />} />
         <Route path="/foundations-of-hope" element={<FoundationsOfHopePage />} />
+        <Route path="/community-library" element={<CommunityLibraryPage />} />
+        <Route path="/school-support" element={<SchoolSupportPage />} />
       </Routes>
     </BrowserRouter>
   );

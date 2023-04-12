@@ -137,8 +137,8 @@ class NavOne extends Component {
                                 <li><Link to="/pre-school">Pre School</Link></li>
                                 <li><Link to="/school-transition">School Transition</Link></li>
                                 <li><Link to="/foundations-of-hope">Foundation of Hope</Link></li>
-                                <li><Link to="/causes">Community Library</Link></li>
-                                <li><Link to="/causes">School Support</Link></li>
+                                <li><Link to="/community-library">Community Library</Link></li>
+                                <li><Link to="/school-support">School Support</Link></li>
                                 <li><Link to="/causes">Where We Work</Link></li>
                                 <li><Link to="/causes">causes</Link></li>
                                 <li><Link to="/causes-detail">causes detail</Link></li>
