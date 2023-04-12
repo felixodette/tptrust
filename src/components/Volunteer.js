@@ -19,7 +19,7 @@ const Volunteer = () => {
           <div className="col-lg-6">
             <div className="form-shared-content">
               <div className="form-img">
-                <img src="/assets/images/form-img.jpg" alt=""/>
+                <img src="/assets/images/volunteer-page-1.jpg" alt=""/>
               </div>
               <div className="form-content">
                 <h3 className="form__title">Requirements</h3>
