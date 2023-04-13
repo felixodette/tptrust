@@ -20,14 +20,14 @@ const BlogHome = () => {
                         <div className="recent-item">
                             <div className="recent__img">
                                 <span className="meta__date-date">09 mar, 2019</span>
-                                <img src="/assets/images/blog-img.jpg" alt="service-image" />
+                                <img src="/assets/images/blog-img.jpg" alt="service" />
                             </div>
                             <div className="news__content">
-                                <h3 className="news__content-title"><a href="/single-news">A place where start new
+                                <h3 className="news__content-title"><a href="/blog-item.js">A place where start new
                                     life with peace</a></h3>
                                 <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#">mike hardson</a></li>
-                                    <li><a href="#">3 comments</a></li>
+                                    <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
+                                    <li><a href="#/">3 comments</a></li>
                                 </ul>
                                 <p className="news__content-text">
                                     Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
@@ -43,7 +43,7 @@ const BlogHome = () => {
                             <ul className="third-recent-item">
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/assets/images/blog-img2.jpg" alt="" /></a>
+                                        <a href="/blog-item.js"><img src="/assets/images/blog-img2.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>07 mar, 2019</span>
@@ -53,11 +53,11 @@ const BlogHome = () => {
                                 </li>
                                 <li>
                                     <div className="recent__img">
-                                        <a href="/single-news"><img src="/assets/images/blog-img3.jpg" alt="" /></a>
+                                        <a href="/blog-item.js"><img src="/assets/images/blog-img3.jpg" alt="" /></a>
                                     </div>
                                     <div className="recent__content">
                                         <span>04 mar, 2019</span>
-                                        <h4><a href="/single-news">Building clean water system for poor</a></h4>
+                                        <h4><a href="/blog-item.js">Building clean water system for poor</a></h4>
                                     </div>
                                 </li>
                                 <li>

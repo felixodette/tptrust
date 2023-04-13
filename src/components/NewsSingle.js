@@ -200,7 +200,7 @@ const NewsSingle = () => {
                                         <img src="/assets/images/author-avatar5.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Learn
+                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Learn
                                             how access to clean water</a></h4>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@ const NewsSingle = () => {
                                         <img src="/assets/images/author-avatar6.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Build
+                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Build
                                             school for poor childrens</a></h4>
                                     </div>
                                 </div>
@@ -218,7 +218,7 @@ const NewsSingle = () => {
                                         <img src="/assets/images/author-avatar7.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/single-news">Together
+                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Together
                                             to help the world better</a></h4>
                                     </div>
                                 </div>

@@ -3,17 +3,17 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import News from "../components/News";
+import NewsSingle from "../components/NewsSingle";
 
-const NewsPage = () => {
+const BlogSinglePage = () => {
     return (
-        <Layout pageTitle="TP Trust | News">
+        <Layout pageTitle="TP Trust | Single News">
             <NavOne />
-            <PageHeader title="News" />
-            <News />
+            <PageHeader title="Single News" />
+            <NewsSingle />
             <Footer />
         </Layout>
     );
 };
 
-export default NewsPage;
+export default BlogSinglePage;

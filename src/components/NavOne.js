@@ -151,10 +151,10 @@ class NavOne extends Component {
                                 <li><Link to="/events-detail">events detail</Link></li>
                               </ul>
                             </li>
-                            <li><a href="#/">news</a>
+                            <li><a href="#/">Blog</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link to="/news">news</Link></li>
-                                <li><Link to="/single-news">news detail</Link></li>
+                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/blog-detail">Blog detail</Link></li>
                               </ul>
                             </li>
                             <li><Link to="/contact">contact</Link></li>

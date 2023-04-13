@@ -21,8 +21,8 @@ import ContactsPage from "./pages/contact";
 import DonatePage from "./pages/donate";
 import Events from "./pages/events";
 import EventsDetailPage from "./pages/events-detail";
-import News from './pages/news';
-import NewsSinglePage from "./pages/single-news";
+import News from './pages/blog';
+import BlogSinglePage from "./pages/blog-item";
 import AboutPage from "./pages/about";
 import GalleryPage from "./pages/gallery";
 import VolunteerPage from "./pages/volunteer";
@@ -35,8 +35,9 @@ import FoundationsOfHopePage from "./pages/foundations-of-hope";
 import CommunityLibraryPage from "./pages/community-library";
 import SchoolSupportPage from "./pages/school-support";
 import WhereWeWorkPage from "./pages/where-we-work";
+import BlogPage from "./pages/blog";
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
       <Routes>
@@ -47,8 +48,8 @@ function App() {
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/events" element ={<Events />} />
         <Route path="/events-detail" element={<EventsDetailPage />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/single-news" element={<NewsSinglePage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog-detail" element={<BlogSinglePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/volunteer" element={<VolunteerPage />} />
