@@ -85,6 +85,7 @@
   },
   "blog": [
     {
+      "id": 1,
       "title" : "Restored Hope",
       "date": "March 10, 2023",
       "preview": "I was locked out of my house by my landlord because I had not paid rent for months. I felt hopeless...",
@@ -92,6 +93,7 @@
       "picture": "/assets/images/blog-restored-hope.jpg"
     },
     {
+      "id": 2,
       "title": "Turning Point Is Always My Home",
       "date": "February 23, 2023",
       "preview": "I joined Turning Point not long after it was started. I remember Pastor Shadrack visiting homes...",

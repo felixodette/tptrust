@@ -3,14 +3,15 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import NewsSingle from "../components/NewsSingle";
+// import NewsSingle from "../components/NewsSingle";
+import BlogSingle from "../components/BlogSingle";
 
 const BlogSinglePage = () => {
     return (
-        <Layout pageTitle="TP Trust | Single News">
+        <Layout pageTitle="TP Trust | Blog Details">
             <NavOne />
-            <PageHeader title="Single News" />
-            <NewsSingle />
+            <PageHeader title="Blog Details" />
+            <BlogSingle />
             <Footer />
         </Layout>
     );
