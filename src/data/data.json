@@ -81,6 +81,14 @@
     "ourImpact": {
       "title": "Our Impact",
       "text": "This is the context where we work to provide opportunities for children and families to achieve their full God-given potential."
+    },
+    "blog": {
+      "restoredHope": {
+      "title" : "Restored Hope",
+        "date": "March 10, 2023",
+        "preview": "I was locked out of my house by my landlord because I had not paid rent for months. I felt hopeless. I had nowhere to go and no food to feed my 8-year-old daughter.",
+        "text": "
+      }
     }
   }
 }

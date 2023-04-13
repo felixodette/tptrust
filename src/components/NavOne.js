@@ -126,9 +126,9 @@ class NavOne extends Component {
                             <li><a href="#/">about</a>
                               <ul className="dropdown-menu-item">
                                 <li><Link to="/about">about us</Link></li>
+                                <li><Link to="/team">our team</Link></li>
                                 <li><Link to="/gallery">gallery</Link></li>
                                 <li><Link to="/volunteer">become a volunteer</Link></li>
-                                <li><Link to="/team">our team</Link></li>
                                 <li><Link to="/sponsor">sponsors</Link></li>
                               </ul>
                             </li>
