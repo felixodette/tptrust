@@ -8,12 +8,12 @@ const SchoolSupportInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="about-large-img">
-              <img src="/assets/images/about-img.jpg" alt=""/>
+              <img src="/assets/images/school-support-top.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/school-support-challenge.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
@@ -34,7 +34,7 @@ const SchoolSupportInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/school-support-approach.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
@@ -55,7 +55,7 @@ const SchoolSupportInfoSection = (props) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="about-semi-img">
-              <img src="/assets/images/about-img2.jpg" alt=""/>
+              <img src="/assets/images/school-support-impact.jpg" alt=""/>
             </div>
           </div>
           <div className="col-lg-7">
