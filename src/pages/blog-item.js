@@ -30,8 +30,8 @@ const BlogSinglePage = () => {
     return (
         <Layout pageTitle={`TP Trust | ${blog.title}`}>
             <NavOne />
-            <PageHeader title="Blog Details" />
-            <BlogSingle title={blog.title} date={blog.date} text={blog.text} />
+            <PageHeader title={`${blog.title}`} />
+            <BlogSingle title={blog.title} date={blog.date} text={blog.text} picture_blog={blog.picture_blog} />
             <Footer />
         </Layout>
     );

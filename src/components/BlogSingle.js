@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlogSingle = ({ date, title, text }) => {
+const BlogSingle = ({ date, title, text, picture_blog }) => {
     return (
         <section className="causes-detail-area news-detail-area">
             <div className="container">
@@ -9,7 +9,7 @@ const BlogSingle = ({ date, title, text }) => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/assets/images/img20.jpg" alt="" />
+                                    <img src={picture_blog} alt="" />
                                         <span className="blog__date">{date}</span>
                                 </div>
                                 <div className="blog-inner-content">
