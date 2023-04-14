@@ -21,7 +21,7 @@ import ContactsPage from "./pages/contact";
 import DonatePage from "./pages/donate";
 import Events from "./pages/events";
 import EventsDetailPage from "./pages/events-detail";
-import News from './pages/blog';
+// import News from './pages/blog';
 import BlogSinglePage from "./pages/blog-item";
 import AboutPage from "./pages/about";
 import GalleryPage from "./pages/gallery";
@@ -49,7 +49,7 @@ function App(props) {
         <Route path="/events" element ={<Events />} />
         <Route path="/events-detail" element={<EventsDetailPage />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog-detail" element={<BlogSinglePage />} />
+        <Route path="/blog-detail/:id" element={<BlogSinglePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/volunteer" element={<VolunteerPage />} />

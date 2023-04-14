@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlogSingle = () => {
+const BlogSingle = ({ date, title, text }) => {
     return (
         <section className="causes-detail-area news-detail-area">
             <div className="container">
@@ -10,11 +10,11 @@ const BlogSingle = () => {
                             <div className="blog-item">
                                 <div className="blog-img">
                                     <img src="/assets/images/img20.jpg" alt="" />
-                                        <span className="blog__date">26 feb, 2019</span>
+                                        <span className="blog__date">{date}</span>
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><a href="#/">Do something crazy to raise money</a>
+                                        <h3 className="blog__title"><a href="#/">{title}</a>
                                         </h3>
                                         <ul className="blog__list">
                                             <li className="blog__dot-active"><a href="#/">christine eve</a></li>
@@ -24,16 +24,7 @@ const BlogSingle = () => {
                                 </div>
                                 <div className="blog-inner-content-2">
                                     <p className="causes__text">
-                                        Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
-                                        sollicitud.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing ullam blandit hendrerit
-                                        faucibus suspendisse. There are many variations of passages of Lorem Ipsum
-                                        available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable. If you are going
-                                        to use a passage of Lorem Ipsum,
-                                        you need to be sure there isn't anything embarrassing hidden in the middle of
-                                        text.
+                                        {text}
                                     </p>
                                     <p className="causes__text">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.

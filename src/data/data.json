@@ -101,6 +101,7 @@
       "picture": "/assets/images/blog-turning-point-my-home.jpg"
     },
     {
+      "id": 3,
       "title": "A Not So Brief History of Turning Point Trust (Part 2)",
       "date": "February 20, 2023",
       "preview": "In April 2002 we took a trip to Kenya to meet up with Kariuki, Pastor & Eunice and finalise plans...",
@@ -108,6 +109,7 @@
       "picture": "/assets/images/blog-history-pt2.jpg"
     },
     {
+      "id": 4,
       "title": "A Not So Brief History of Turning Point Trust (Part 1)",
       "date": "February 17, 2023",
       "preview": "Jon and I met in 1998 and were married in June 1999. He was working in I.T. and I was a full time...",
@@ -115,6 +117,7 @@
       "picture": "/assets/images/blog-history-pt1.jpg"
     },
     {
+      "id": 5,
       "title": "Let's Prioritize Education",
       "date": "January 27, 2023",
       "preview": "When I was in campus I took a class on Poverty and development and one definition of poverty that...",
@@ -122,6 +125,7 @@
       "picture": "/assets/images/blog-prioritise-education.jpg"
     },
     {
+      "id": 6,
       "title": "A Privileged Visit",
       "date": "November 3, 2022",
       "preview": "Having been a Trustee since spring 2021, it was with huge excitement that I travelled to Nairobi to...",
@@ -129,6 +133,7 @@
       "picture": "/assets/images/blog-privileged-visit.jpg"
     },
     {
+      "id": 7,
       "title": "Nurturing Young Talent",
       "date": "October 4, 2022",
       "preview": "Tony is now playing in the national youth league with Cheza Sports! And 2 other boys have joined the...",
@@ -136,6 +141,7 @@
       "picture": "/assets/images/blog-nurturing-talent.jpg"
     },
     {
+      "id": 8,
       "title": "Quality Education",
       "date": "August 6, 2022",
       "preview": "Many children in Kibera are left behind in education. Many do not have the opportunity to complete....",
@@ -143,6 +149,7 @@
       "picture": "/assets/images/blog-quality-education.jpg"
     },
     {
+      "id": 9,
       "title": "Mentors Make the Difference",
       "date": "April 27, 2022",
       "preview": "“I want to score 300 or more in my end of term exams”, “I want to become a better footballer”....",
@@ -150,6 +157,7 @@
       "picture": "/assets/images/blog-mentors-difference.png"
     },
     {
+      "id": 10,
       "title": "Power of Choice",
       "date": "April 27, 2022",
       "preview": "“Hosanna! Hiyah! Blessed be your name, hoo-ha!” Our grade 4 and 5 students belted out this...",

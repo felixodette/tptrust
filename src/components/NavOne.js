@@ -154,7 +154,7 @@ class NavOne extends Component {
                             <li><a href="#/">Blog</a>
                               <ul className="dropdown-menu-item">
                                 <li><Link to="/blog">Blog</Link></li>
-                                <li><Link to="/blog-detail">Blog detail</Link></li>
+                                <li><Link to="/blog-detail/:id">Blog detail</Link></li>
                               </ul>
                             </li>
                             <li><Link to="/contact">contact</Link></li>
@@ -183,14 +183,33 @@ class NavOne extends Component {
                   {/*  <li><Link to="/index2">Home 2</Link></li>*/}
                   {/*</ul>*/}
                 </li>
-                <li className="sidenav__item"><a href="#/">causes</a>
+                <li className="sidenav__item"><a href="#/">about</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link to="/causes">causes</Link></li>
-                    <li><Link to="/causes-detail">causes details</Link></li>
-                    <li><Link to="/donate">donate now</Link></li>
+                    <li><Link to="/about">about</Link></li>
+                    <li><Link to="/team">our team</Link></li>
+                    <li><Link to="/volunteer">volunteer</Link></li>
                   </ul>
                 </li>
+                <li className="sidenav__item"><a href="#/">our work</a>
+                  <span className="menu-plus-icon"></span>
+                  <ul className="side-sub-menu">
+                    <li><Link to="/pre-school">pre school</Link></li>
+                    <li><Link to="/school-transition">school transition</Link></li>
+                    <li><Link to="/foundations-of-hope">foundations of hope</Link></li>
+                    <li><Link to="/community-library">community library</Link></li>
+                    <li><Link to="/school-support">school support</Link></li>
+                    <li><Link to="/where-we-work">where we work</Link></li>
+                  </ul>
+                </li>
+                {/*<li className="sidenav__item"><a href="#/">causes</a>*/}
+                {/*  <span className="menu-plus-icon"></span>*/}
+                {/*  <ul className="side-sub-menu">*/}
+                {/*    <li><Link to="/causes">causes</Link></li>*/}
+                {/*    <li><Link to="/causes-detail">causes details</Link></li>*/}
+                {/*    <li><Link to="/donate">donate now</Link></li>*/}
+                {/*  </ul>*/}
+                {/*</li>*/}
                 <li className="sidenav__item"><a href="#/">event</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
@@ -198,23 +217,20 @@ class NavOne extends Component {
                     <li><Link to="/events-detail">events detail</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><a href="#/">news</a>
+                <li className="sidenav__item"><a href="#/">blog</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link to="/news">news</Link></li>
-                    <li><Link to="/single-news">news detail</Link></li>
+                    <li><Link to="/news">blog</Link></li>
+                    <li><Link to="/single-news">blog detail</Link></li>
                   </ul>
                 </li>
-                <li className="sidenav__item"><a href="#/">pages</a>
-                  <span className="menu-plus-icon"></span>
-                  <ul className="side-sub-menu">
-                    <li><Link to="/about">about</Link></li>
-                    <li><Link to="/gallery">gallery</Link></li>
-                    <li><Link to="/volunteer">become a volunteer</Link></li>
-                    <li><Link to="/team">our team</Link></li>
-                    <li><Link to="/sponsor">sponsors</Link></li>
-                  </ul>
-                </li>
+                {/*<li className="sidenav__item"><a href="#/">pages</a>*/}
+                {/*  <span className="menu-plus-icon"></span>*/}
+                {/*  <ul className="side-sub-menu">*/}
+                {/*    <li><Link to="/gallery">gallery</Link></li>*/}
+                {/*    <li><Link to="/sponsor">sponsors</Link></li>*/}
+                {/*  </ul>*/}
+                {/*</li>*/}
                 <li className="sidenav__item"><Link to="/contact">contact</Link></li>
               </ul>
               <ul className="side-social">
