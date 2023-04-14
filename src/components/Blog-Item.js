@@ -10,7 +10,7 @@ const BlogItem = ({date, preview, title, picture, id}) => {
                     <img src={picture} alt="service"/>
                 </div>
                 <div className="news__content">
-                    <h3 className="news__content-title"><Link to={`/blog-detail/:${id}`}>{title}</Link></h3>
+                    <h3 className="news__content-title"><Link to={`/blog-detail/${id}`}>{title}</Link></h3>
                     <ul className="news__content-list">
                         <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
                         <li><a href="#/">3 comments</a></li>
@@ -18,7 +18,7 @@ const BlogItem = ({date, preview, title, picture, id}) => {
                     <p className="news__content-text">
                         {preview}
                     </p>
-                    <Link to={`/blog-detail/:${id}`}><a href="#/" className="theme-btn">read more</a></Link>
+                    <Link to={`/blog-detail/${id}`}><a href="#/" className="theme-btn">read more</a></Link>
                 </div>
             </div>
         </div>
