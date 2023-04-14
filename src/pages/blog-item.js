@@ -10,18 +10,18 @@ import MyJson from "../data/data.json";
 
 const BlogSinglePage = () => {
     const { id } = useParams();
-    const blog = MyJson.blogs.find((blog) => Number(blog.id) === Number(id));
-    //
-    // if (!blog) {
-    //     return (
-    //         <Layout>
-    //             <NavOne />
-    //             <PageHeader title="Blog Details" />
-    //             <p>Blog not found</p>
-    //             <Footer />
-    //         </Layout>
-    //     )
-    // }
+    const blog = MyJson.blog.find((blog) => Number(blog.id) === Number(id));
+
+    if (!blog) {
+        return (
+            <Layout>
+                <NavOne />
+                <PageHeader title="Blog Details" />
+                <p>Blog not found</p>
+                <Footer />
+            </Layout>
+        )
+    }
 
     return (
         <Layout pageTitle={`TP Trust | ${blog.title}`}>

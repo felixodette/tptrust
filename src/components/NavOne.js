@@ -220,8 +220,8 @@ class NavOne extends Component {
                 <li className="sidenav__item"><a href="#/">blog</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link to="/news">blog</Link></li>
-                    <li><Link to="/single-news">blog detail</Link></li>
+                    <li><Link to="/blog">blog</Link></li>
+                    <li><Link to="/blog-detail">blog detail</Link></li>
                   </ul>
                 </li>
                 {/*<li className="sidenav__item"><a href="#/">pages</a>*/}
