@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import data from '../data/data.json';
+import {Link} from "react-router-dom";
 
 const BlogSingle = ({ date, title, text, picture_blog }) => {
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        const sortedPosts = data.blog.sort((a, b) => new Date(b.date) - new Date(a.date));
+        setPosts(sortedPosts.slice(0, 3));
+    }, []);
+
     return (
         <section className="causes-detail-area news-detail-area">
             <div className="container">
@@ -186,33 +195,19 @@ const BlogSingle = ({ date, title, text, picture_blog }) => {
                             </div>
                             <div className="side-widget">
                                 <h2 className="widget__title">Recent Posts</h2>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/assets/images/author-avatar5.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Learn
-                                            how access to clean water</a></h4>
-                                    </div>
-                                </div>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/assets/images/author-avatar6.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Build
-                                            school for poor childrens</a></h4>
-                                    </div>
-                                </div>
-                                <div className="author-box recent-donate-item">
-                                    <div className="author__avatar">
-                                        <img src="/assets/images/author-avatar7.jpg" alt="" />
-                                    </div>
-                                    <div className="author__detail">
-                                        <h4 className="author__title author__title2"><a href="/blog-item.js">Together
-                                            to help the world better</a></h4>
-                                    </div>
-                                </div>
+                                {
+                                    posts.map(post => (
+                                        <div className="author-box recent-donate-item">
+                                            <div className="author__avatar">
+                                                <img src="/assets/images/author-avatar5.jpg" alt="" />
+                                            </div>
+                                            <div className="author__detail">
+                                                <Link to={`/blog-detail/${post.id}`}><h4 className="author__title author__title2"><a href="#/">{post.title}</a></h4></Link>
+                                            </div>
+                                        </div>
+                                        )
+                                    )
+                                }
                             </div>
                             <div className="side-widget">
                                 <h2 className="widget__title">Categories</h2>

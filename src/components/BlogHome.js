@@ -70,35 +70,6 @@ const BlogHome = () => {
                                         </li>
                                     ))
                                 }
-                                {/*<li>*/}
-                                {/*    <div className="recent__img">*/}
-                                {/*        <a href="/blog-item.js"><img src="/assets/images/blog-img2.jpg" alt="" /></a>*/}
-                                {/*    </div>*/}
-                                {/*    <div className="recent__content">*/}
-                                {/*        <span>07 mar, 2019</span>*/}
-                                {/*        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>*/}
-                                {/*        </h4>*/}
-                                {/*    </div>*/}
-                                {/*</li>*/}
-                                {/*<li>*/}
-                                {/*    <div className="recent__img">*/}
-                                {/*        <a href="/blog-item.js"><img src="/assets/images/blog-img3.jpg" alt="" /></a>*/}
-                                {/*    </div>*/}
-                                {/*    <div className="recent__content">*/}
-                                {/*        <span>04 mar, 2019</span>*/}
-                                {/*        <h4><a href="/blog-item.js">Building clean water system for poor</a></h4>*/}
-                                {/*    </div>*/}
-                                {/*</li>*/}
-                                {/*<li>*/}
-                                {/*    <div className="recent__img">*/}
-                                {/*        <a href="/single-news/"><img src="/assets/images/blog-img4.jpg" alt="" /></a>*/}
-                                {/*    </div>*/}
-                                {/*    <div className="recent__content">*/}
-                                {/*        <span>30 feb, 2019</span>*/}
-                                {/*        <h4><a href="single-news.html">Become a volunteer you will feel the*/}
-                                {/*            benefits </a></h4>*/}
-                                {/*    </div>*/}
-                                {/*</li>*/}
                             </ul>
                         </div>
                     </div>
