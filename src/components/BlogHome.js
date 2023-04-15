@@ -40,7 +40,7 @@ const BlogHome = () => {
                                         <img src={specialPost.picture} alt="service" />
                                     </div>
                                     <div className="news__content">
-                                        <h3 className="news__content-title"><a href="/blog-item.js">{specialPost.title}</a></h3>
+                                        <Link to={`/blog-detail/${specialPost.id}`}><h3 className="news__content-title"><a href="#/">{specialPost.title}</a></h3></Link>
                                         <ul className="news__content-list">
                                             <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
                                             <li><a href="#/">3 comments</a></li>
@@ -65,8 +65,7 @@ const BlogHome = () => {
                                             </div>
                                             <div className="recent__content">
                                                 <span>{post.date}</span>
-                                                <h4><a href="single-news.html">{post.title}</a>
-                                                </h4>
+                                                <Link to={`/blog-detail/${post.id}`}><h4><a href="#/">{post.title}</a></h4></Link>
                                             </div>
                                         </li>
                                     ))
