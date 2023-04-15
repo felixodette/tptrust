@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import data from '../data/data.json';
+import {Link} from "react-router-dom";
 
 const BlogHome = () => {
+    const [posts, setPosts] = useState([]);
+    const [specialPost, setSpecialPost] = useState(null);
+
+    useEffect(() => {
+        const sortedPosts = data.blog.sort((a,b) => new Date(b.date) - new Date(a.date));
+        const filteredPosts = sortedPosts.filter(post => post.id !== 1);
+
+        const specialPost = sortedPosts.find(post => post.id === 1);
+        setSpecialPost(specialPost);
+
+        setPosts(filteredPosts.slice(0, 3));
+    }, []);
+
     return (
         <section className="blog-area">
             <div className="container">
@@ -17,59 +32,74 @@ const BlogHome = () => {
                 </div>
                 <div className="row recent-post-wrap">
                     <div className="col-lg-6">
-                        <div className="recent-item">
-                            <div className="recent__img">
-                                <span className="meta__date-date">09 mar, 2019</span>
-                                <img src="/assets/images/blog-img.jpg" alt="service" />
-                            </div>
-                            <div className="news__content">
-                                <h3 className="news__content-title"><a href="/blog-item.js">A place where start new
-                                    life with peace</a></h3>
-                                <ul className="news__content-list">
-                                    <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
-                                    <li><a href="#/">3 comments</a></li>
-                                </ul>
-                                <p className="news__content-text">
-                                    Aliq is notm hendr erit a augue insu image pellen tes que id erat quis
-                                    sollicitud. Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
-                                </p>
-                                <a href="single-news" className="theme-btn">read more</a>
-                            </div>
-                        </div>
+                        {
+                            specialPost && (
+                                <div className="recent-item">
+                                    <div className="recent__img">
+                                        <span className="meta__date-date">{specialPost.date}</span>
+                                        <img src={specialPost.picture} alt="service" />
+                                    </div>
+                                    <div className="news__content">
+                                        <h3 className="news__content-title"><a href="/blog-item.js">{specialPost.title}</a></h3>
+                                        <ul className="news__content-list">
+                                            <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
+                                            <li><a href="#/">3 comments</a></li>
+                                        </ul>
+                                        <p className="news__content-text">
+                                            {specialPost.preview}
+                                        </p>
+                                        <Link to={`/blog-detail/${specialPost.id}`}><a href="#/" className="theme-btn">read more</a></Link>
+                                    </div>
+                                </div>
+                            )
+                        }
                     </div>
                     <div className="col-lg-6">
                         <div className="third-recent-box">
                             <ul className="third-recent-item">
-                                <li>
-                                    <div className="recent__img">
-                                        <a href="/blog-item.js"><img src="/assets/images/blog-img2.jpg" alt="" /></a>
-                                    </div>
-                                    <div className="recent__content">
-                                        <span>07 mar, 2019</span>
-                                        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>
-                                        </h4>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="recent__img">
-                                        <a href="/blog-item.js"><img src="/assets/images/blog-img3.jpg" alt="" /></a>
-                                    </div>
-                                    <div className="recent__content">
-                                        <span>04 mar, 2019</span>
-                                        <h4><a href="/blog-item.js">Building clean water system for poor</a></h4>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="recent__img">
-                                        <a href="/single-news/"><img src="/assets/images/blog-img4.jpg" alt="" /></a>
-                                    </div>
-                                    <div className="recent__content">
-                                        <span>30 feb, 2019</span>
-                                        <h4><a href="single-news.html">Become a volunteer you will feel the
-                                            benefits </a></h4>
-                                    </div>
-                                </li>
+                                {
+                                    posts.map(post => (
+                                        <li key={post.id}>
+                                            <div className="recent__img">
+                                                <a href="/blog-item.js"><img style={{width: 170, height: 137}} src={post.picture} alt="" /></a>
+                                            </div>
+                                            <div className="recent__content">
+                                                <span>{post.date}</span>
+                                                <h4><a href="single-news.html">{post.title}</a>
+                                                </h4>
+                                            </div>
+                                        </li>
+                                    ))
+                                }
+                                {/*<li>*/}
+                                {/*    <div className="recent__img">*/}
+                                {/*        <a href="/blog-item.js"><img src="/assets/images/blog-img2.jpg" alt="" /></a>*/}
+                                {/*    </div>*/}
+                                {/*    <div className="recent__content">*/}
+                                {/*        <span>07 mar, 2019</span>*/}
+                                {/*        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>*/}
+                                {/*        </h4>*/}
+                                {/*    </div>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <div className="recent__img">*/}
+                                {/*        <a href="/blog-item.js"><img src="/assets/images/blog-img3.jpg" alt="" /></a>*/}
+                                {/*    </div>*/}
+                                {/*    <div className="recent__content">*/}
+                                {/*        <span>04 mar, 2019</span>*/}
+                                {/*        <h4><a href="/blog-item.js">Building clean water system for poor</a></h4>*/}
+                                {/*    </div>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <div className="recent__img">*/}
+                                {/*        <a href="/single-news/"><img src="/assets/images/blog-img4.jpg" alt="" /></a>*/}
+                                {/*    </div>*/}
+                                {/*    <div className="recent__content">*/}
+                                {/*        <span>30 feb, 2019</span>*/}
+                                {/*        <h4><a href="single-news.html">Become a volunteer you will feel the*/}
+                                {/*            benefits </a></h4>*/}
+                                {/*    </div>*/}
+                                {/*</li>*/}
                             </ul>
                         </div>
                     </div>

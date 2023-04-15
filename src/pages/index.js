@@ -16,11 +16,13 @@ import BlogHome from "../components/BlogHome";
 // import Map from "../components/Map";
 // import CallToActionTwo from "../components/CallToActionTwo";
 // import ClientsLogo from "../components/ClientsLogo";
+// import Parallax from "../components/Parallax";
 
 const HomePage = () => {
     return (
         <Layout pageTitle="TP Trust">
           <NavOne />
+          {/*<Parallax />*/}
           <SliderOne />
           <EntryArea />
           <ServiceArea />
