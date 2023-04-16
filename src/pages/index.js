@@ -17,7 +17,10 @@ import BlogHome from "../components/BlogHome";
 // import CallToActionTwo from "../components/CallToActionTwo";
 // import ClientsLogo from "../components/ClientsLogo";
 // import Parallax from "../components/Parallax";
+import ReactGA from 'react-ga';
+import reportWebVitals from "../reportWebVitals";
 
+ReactGA.initialize('G-GQGN0SM8FF');
 const HomePage = () => {
     return (
         <Layout pageTitle="TP Trust">
@@ -40,5 +43,14 @@ const HomePage = () => {
         </Layout>
     );
 };
+
+const SendAnalytics = () => {
+    ReactGA.send({
+        hitType: 'event',
+        page: window.location.pathname,
+    });
+}
+
+reportWebVitals(SendAnalytics);
 
 export default HomePage;
