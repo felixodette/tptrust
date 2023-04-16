@@ -9,6 +9,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import HotelIcon from '@mui/icons-material/Hotel';
+import FlagIcon from '@mui/icons-material/Flag';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 
@@ -27,7 +28,7 @@ export default function CustomizedTimeline() {
                 <TimelineSeparator>
                     <TimelineConnector />
                     <TimelineDot>
-                        <FastfoodIcon />
+                        <FlagIcon />
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
@@ -309,74 +310,6 @@ export default function CustomizedTimeline() {
                         First Year Milestone
                     </Typography>
                     <Typography>The first year we ran all eight years of primary school at the Fountains of Hope School</Typography>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2007
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <LaptopMacIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
-                        Slum to Farm
-                    </Typography>
-                    <Typography>Nine single mothers moved out of Kibera to our farm to start a new life</Typography>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    align="right"
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2002
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined">
-                        <HotelIcon />
-                    </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
-                        Sleep
-                    </Typography>
-                    <Typography>Because you need rest</Typography>
-                </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-                <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    align="right"
-                    variant="body2"
-                    color="text.secondary"
-                >
-                    2002
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                    <TimelineDot color="secondary">
-                        <RepeatIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
-                        Repeat
-                    </Typography>
-                    <Typography>Because this is the life you love!</Typography>
                 </TimelineContent>
             </TimelineItem>
         </Timeline>
