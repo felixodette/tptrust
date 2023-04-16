@@ -44,7 +44,7 @@ const SliderOne = () => {
       <div className="homepage-slide1">
 
         <Swiper getSwiper={setSwiper}
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, A11y]}
                 // spaceBetween={50}
                 slidesPerView={1}
                 navigation
