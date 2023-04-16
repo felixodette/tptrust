@@ -4,6 +4,16 @@ import {Link} from "react-router-dom";
 
 const BlogSingle = ({ date, title, text, picture_blog }) => {
     const [posts, setPosts] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+
+    const handleInputChange = event => {
+        const input = event.target.value.toLowerCase();
+        setSearchTerm(input);
+
+        const results = data.blog.filter(post => post.title.toLowerCase().includes(input));
+        setSearchResults(results);
+    }
 
     useEffect(() => {
         const sortedPosts = data.blog.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -187,7 +197,7 @@ const BlogSingle = ({ date, title, text, picture_blog }) => {
                                     <form action="#/">
                                         <div className="row">
                                             <div className="col-lg-12">
-                                                <input type="text" className="form-control" placeholder="Search" />
+                                                <input type="text" value={searchTerm} onChange={handleInputChange} className="form-control" placeholder="Search" />
                                             </div>
                                         </div>
                                     </form>
