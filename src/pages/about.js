@@ -9,6 +9,7 @@ import FaqArea from "../components/FaqArea";
 import ServiceArea from "../components/ServiceArea";
 // import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
+import CustomizedTimeline from "../components/Timeline";
 
 const AboutPage = () => {
     return (
@@ -17,6 +18,7 @@ const AboutPage = () => {
             <PageHeader title="About" />
             <AboutArea />
             <MixerAreaTwo />
+            <CustomizedTimeline />
             <TeamArea />
             <FaqArea />
             <ServiceArea />
