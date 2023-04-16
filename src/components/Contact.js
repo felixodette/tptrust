@@ -1,6 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const data = {
+      name,
+      email,
+      phone,
+      message,
+    };
+
+    try {
+      const response = await fetch('../components/SendEmail.js', {
+        method: 'POST',
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        alert('Message sent successfully');
+        setName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
+      } else {
+        alert('Message failed to send');
+      }
+    } catch(error) {
+      console.error(error);
+      alert('Failed to send message');
+    }
+  };
+
   return (
     <section className="contact-area">
       <div className="container">
@@ -28,7 +64,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-6">
             <div className="form-shared">
-              <form action="#/" method="post">
+              <form onSubmit={handleSubmit} action="mailto:info@tptrust.org" method="post">
                 <div className="row">
                   <div className="col-lg-6 col-sm-6 form-group">
                     <input className="form-control" type="text" name="name" placeholder="Full Name"/>
