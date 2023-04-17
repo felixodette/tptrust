@@ -103,12 +103,12 @@ class Footer extends Component {
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item3">
-                                        <h3 className="widget__title">blog</h3>
+                                        <h3 className="widget__title">Our Work</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#/">Care for All People</a></li>
-                                            <li><a href="#/">Build school for kids</a></li>
-                                            <li><a href="#/">Being Volunteer</a></li>
-                                            <li><a href="#/">Raise fund to help</a></li>
+                                            <Link to="/pre-school"><li><a href="#/">Pre school</a></li></Link>
+                                            <Link to="/school-transition"><li><a href="#/">School transition</a></li></Link>
+                                            <Link to="/foundations-of-hope"><li><a href="#/">Foundations of hope</a></li></Link>
+                                            <Link to="/community-library"><li><a href="#/">Community library</a></li></Link>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item4">
