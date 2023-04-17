@@ -49,7 +49,7 @@ class Footer extends Component {
                                         </div>
                                         <div className="newsletter-form">
                                             <div className="form-shared">
-                                                <form action="#">
+                                                <form action="#/">
                                                     <div className="row">
                                                         <div className="col-lg-9">
                                                             <div className="form-group">
@@ -76,39 +76,39 @@ class Footer extends Component {
                                     <div className="col footer-item footer-item1">
                                         <h3 className="widget__title">about</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#">causes</a></li>
-                                            <li><a href="#">about</a></li>
-                                            <li><a href="#">New Campaign</a></li>
-                                            <li><a href="#">Site Map</a></li>
-                                            <li><a href="#">Events</a></li>
+                                            <Link to="/causes"><li><a href="#/">causes</a></li></Link>
+                                            <Link to="/about"><li><a href="#/">about</a></li></Link>
+                                            <Link to="/about"><li><a href="#/">New Campaign</a></li></Link>
+                                            <Link to="/about"><li><a href="#/">Site Map</a></li></Link>
+                                            <Link to="/events"><li><a href="#/">Events</a></li></Link>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item2">
                                         <h3 className="widget__title">explore</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#">Press Release</a></li>
-                                            <li><a href="#">contact</a></li>
-                                            <li><a href="#">Blog Posts</a></li>
-                                            <li><a href="#">Social Connect</a></li>
-                                            <li><a href="#">Help Topics</a></li>
+                                            <li><a href="#/">Press Release</a></li>
+                                            <li><a href="#/">contact</a></li>
+                                            <li><a href="#/">Blog Posts</a></li>
+                                            <li><a href="#/">Social Connect</a></li>
+                                            <li><a href="#/">Help Topics</a></li>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item3">
                                         <h3 className="widget__title">links</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#">Podcasts</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Videos</a></li>
-                                            <li><a href="#">Terms of Use</a></li>
+                                            <li><a href="#/">Podcasts</a></li>
+                                            <li><a href="#/">Privacy Policy</a></li>
+                                            <li><a href="#/">Videos</a></li>
+                                            <li><a href="#/">Terms of Use</a></li>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item3">
                                         <h3 className="widget__title">blog</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#">Care for All People</a></li>
-                                            <li><a href="#">Build school for kids</a></li>
-                                            <li><a href="#">Being Volunteer</a></li>
-                                            <li><a href="#">Raise fund to help</a></li>
+                                            <li><a href="#/">Care for All People</a></li>
+                                            <li><a href="#/">Build school for kids</a></li>
+                                            <li><a href="#/">Being Volunteer</a></li>
+                                            <li><a href="#/">Raise fund to help</a></li>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item4">
@@ -120,10 +120,10 @@ class Footer extends Component {
                                         </ul>
                                         <div className="footer__social">
                                             <ul>
-                                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -135,7 +135,7 @@ class Footer extends Component {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="copyright-desc">
-                                            <p>© Copyright 2023 by <a href="#">tptrust.com</a></p>
+                                            <p>© Copyright 2023 by <a href="#/">tptrust.com</a></p>
                                         </div>
                                     </div>
                                 </div>
