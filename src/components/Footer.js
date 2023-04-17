@@ -87,8 +87,8 @@ class Footer extends Component {
                                         <h3 className="widget__title">explore</h3>
                                         <ul className="foot__links">
                                             <li><a href="#/">Press Release</a></li>
-                                            <li><a href="#/">contact</a></li>
-                                            <li><a href="#/">Blog Posts</a></li>
+                                            <Link to="/contact"><li><a href="#/">contact</a></li></Link>
+                                            <Link to="/blog"><li><a href="#/">Blog Posts</a></li></Link>
                                             <li><a href="#/">Social Connect</a></li>
                                             <li><a href="#/">Help Topics</a></li>
                                         </ul>
