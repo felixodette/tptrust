@@ -357,58 +357,76 @@
   ],
   "causes": [
     {
-      "cause-name": "Bibles",
+      "cause_name": "Bibles",
       "description": "£5 will purchase a bible for a child, enabling them to learn about the love of God. Pastors teach our kids from the bible and help them apply what they learn in their daily lives.",
+      "preview": "£5 will purchase a bible for a child, enabling them to learn about the love of God.",
       "goal": "5.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 1
     },
     {
-      "cause-name": "Stationery",
+      "cause_name": "Stationery",
       "description": "£5 provides all the pens, pencils and exercise books one child needs for a year in our Transition Class. In this class, street-children are rehabilitated and prepare to return to school.",
+      "preview": "£5 provides all the pens, pencils and exercise books one child needs for a year.",
       "goal": "5.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 2
     },
     {
-      "cause-name": "School Dinners",
+      "cause_name": "School Dinners",
       "description": "£15 will serve up breakfast and lunch to a child every weekday for one month. Daily food ensures children turn up to school everyday and are not tempted by hunger back to the streets.",
+      "preview": "£15 will serve up breakfast and lunch to a child every weekday for one month.",
       "goal": "15.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 3
     },
     {
-      "cause-name": "School Trip",
+      "cause_name": "School Trip",
       "description": "£20 will take 10 children on a school trip. These trips expose children to life beyond the slum and provide fun opportunities to learn about Kenya's history, natural environment and culture.",
+      "preview": "£20 will take 10 children on a school trip. Exposure children to life beyond the slum.",
       "goal": "20.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 1
     },
     {
-      "cause-name": "Library Books",
+      "cause_name": "Library Books",
       "description": "With £6 we can purchase 2 new books for the Community Library in Kibera. Here children come after school and during holidays to do homework, read stories or read up on their favourite subjects.",
+      "preview": "With £6 we can purchase 2 new books for the Community Library in Kibera.",
       "goal": "6.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 2
     },
     {
-      "cause-name": "Art Supplies",
+      "cause_name": "Art Supplies",
       "description": "£10 will provide art supplies for the children at the Fountains of Hope Primary School to explore their creative sides through drawing, painting and crafts. Children will get a chance to develop their talents.",
+      "preview": "£10 will provide art supplies the children use to explore their creative sides.",
       "goal": "10.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 3
     },
     {
-      "cause-name": "Football",
+      "cause_name": "Football",
       "description": "£15 will help to equip our after-school football club with footballs, kits, bibs, boots and more. The club keeps children off the street and engaged in a healthy activity. The football club also offers kids friendship and discipleship.",
+      "preview": "£15 will help to equip our after-school football club with footballs kits.",
       "goal": "15.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 1
     },
     {
-      "cause-name": "School Support",
+      "cause_name": "School Support",
       "description": "£35 supports a child at the Fountains of Hope Primary School for one month. This covers tuition, learning resources and daily meals. Children receive a quality education from our committed team.",
+      "preview": "£35 supports a child at the Fountains of Hope Primary School for one month.",
       "goal": "35.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 2
     },
     {
-      "cause-name": "Pre-School Support",
+      "cause_name": "Pre-School Support",
       "description": "£20 will help to equip a pre-school classroom with all the puzzles, playdough, building blocks, paint, glue and crayons needed to give kids a head start in education. Children learn as they play guided by our expert teachers.",
+      "preview": "£20 will help to equip a pre-school classroom with all the puzzles and playdough.",
       "goal": "20.00",
-      "raised": "0.00"
+      "raised": "0.00",
+      "themeBtn": 3
     }
   ]
 }
