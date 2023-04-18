@@ -914,7 +914,8 @@ a:hover {
     top: 0;
     left: -110px;
     z-index: -1;
-    background-color: rgba(134, 59, 174, 0.90);
+    /*background-color: rgba(134, 59, 174, 0.90);*/
+    background-color: rgba(0, 0, 0, 0.60);
     -webkit-transform: skew(-12deg,0deg);
     -moz-transform: skew(-12deg,0deg);
     -ms-transform: skew(-12deg,0deg);
@@ -922,19 +923,19 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/home-page-1.jpg");
+    background-image: url("../images/home-slider-1.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/poverty.png");
+    background-image: url("../images/home-slider-2.jpg");
 }
 .slider-area .slide-bg3 {
-    background-image: url("../images/wall.png");
+    background-image: url("../images/home-slider-3.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../images/slider4.jpg");
+    background-image: url("../images/home-slider-4.jpg");
 }
 .slider-area .slide-bg5 {
-    background-image: url("../images/slider5.jpg");
+    background-image: url("../images/home-slider-5.jpg");
 }
 .slider-area .slide-item-table {
     display: table;
