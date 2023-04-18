@@ -120,10 +120,10 @@ class Footer extends Component {
                                         </ul>
                                         <div className="footer__social">
                                             <ul>
-                                                <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="#/"><i className="fa fa-linkedin"></i></a></li>
-                                                <li><a href="#/"><i className="fa fa-instagram"></i></a></li>
+                                                <li><a href="https://twitter.com/tptrust" target="_blank"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/tptrust" target="_blank"><i className="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/company/tptrust/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                                                <li><a href="https://www.instagram.com/tptrustkenya/" target="_blank"><i className="fa fa-instagram"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
