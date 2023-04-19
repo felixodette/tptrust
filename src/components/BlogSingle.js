@@ -42,9 +42,7 @@ const BlogSingle = ({ date, title, text, picture_blog }) => {
                                     </div>
                                 </div>
                                 <div className="blog-inner-content-2">
-                                    <p className="causes__text">
-                                        {text}
-                                    </p>
+                                    <p className="causes__text" dangerouslySetInnerHTML={{__html: text}}></p>
                                     <p className="causes__text">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
