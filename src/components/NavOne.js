@@ -141,7 +141,6 @@ class NavOne extends Component {
                                 <li><Link to="/school-support">School Support</Link></li>
                                 <li><Link to="/where-we-work">Where We Work</Link></li>
                                 <li><Link to="/causes">causes</Link></li>
-                                <li><Link to="/causes-detail">causes detail</Link></li>
                                 <li><Link to="/donate">donate now</Link></li>
                               </ul>
                             </li>

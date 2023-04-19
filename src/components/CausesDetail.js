@@ -23,8 +23,8 @@ const CausesDetail = ({ causeName, description, goal, raised, id}) => {
                                         <h3 className="blog__title"><Link to={`/causes-detail/${id}`}><a href="#/">{causeName}</a></Link>
                                         </h3>
                                         <ul className="blog__list">
-                                            <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                            <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
+                                            <li><i className="icon-target"></i> Goal: <span>${goal}</span></li>
+                                            <li><i className="fa fa-line-chart"></i> Raised: <span>{raised}</span></li>
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
@@ -32,13 +32,7 @@ const CausesDetail = ({ causeName, description, goal, raised, id}) => {
                                     </div>
                                 </div>
                                 <div className="blog-inner-content-2">
-                                    <p className="causes__text">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't anything embarrassing hidden in the middle of text.
-                                    </p>
+                                    <p className="causes__text">{description}</p>
                                     <p className="causes__text causes__text2">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting
                                         industry. Lorem Ipsum has been the industry's standard dummy text
