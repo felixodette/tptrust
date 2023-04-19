@@ -175,8 +175,8 @@ class NavOne extends Component {
             </div>
             <div className="side-menu-wrap">
               <ul className="side-menu-ul">
-                <li className="sidenav__item"><a href="/">home</a>
-                  <span className="menu-plus-icon"></span>
+                <li className="sidenav__item"><Link to="/">home</Link>
+                  {/*<span className="menu-plus-icon"></span>*/}
                   {/*<ul className="side-sub-menu">*/}
                   {/*  <li><Link to="/">Home 1</Link></li>*/}
                   {/*  <li><Link to="/index2">Home 2</Link></li>*/}
@@ -199,6 +199,8 @@ class NavOne extends Component {
                     <li><Link to="/community-library">community library</Link></li>
                     <li><Link to="/school-support">school support</Link></li>
                     <li><Link to="/where-we-work">where we work</Link></li>
+                    <li><Link to="/causes">causes</Link></li>
+                    <li><Link to="/donate">donate</Link></li>
                   </ul>
                 </li>
                 {/*<li className="sidenav__item"><a href="#/">causes</a>*/}
@@ -209,19 +211,19 @@ class NavOne extends Component {
                 {/*    <li><Link to="/donate">donate now</Link></li>*/}
                 {/*  </ul>*/}
                 {/*</li>*/}
-                <li className="sidenav__item"><a href="#/">event</a>
-                  <span className="menu-plus-icon"></span>
-                  <ul className="side-sub-menu">
-                    <li><Link to="/events">events</Link></li>
-                    <li><Link to="/events-detail">events detail</Link></li>
-                  </ul>
+                <li className="sidenav__item"><Link to="/events">events</Link>
+                  {/*<span className="menu-plus-icon"></span>*/}
+                  {/*<ul className="side-sub-menu">*/}
+                  {/*  <li><Link to="/events">events</Link></li>*/}
+                  {/*  <li><Link to="/events-detail">events detail</Link></li>*/}
+                  {/*</ul>*/}
                 </li>
-                <li className="sidenav__item"><a href="#/">blog</a>
-                  <span className="menu-plus-icon"></span>
-                  <ul className="side-sub-menu">
-                    <li><Link to="/blog">blog</Link></li>
-                    <li><Link to="/blog-detail">blog detail</Link></li>
-                  </ul>
+                <li className="sidenav__item"><Link to="/blog">blog</Link>
+                  {/*<span className="menu-plus-icon"></span>*/}
+                  {/*<ul className="side-sub-menu">*/}
+                  {/*  <li><Link to="/blog">blog</Link></li>*/}
+                  {/*  <li><Link to="/blog-detail">blog detail</Link></li>*/}
+                  {/*</ul>*/}
                 </li>
                 {/*<li className="sidenav__item"><a href="#/">pages</a>*/}
                 {/*  <span className="menu-plus-icon"></span>*/}
