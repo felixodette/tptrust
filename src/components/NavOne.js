@@ -144,11 +144,11 @@ class NavOne extends Component {
                                 <li><Link to="/donate">donate now</Link></li>
                               </ul>
                             </li>
-                            <li><a href="#/">events</a>
-                              <ul className="dropdown-menu-item">
-                                <li><Link to="/events">events</Link></li>
-                                <li><Link to="/events-detail">events detail</Link></li>
-                              </ul>
+                            <li><Link to="/events">events</Link>
+                              {/*<ul className="dropdown-menu-item">*/}
+                              {/*  <li><Link to="/events">events</Link></li>*/}
+                              {/*  <li><Link to="/events-detail">events detail</Link></li>*/}
+                              {/*</ul>*/}
                             </li>
                             <li><Link to="/blog">Blog</Link>
                               {/*<ul className="dropdown-menu-item">*/}

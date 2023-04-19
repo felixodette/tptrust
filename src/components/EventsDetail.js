@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import Map from "./Map";
+import MyJson from "../data/data.json";
 
 const EventsDetail = () => {
+    const { id } = useParams();
+    const [event, setEvent] = useState({});
+
+    useEffect(() => {
+        const event = MyJson.events.find(event => parseInt(event.id) === parseInt(id));
+        setEvent(event);
+    }, [id])
+
     return (
         <section className="event-detail-area">
             <div className="container">
@@ -10,10 +20,10 @@ const EventsDetail = () => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src="/images/img19.jpg" alt="" />
+                                    <img src="/assets/images/img19.jpg" alt="" />
                             <span className="blog__tag">
-                                <span className="date__num-text">9</span>
-                                <span className="date__mon-text">mar</span>
+                                <span className="date__num-text">{event.day}</span>
+                                <span className="date__mon-text">{event.month}</span>
                             </span>
                                 </div>
                             </div>
@@ -22,14 +32,8 @@ const EventsDetail = () => {
                     <div className="col-lg-8">
                         <div className="event-detail-content">
                             <div className="event-detail-item">
-                                <h3 className="event__title">Play for the world</h3>
-                                <p className="event__text">
-                                    There are many variations of passages of Lorem Ipsum available,
-                                    but the majority have suffered alteration in some form, by injected humour,
-                                    or randomised words which don't look even slightly believable.
-                                    If you are going to use a passage of Lorem Ipsum,
-                                    you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                                </p>
+                                <h3 className="event__title">{event.name}</h3>
+                                <p className="event__text" dangerouslySetInnerHTML={{__html: event.description}}></p>
                                 <p className="event__text">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -68,7 +72,7 @@ const EventsDetail = () => {
                             <div className="event-detail-item">
                                 <h3 className="event__title">Event Details</h3>
                                 <ul className="event__list">
-                                    <li><span>Starting Time:</span> 8:00AM to 2:00PM</li>
+                                    <li><span>Starting Time:</span> {event.time}</li>
                                     <li><span>Date:</span>9 March, 2019</li>
                                     <li><span>Category:</span>Health</li>
                                     <li><span>Phone:</span>666 888 0000</li>

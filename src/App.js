@@ -47,7 +47,7 @@ function App(props) {
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/events" element ={<Events />} />
-        <Route path="/events-detail" element={<EventsDetailPage />} />
+        <Route path="/events-detail/:id" element={<EventsDetailPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog-detail/:id" element={<BlogSinglePage />} />
         <Route path="/about" element={<AboutPage />} />

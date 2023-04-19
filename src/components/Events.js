@@ -21,7 +21,7 @@ const Events = () => {
                             </span>
                                             </div>
                                             <div className="blog-inner-content">
-                                                <h3 className="blog__title"><Link href="/events-detail"><a>{item.name}</a></Link></h3>
+                                                <h3 className="blog__title"><Link to={`/events-detail/${item.id}`}><a href="#/">{item.name}</a></Link></h3>
                                                 <ul className="blog__list">
                                                     <li className="blog__dot-active">8:00am to 2:00pm</li>
                                                     <li>{item.location}</li>
