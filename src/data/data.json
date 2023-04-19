@@ -86,7 +86,7 @@
   "blog": [
     {
       "id": 1,
-      "title" : "Restored Hope",
+      "title": "Restored Hope",
       "date": "March 10, 2023",
       "preview": "I was locked out of my house by my landlord because I had not paid rent for months. I felt hopeless...",
       "text": "I was locked out of my house by my landlord because I had not paid rent for months. I felt hopeless. I had nowhere to go and no food to feed my 8-year-old daughter.<br><br>My neighbour, at that time, told me about a project that was offering porridge to little children every morning. She took me to this project where I met Pastor Shadrack who welcomed us so warmly. I also saw several children with no shoes eating their porridge with so much joy and satisfaction. My daughter was served a cup of porridge.<br><br>I told Pastor about my plight, and he asked me to bring my daughter, Mercy, every morning for porridge. It was not long before Mercy was enrolled into a government primary school by the project. She had new uniform, new shoes. She loved going to school.<br><br>Mercy graduated from the college of fashion and design and is now running her own design shop in Nairobi.<br><br>As for me, I am a beneficiary of the Kinangop Farm project run by Turning Point and a proud owner of a 1 acre piece of land and a decent house.<br><br>I am filled with gratitude because God brought relief to my life and my children through Turning Point. - Mama Nzembi, Parent",
@@ -498,6 +498,50 @@
       "time": "8:00AM TO 2:00PM",
       "location": "Kibera",
       "themeId": 2
+    }
+  ],
+  "sponsors": [
+    {
+      "id": 1,
+      "name": "Sponsor 1",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor1.png"
+    },
+    {
+      "id": 2,
+      "name": "Sponsor 2",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sponsor 3",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor3.png"
+    },
+    {
+      "id": 4,
+      "name": "Sponsor 4",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor4.png"
+    },
+    {
+      "id": 5,
+      "name": "Sponsor 5",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor5.png"
+    },
+    {
+      "id": 6,
+      "name": "Sponsor 6",
+      "location": "nairobi, kenya",
+      "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
+      "logo": "sponsor6.png"
     }
   ]
 }
