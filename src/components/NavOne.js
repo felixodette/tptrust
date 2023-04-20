@@ -235,10 +235,10 @@ class NavOne extends Component {
                 <li className="sidenav__item"><Link to="/contact">contact</Link></li>
               </ul>
               <ul className="side-social">
-                <li><a href="#/"><i className="fa fa-facebook"></i></a></li>
-                <li><a href="#/"><i className="fa fa-twitter"></i></a></li>
-                <li><a href="#/"><i className="fa fa-youtube-play"></i></a></li>
-                <li><a href="#/"><i className="fa fa-google-plus"></i></a></li>
+                <li><a href="https://twitter.com/tptrust"><i className="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/tptrust"><i className="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/tptrust/"><i className="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/tptrustkenya/"><i className="fa fa-instagram"></i></a></li>
               </ul>
               <div className="side-btn">
                 <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>

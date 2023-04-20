@@ -64,7 +64,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-6">
             <div className="form-shared">
-              <form onSubmit={handleSubmit} action="mailto:info@tptrust.org" method="post">
+              <form onSubmit={handleSubmit} action="mailto:felix.odette@gmail.com" method="post">
                 <div className="row">
                   <div className="col-lg-6 col-sm-6 form-group">
                     <input className="form-control" type="text" name="name" placeholder="Full Name"/>

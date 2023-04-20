@@ -4,6 +4,7 @@ import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
+import CallToActionTwo from "../components/CallToActionTwo";
 
 const GalleryPage = () => {
     return (
@@ -11,6 +12,7 @@ const GalleryPage = () => {
             <NavOne />
             <PageHeader title="Gallery" />
             <Gallery />
+            <CallToActionTwo />
             <Footer />
         </Layout>
     );

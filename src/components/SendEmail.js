@@ -5,17 +5,17 @@ exports.handler = async (event, context, callback) => {
 
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
-        port: 587,
+        port: 465,
         secure: false,
         auth: {
-            user: 'your-email@gmail.com',
-            pass: 'your-password',
+            user: 'felix.odete@gmail.com',
+            pass: '0774854979',
         }
     });
 
     const mailOptions = {
         from: `${data.name} <${data.email}>`,
-        to: 'info@tptrust.org',
+        to: 'felix.odette@gmail.com',
         subject: 'New message from TPTrust Website',
         html: `
       <p>Name: ${data.name}</p>

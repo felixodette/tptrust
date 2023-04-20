@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CausesItem = ({ itemVal, causeTitle, causePreview, goal, raised, id }) => {
+const CausesItem = ({ itemVal, causeTitle, causePreview, goal, raised, id, img }) => {
     return (
         <div className="col-lg-4">
             <div className="blog-content">
                 <div className={`blog-item blog-item${itemVal}`}>
                     <div className="blog-img">
-                        <img src="/assets/images/img1.jpg" alt="" />
+                        <img src={img} alt="" />
                     </div>
                     <div className="blog-inner-content">
                         <h3 className="blog__title"><Link to={`/causes-detail/${id}`}><a href="#/">{causeTitle}</a></Link></h3>

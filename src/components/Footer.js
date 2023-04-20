@@ -76,11 +76,11 @@ class Footer extends Component {
                                     <div className="col footer-item footer-item1">
                                         <h3 className="widget__title">about</h3>
                                         <ul className="foot__links">
-                                            <Link to="/causes"><li><a href="#/">causes</a></li></Link>
-                                            <Link to="/about"><li><a href="#/">about</a></li></Link>
-                                            <Link to="/about"><li><a href="#/">New Campaign</a></li></Link>
-                                            <Link to="/about"><li><a href="#/">Site Map</a></li></Link>
-                                            <Link to="/events"><li><a href="#/">Events</a></li></Link>
+                                            <Link to="/about"><li><a href="#/">about us</a></li></Link>
+                                            <Link to="/team"><li><a href="#/">our team</a></li></Link>
+                                            <Link to="/volunteer"><li><a href="#/">volunteer</a></li></Link>
+                                            <Link to="/gallery"><li><a href="#/">gallery</a></li></Link>
+                                            <Link to="/sponsor"><li><a href="#/">sponsors</a></li></Link>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item2">

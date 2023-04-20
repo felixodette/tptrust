@@ -363,7 +363,8 @@
       "preview": "£5 will purchase a bible for a child, enabling them to learn about the love of God.",
       "goal": "5.00",
       "raised": "0.00",
-      "themeBtn": 1
+      "themeBtn": 1,
+      "image": "/assets/images/cause-bible.jpg"
     },
     {
       "id": 2,
@@ -372,7 +373,8 @@
       "preview": "£5 provides all the pens, pencils and exercise books one child needs for a year.",
       "goal": "5.00",
       "raised": "0.00",
-      "themeBtn": 2
+      "themeBtn": 2,
+      "image": "/assets/images/cause-pre-school-supplies-1.jpg"
     },
     {
       "id": 3,
@@ -381,16 +383,18 @@
       "preview": "£15 will serve up breakfast and lunch to a child every weekday for one month.",
       "goal": "15.00",
       "raised": "0.00",
-      "themeBtn": 3
+      "themeBtn": 3,
+      "image": "/assets/images/cause-school-dinners.jpg"
     },
     {
       "id": 4,
       "cause_name": "School Trip",
       "description": "£20 will take 10 children on a school trip. These trips expose children to life beyond the slum and provide fun opportunities to learn about Kenya's history, natural environment and culture.",
-      "preview": "£20 will take 10 children on a school trip. Exposure children to life beyond the slum.",
+      "preview": "£20 will take 10 children on a school trip. Expose children to life beyond the slum.",
       "goal": "20.00",
       "raised": "0.00",
-      "themeBtn": 1
+      "themeBtn": 1,
+      "image": "/assets/images/cause-school-trips.jpg"
     },
     {
       "id": 5,
@@ -399,7 +403,8 @@
       "preview": "With £6 we can purchase 2 new books for the Community Library in Kibera.",
       "goal": "6.00",
       "raised": "0.00",
-      "themeBtn": 2
+      "themeBtn": 2,
+      "image": "/assets/images/cause-library-books.jpg"
     },
     {
       "id": 6,
@@ -408,7 +413,8 @@
       "preview": "£10 will provide art supplies the children use to explore their creative sides.",
       "goal": "10.00",
       "raised": "0.00",
-      "themeBtn": 3
+      "themeBtn": 3,
+      "image": "/assets/images/cause-art-supplies.jpg"
     },
     {
       "id": 7,
@@ -417,7 +423,8 @@
       "preview": "£15 will help to equip our after-school football club with footballs kits.",
       "goal": "15.00",
       "raised": "0.00",
-      "themeBtn": 1
+      "themeBtn": 1,
+      "image": "/assets/images/cause-football.jpg"
     },
     {
       "id": 8,
@@ -426,7 +433,8 @@
       "preview": "£35 supports a child at the Fountains of Hope Primary School for one month.",
       "goal": "35.00",
       "raised": "0.00",
-      "themeBtn": 2
+      "themeBtn": 2,
+      "image": "/assets/images/cause-school-holiday-meals.jpg"
     },
     {
       "id": 9,
@@ -435,7 +443,8 @@
       "preview": "£20 will help to equip a pre-school classroom with all the puzzles and playdough.",
       "goal": "20.00",
       "raised": "0.00",
-      "themeBtn": 3
+      "themeBtn": 3,
+      "image": "/assets/images/cause-pre-school-supplies.jpg"
     }
   ],
   "events": [
