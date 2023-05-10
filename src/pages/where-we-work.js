@@ -34,7 +34,7 @@ const WhereWeWorkPage = () => {
       <NavOne />
       <PageHeader title="Where We Work" />
       <WhereWeWorkInfoSection />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}

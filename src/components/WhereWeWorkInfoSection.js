@@ -23,7 +23,7 @@ const WhereWeWorkInfoSection = () => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.whereWeWork.theChallenge.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.whereWeWork.theChallenge.text}</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ const WhereWeWorkInfoSection = () => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.whereWeWork.ourApproach.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.whereWeWork.ourApproach.text}</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const WhereWeWorkInfoSection = () => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.whereWeWork.ourImpact.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.whereWeWork.ourImpact.text}</p>
               </div>
             </div>
