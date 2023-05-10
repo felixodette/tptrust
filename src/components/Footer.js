@@ -130,6 +130,13 @@ class Footer extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="row footer-widget-wrap">
+                            {/*<div className="col footer-item footer-item1"></div>*/}
+                            <div className="col footer-item footer-item2">
+                                <img src="/assets/images/siteVisitVerified_large.png" style={{height: 100, width: 100, left: 250, position: "relative", top: -50}} alt="site verified" />
+                                <img src="/assets/images/projectoftheMonth_large.png" style={{height: 100, width: 100, left: 390, position: "relative", top: -50}} alt="project of the month" />
+                            </div>
+                        </div>
                         <div className="footer-copyright">
                             <div className="container">
                                 <div className="row">
