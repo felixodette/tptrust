@@ -44,7 +44,7 @@ const FoundationsOfHopeDetails = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.foundationOfHope.ourApproach.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.foundationOfHope.ourApproach.text}</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const FoundationsOfHopeDetails = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.foundationOfHope.ourImpact.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.foundationOfHope.ourImpact.text}</p>
               </div>
             </div>

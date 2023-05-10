@@ -44,7 +44,7 @@ const PreSchoolInfoSection = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.preSchool.ourApproach.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.preSchool.ourApproach.text}</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const PreSchoolInfoSection = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.preSchool.ourImpact.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.preSchool.ourImpact.text}</p>
               </div>
             </div>
