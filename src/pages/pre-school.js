@@ -31,7 +31,7 @@ const PreSchoolPage = () => {
       <NavOne />
       <PageHeader title="Pre-School" />
       <PreSchoolInfoSection />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}
