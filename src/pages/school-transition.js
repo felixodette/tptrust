@@ -32,7 +32,7 @@ const SchoolTransitionPage = () => {
       <NavOne />
       <PageHeader title="School Transition" />
       <OurWorkInfoSection />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}
