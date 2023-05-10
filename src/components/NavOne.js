@@ -199,7 +199,7 @@ class NavOne extends Component {
                     <li><Link to="/community-library">community library</Link></li>
                     <li><Link to="/school-support">school support</Link></li>
                     <li><Link to="/where-we-work">where we work</Link></li>
-                    <li><Link to="/causes">causes</Link></li>
+                    {/*<li><Link to="/causes">causes</Link></li>*/}
                     <li><Link to="/donate">donate</Link></li>
                   </ul>
                 </li>
