@@ -33,7 +33,7 @@ const CommunityLibraryPage = () => {
       <NavOne />
       <PageHeader title="Community Library" />
       <CommunityLibraryInfoSection />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}
