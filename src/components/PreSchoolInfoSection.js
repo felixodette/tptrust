@@ -23,7 +23,7 @@ const PreSchoolInfoSection = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.preSchool.theChallenge.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.preSchool.theChallenge.text}</p>
               </div>
             </div>
