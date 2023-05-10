@@ -31,7 +31,7 @@ const FoundationsOfHopePage = () => {
       <NavOne />
       <PageHeader title="Foundations of Hope School" />
       <FoundationsOfHopeDetails />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}
