@@ -22,7 +22,7 @@ const PreSchoolAbout = () => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">The Challenge</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">
                   Preschool builds the foundations for life-long learning and yet 16% of children in Kenya do not attend
                   preschool. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal
