@@ -44,7 +44,7 @@ const CommunityLibraryInfoSection = (props) => {
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
                 <h2 className="section__title">{myJson.communityLibrary.ourApproach.title}</h2>
-                <p className="section__meta">learn about non profit agency</p>
+                {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">{myJson.communityLibrary.ourApproach.text}</p>
               </div>
             </div>
