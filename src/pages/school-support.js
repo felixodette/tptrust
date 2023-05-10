@@ -35,7 +35,7 @@ const SchoolSupportPage = () => {
       <NavOne />
       <PageHeader title="School Support" />
       <SchoolSupportInfoSection />
-      <MixerAreaTwo />
+      {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}
       {/*<FaqArea />*/}
       {/*<ServiceArea />*/}
