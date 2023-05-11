@@ -58,8 +58,8 @@ const SliderOne = () => {
                     <div className="row">
                       <div className="col-md-7">
                         <div className="slider-heading">
-                          <p className="slider__meta">welcome to the turning point trust</p>
-                          <h2 className="slider__title">End poverty, Transform Lives, Restore Hope</h2>
+                          {/*<p className="slider__meta">welcome to the turning point trust</p>*/}
+                          <h2 className="slider__title">End poverty</h2>
                           <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                         </div>
                       </div>
@@ -77,8 +77,8 @@ const SliderOne = () => {
                     <div className="row">
                       <div className="col-md-7">
                         <div className="slider-heading">
-                          <p className="slider__meta">welcome to the turning point trust</p>
-                          <h2 className="slider__title">Restore hope where it matters most</h2>
+                          {/*<p className="slider__meta">welcome to the turning point trust</p>*/}
+                          <h2 className="slider__title">Transform Lives</h2>
                           <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                         </div>
                       </div>
@@ -96,8 +96,8 @@ const SliderOne = () => {
                     <div className="row">
                       <div className="col-md-7">
                         <div className="slider-heading">
-                          <p className="slider__meta">welcome to the turning point trust</p>
-                          <h2 className="slider__title">Help end poverty</h2>
+                          {/*<p className="slider__meta">welcome to the turning point trust</p>*/}
+                          <h2 className="slider__title">Restore Hope</h2>
                           <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
                         </div>
                       </div>
@@ -107,44 +107,44 @@ const SliderOne = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="single-slide-item slide-bg4">
-              <div className="slide-item-table">
-                <div className="slide-item-tablecell">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-7">
-                        <div className="slider-heading">
-                          <p className="slider__meta">welcome to the turning point trust</p>
-                          <h2 className="slider__title">Support a child in school</h2>
-                          <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="single-slide-item slide-bg5">
-              <div className="slide-item-table">
-                <div className="slide-item-tablecell">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-7">
-                        <div className="slider-heading">
-                          <p className="slider__meta">welcome to the turning point trust</p>
-                          <h2 className="slider__title">Education is a right, no a privilege</h2>
-                          <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+          {/*<SwiperSlide>*/}
+          {/*  <div className="single-slide-item slide-bg4">*/}
+          {/*    <div className="slide-item-table">*/}
+          {/*      <div className="slide-item-tablecell">*/}
+          {/*        <div className="container">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-md-7">*/}
+          {/*              <div className="slider-heading">*/}
+          {/*                <p className="slider__meta">welcome to the turning point trust</p>*/}
+          {/*                <h2 className="slider__title">Support a child in school</h2>*/}
+          {/*                <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</SwiperSlide>*/}
+          {/*<SwiperSlide>*/}
+          {/*  <div className="single-slide-item slide-bg5">*/}
+          {/*    <div className="slide-item-table">*/}
+          {/*      <div className="slide-item-tablecell">*/}
+          {/*        <div className="container">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-md-7">*/}
+          {/*              <div className="slider-heading">*/}
+          {/*                <p className="slider__meta">welcome to the turning point trust</p>*/}
+          {/*                <h2 className="slider__title">Education is a right, no a privilege</h2>*/}
+          {/*                <Link to="/about"><a href="#/" className="theme-btn">discover more</a></Link>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</SwiperSlide>*/}
         </Swiper>
         {/*<div className="owl-dots">*/}
         {/*  <div onClick={goPrev} className="owl-dot"><span></span></div>*/}

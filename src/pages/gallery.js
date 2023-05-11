@@ -12,7 +12,7 @@ const GalleryPage = () => {
             <NavOne />
             <PageHeader title="Gallery" />
             <Gallery />
-            <CallToActionTwo />
+            {/*<CallToActionTwo />*/}
             <Footer />
         </Layout>
     );

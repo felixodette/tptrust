@@ -17,9 +17,9 @@ const AboutPage = () => {
             <NavOne />
             <PageHeader title="About" />
             <AboutArea />
-            <MixerAreaTwo />
+            {/*<MixerAreaTwo />*/}
             <CustomizedTimeline />
-            <TeamArea />
+            {/*<TeamArea />*/}
             <FaqArea />
             <ServiceArea />
             {/*<ClientsLogoTwo />*/}

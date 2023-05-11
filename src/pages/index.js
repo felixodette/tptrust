@@ -30,14 +30,14 @@ const HomePage = () => {
           <SliderOne />
           <EntryArea />
           <ServiceArea />
-          <CallToActionTwo />
-          <HiwArea />
+          {/*<CallToActionTwo />*/}
+          {/*<HiwArea />*/}
           {/*<MixerArea />*/}
           {/*<CausesArea />*/}
           {/*<ClientsLogo />*/}
           {/*<HelpingArea />*/}
-          <TeamArea />
-          <CallToAction />
+          {/*<TeamArea />*/}
+          {/*<CallToAction />*/}
           <BlogHome />
           {/*<Map />*/}
 

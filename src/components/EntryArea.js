@@ -22,7 +22,7 @@ class EntryArea extends Component {
                 <div className="section-icon">
                   <img src="/assets/images/section-icon.png" alt="section-icon" />
                 </div>
-                <h4 className="entry__title">Poverty is stalking the globe</h4>
+                <h4 className="entry__title">Introducing Turning Point Trust</h4>
               </div>
             </div>
             <div className="col-lg-9">
@@ -39,9 +39,8 @@ class EntryArea extends Component {
                   </div>
                   <div className="col-lg-8">
                     <div className="entry-video-text">
-                      <h4 className="entry__title">We are here to support you every step of the
-                        way.</h4>
-                      <p className="entry__text">Watch us how we take care of everyone</p>
+                      {/*<h4 className="entry__title">Who we are!</h4>*/}
+                      <p className="entry__text">Turning Point exists to empower vulnerable children and families from Kibera by providing opportunities for them to reach their full potential</p>
                     </div>
                   </div>
                 </div>

@@ -105,9 +105,9 @@ class NavOne extends Component {
                       </Link>
                     </div>
                     <div className="header-btn ml-auto">
-                      <Link to="/donate">
-                        <a href="#/" className="theme-btn text-light">donate now</a>
-                      </Link>
+                      {/*<Link to="/donate">*/}
+                      {/*  <a href="#/" className="theme-btn text-light">donate now</a>*/}
+                      {/*</Link>*/}
                     </div>
                   </div>
                 </div>
@@ -141,21 +141,25 @@ class NavOne extends Component {
                                 <li><Link to="/school-support">School Support</Link></li>
                                 <li><Link to="/where-we-work">Where We Work</Link></li>
                                 {/*<li><Link to="/causes">causes</Link></li>*/}
-                                <li><Link to="/donate">donate now</Link></li>
+                                {/*<li><Link to="/donate">donate now</Link></li>*/}
                               </ul>
                             </li>
-                            <li><Link to="/events">events</Link>
-                              {/*<ul className="dropdown-menu-item">*/}
-                              {/*  <li><Link to="/events">events</Link></li>*/}
-                              {/*  <li><Link to="/events-detail">events detail</Link></li>*/}
-                              {/*</ul>*/}
+                            <li><Link to="/events">get involved</Link>
+                              <ul className="dropdown-menu-item">
+                                <li><Link to="/events-detail">donate</Link></li>
+                                <li><Link to="/events-detail">volunteer with us</Link></li>
+                                <li><Link to="/events-detail">partner with us</Link></li>
+                                <li><Link to="/events-detail">fundraise for us</Link></li>
+                                <li><Link to="/blog">read our stories</Link></li>
+                                <li><Link to="/events">events</Link></li>
+                              </ul>
                             </li>
-                            <li><Link to="/blog">Blog</Link>
+                            {/*<li><Link to="/blog">Blog</Link>*/}
                               {/*<ul className="dropdown-menu-item">*/}
                               {/*  <li><Link to="/blog">Blog</Link></li>*/}
                                 {/*<li><Link to="/blog-detail/:id">Blog detail</Link></li>*/}
                               {/*</ul>*/}
-                            </li>
+                            {/*</li>*/}
                             <li><Link to="/contact">contact</Link></li>
                           </ul>
                         </nav>

@@ -3,17 +3,17 @@ import React from 'react';
 const ServiceArea = () => {
   return (
     <section className="service-area text-center">
-      <img src="/assets/images/heart-icon1.png" alt="" className="heart-icon heart-icon-1"/>
-      <img src="/assets/images/heart-icon2.png" alt="" className="heart-icon heart-icon-2"/>
-      <img src="/assets/images/heart-icon3.png" alt="" className="heart-icon heart-icon-3"/>
-      <img src="/assets/images/heart-icon4.png" alt="" className="heart-icon heart-icon-4"/>
-      <img src="/assets/images/heart-icon5.png" alt="" className="heart-icon heart-icon-5"/>
-      <img src="/assets/images/heart-icon6.png" alt="" className="heart-icon heart-icon-6"/>
-      <img src="/assets/images/heart-icon7.png" alt="" className="heart-icon heart-icon-7"/>
-      <img src="/assets/images/heart-icon8.png" alt="" className="heart-icon heart-icon-8"/>
-      <img src="/assets/images/heart-icon9.png" alt="" className="heart-icon heart-icon-9"/>
-      <img src="/assets/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10"/>
-      <img src="/assets/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11"/>
+      {/*<img src="/assets/images/heart-icon1.png" alt="" className="heart-icon heart-icon-1"/>*/}
+      {/*<img src="/assets/images/heart-icon2.png" alt="" className="heart-icon heart-icon-2"/>*/}
+      {/*<img src="/assets/images/heart-icon3.png" alt="" className="heart-icon heart-icon-3"/>*/}
+      {/*<img src="/assets/images/heart-icon4.png" alt="" className="heart-icon heart-icon-4"/>*/}
+      {/*<img src="/assets/images/heart-icon5.png" alt="" className="heart-icon heart-icon-5"/>*/}
+      {/*<img src="/assets/images/heart-icon6.png" alt="" className="heart-icon heart-icon-6"/>*/}
+      {/*<img src="/assets/images/heart-icon7.png" alt="" className="heart-icon heart-icon-7"/>*/}
+      {/*<img src="/assets/images/heart-icon8.png" alt="" className="heart-icon heart-icon-8"/>*/}
+      {/*<img src="/assets/images/heart-icon9.png" alt="" className="heart-icon heart-icon-9"/>*/}
+      {/*<img src="/assets/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10"/>*/}
+      {/*<img src="/assets/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11"/>*/}
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
@@ -21,9 +21,9 @@ const ServiceArea = () => {
               <div className="section-icon">
                 <img src="/assets/images/section-icon.png" alt="section-icon"/>
               </div>
-              <h2 className="section__title">We Believe that
-                We can Save More Lives with you</h2>
-              <p className="section__meta">help us now</p>
+              {/*<h2 className="section__title">We Believe that*/}
+              {/*  We can Save More Lives with you</h2>*/}
+              {/*<p className="section__meta">help us now</p>*/}
             </div>
           </div>
         </div>
@@ -35,9 +35,9 @@ const ServiceArea = () => {
                   <i className="icon-peace-1"></i>
                 </div>
                 <div className="service-content">
-                  <h4 className="service__title">hope</h4>
+                  <h4 className="service__title">Holistic</h4>
                   <p className="service__desc">
-                    Transform lives with the power of hope. Support vulnerable children in Kibera today."
+                    We aim to see the people we serve develop physically, socially and spiritually.
                   </p>
                 </div>
               </div>
@@ -50,9 +50,9 @@ const ServiceArea = () => {
                   <i className="icon-praying"></i>
                 </div>
                 <div className="service-content">
-                  <h4 className="service__title">prayers</h4>
+                  <h4 className="service__title">Relational</h4>
                   <p className="service__desc">
-                    Join our prayer community and make a difference in the lives of vulnerable children.
+                    We value relationships because so much positive change can occur through strong, caring relationships.
                   </p>
                 </div>
               </div>
@@ -65,9 +65,9 @@ const ServiceArea = () => {
                   <i className="icon-peace"></i>
                 </div>
                 <div className="service-content">
-                  <h4 className="service__title">peace</h4>
+                  <h4 className="service__title">Hopeful</h4>
                   <p className="service__desc">
-                    Experience the life-changing impact of peace, bringing hope and transformation.
+                    We aim to inspire hope by pointing people to Jesus and to the innate potential He has planted in them.
                   </p>
                 </div>
               </div>

@@ -80,7 +80,7 @@ class Footer extends Component {
                                             <Link to="/team"><li><a href="#/">our team</a></li></Link>
                                             <Link to="/volunteer"><li><a href="#/">volunteer</a></li></Link>
                                             <Link to="/gallery"><li><a href="#/">gallery</a></li></Link>
-                                            <Link to="/sponsor"><li><a href="#/">sponsors</a></li></Link>
+                                            <Link to="/sponsor"><li><a href="#/">partners</a></li></Link>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item2">
@@ -135,6 +135,7 @@ class Footer extends Component {
                             <div className="col footer-item footer-item2">
                                 <img src="/assets/images/siteVisitVerified_large.png" style={{height: 100, width: 100, left: 250, position: "relative", top: -50}} alt="site verified" />
                                 <img src="/assets/images/projectoftheMonth_large.png" style={{height: 100, width: 100, left: 390, position: "relative", top: -50}} alt="project of the month" />
+                                <img src="/assets/images/vetted_large.png" style={{height: 100, width: 100, left: 530, position: "relative", top: -50}} alt="project of the month" />
                             </div>
                         </div>
                         <div className="footer-copyright">
