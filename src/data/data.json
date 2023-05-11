@@ -292,67 +292,102 @@
       "class_style": "team-item team-item1"
     },
     {
-      "name": "Eunice Mulinge",
-      "designation": "Welfare Overseer",
-      "picture": "/assets/images/our-team-page-2.jpg",
-      "alt_pic": "Eunice Mulinge | Welfare Overseer",
+      "name": "Brenda Kaloki",
+      "designation": "Programme Coordinator",
+      "picture": "/assets/images/Brenda - Programmes Coordinator.jpg",
+      "alt_pic": "Brenda Kaloki | Programme Coordinator",
       "class_style": "team-item team-item2"
     },
     {
-      "name": "Brenda Kaloki",
-      "designation": "Programme Coordinator",
-      "picture": "/assets/images/team3.jpg",
-      "alt_pic": "Brenda Kaloki | Programme Coordinator",
+      "name": "Eunice Mulinge",
+      "designation": "Welfare Overseer",
+      "picture": "/assets/images/Eunice - Children Welfare Overseer.jpg",
+      "alt_pic": "Eunice Mulinge | Welfare Overseer",
       "class_style": "team-item team-item3"
     },
     {
       "name": "Margaret Munyambu",
       "designation": "Center Manager & SSW",
-      "picture": "/assets/images/team4.jpg",
+      "picture": "/assets/images/Margaret - Senior Social Worker.jpg",
       "alt_pic": "Margaret Munyambu | Center Manager & SSW",
       "class_style": "team-item team-item4"
     },
     {
-      "name": "Leo Onyango",
-      "designation": "ICT Manager",
-      "picture": "/assets/images/our-team-page-6.jpg",
-      "alt_pic": "Leo Onyango | ICT Manager",
+      "name": "Jenipher Samson",
+      "designation": "School HeadTeacher",
+      "picture": "/assets/images/our-team-page-8.jpg",
+      "alt_pic": "Jenipher Samson | Head Teacher",
       "class_style": "team-item team-item5"
     },
     {
-      "name": "Sharon Karanja",
-      "designation": "Administrator",
-      "picture": "/assets/images/our-team-page-7.jpg",
-      "alt_pic": "Sharon Karanja | Administrator",
+      "name": "Collins Keverenge",
+      "designation": "Deputy School HeadTeacher",
+      "picture": "/assets/images/our-team-page-10.jpg",
+      "alt_pic": "Collins Keverenge | Deputy HeadTeacher",
       "class_style": "team-item team-item6"
     },
     {
-      "name": "Teacher Jennipher",
-      "designation": "Head Teacher",
-      "picture": "/assets/images/our-team-page-8.jpg",
-      "alt_pic": "Teacher Jennipher | Head Teacher",
+      "name": "...",
+      "designation": "ECD Manager",
+      "picture": "/assets/images/team.jpg",
+      "alt_pic": "... | ECD Manager",
       "class_style": "team-item team-item7"
     },
     {
-      "name": "Pastor David",
-      "designation": "Head Teacher",
-      "picture": "/assets/images/our-team-page-9.jpg",
-      "alt_pic": "Pastor David | Discipline",
+      "name": "Jacqueline Amanyole",
+      "designation": "Transition Programme Coordinator",
+      "picture": "/assets/images/our-team-page-13.jpg",
+      "alt_pic": "Jacqueline Amanyole | Transition Programme Coordinator",
       "class_style": "team-item team-item8"
     },
     {
-      "name": "Teacher Collins",
-      "designation": "Deputy HeadTeacher",
-      "picture": "/assets/images/our-team-page-10.jpg",
-      "alt_pic": "Teacher Collins | Deputy HeadTeacher",
+      "name": "Pastor David",
+      "designation": "Discipline Pastor",
+      "picture": "/assets/images/our-team-page-9.jpg",
+      "alt_pic": "Pastor David | Discipline",
       "class_style": "team-item team-item9"
     },
     {
-      "name": "Jackline",
-      "designation": "Finance Officer",
-      "picture": "/assets/images/our-team-page-13.jpg",
-      "alt_pic": "Jackline | Finance Officer",
+      "name": "Rose Amukoye",
+      "designation": "Community Library Manager",
+      "picture": "/assets/images/Rose - Community Library Manager.jpg",
+      "alt_pic": "Rose Amukoye | Community Library Manager",
       "class_style": "team-item team-item10"
+    },
+    {
+      "name": "Nathan Manywanda",
+      "designation": "TPFC Coach",
+      "picture": "/assets/images/Brian - TPFC Coach.jpg",
+      "alt_pic": "Nathan Manywanda | TPFC Coach",
+      "class_style": "team-item team-item11"
+    },
+    {
+      "name": "Leonard Orieny",
+      "designation": "ICT Manager",
+      "picture": "/assets/images/our-team-page-6.jpg",
+      "alt_pic": "Leonard Orieny | ICT Manager",
+      "class_style": "team-item team-item12"
+    },
+    {
+      "name": "...",
+      "designation": "Fundraising & Communications Manager",
+      "picture": "/assets/images/team.jpg",
+      "alt_pic": "... | Fundraising & Communications Manager",
+      "class_style": "team-item team-item13"
+    },
+    {
+      "name": "Sharon Karanja",
+      "designation": "HR Administrator",
+      "picture": "/assets/images/our-team-page-7.jpg",
+      "alt_pic": "Sharon Karanja | Administrator",
+      "class_style": "team-item team-item14"
+    },
+    {
+      "name": "Jackline Waweru",
+      "designation": "Accounts Officer",
+      "picture": "/assets/images/team.jpg",
+      "alt_pic": "Jackline Waweru | Accounts Officer",
+      "class_style": "team-item team-item15"
     }
   ],
   "causes": [
