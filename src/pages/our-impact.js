@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import '../data/data.json';
 import FoundationsOfHopeDetails from "../components/FoundationsOfHopeDetails";
 import myJson from "../data/data.json";
+import OurImpact from "../components/OurImpact";
 import PdfViewer from "../components/PdfViewer";
 const OurImpactPage = () => {
     const [data, setData] = useState([]);
@@ -31,8 +32,8 @@ const OurImpactPage = () => {
         <Layout pageTitle="TP Trust | Our Impact">
             <NavOne />
             <PageHeader title="Our Impact" />
-            <FoundationsOfHopeDetails />
-            <PdfViewer file="../data/Felix_Odete___myAgro.pdf"/>
+            <OurImpact />
+            {/*<PdfViewer file="../data/Felix_Odete___myAgro.pdf"/>*/}
             {/*<MixerAreaTwo />*/}
             {/*<TeamArea />*/}
             {/*<FaqArea />*/}

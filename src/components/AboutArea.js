@@ -1,5 +1,5 @@
 import React from 'react';
-import {circularProgressClasses} from "@mui/material";
+// import {circularProgressClasses} from "@mui/material";
 
 const AboutArea = () => {
   return (

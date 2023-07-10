@@ -587,5 +587,49 @@
       "description": "Phasellus vehicul justo eget diam dosuere sollicitudin eu tincidun.\n                                            Lorem Ipsum is simply dummy text of the printing and typesetting\n                                            industry been the industry's standard dummy text ever since.",
       "logo": "sponsor6.png"
     }
+  ],
+  "ourImpact": [
+    {
+      "id": 1,
+      "name": "2021 Impact Report",
+      "description": "In 2021 , the Kenyan Ministry of Education condensed the school year to catch up on the learning lost to the pandemic in 2020. As a result, the year was busy and challenging. Despite this, our staff have managed to achieve incredible things as seen in this report.\n",
+      "pdf": "/assets/documents/Impact-Report-2021.pdf"
+    },
+    {
+      "id": 2,
+      "name": "2020 Impact Report",
+      "description": "2020 was a challenging year for everyone due to COVID, but that did not stop us from impacting the lives of our children and their families. As you will read in this report, we were able to continue providing meals to the children we serve and support home learning. We also got the opportunity to engage in the community of Kibera by creating awareness about the virus and providing handwashing stations accessible to anyone.\n",
+      "pdf": "/assets/documents/Impact-Report-2020.pdf"
+    },
+    {
+      "id": 3,
+      "name": "2019 Impact Report",
+      "description": "God has enabled us to empower more children and families in Kibera throughout the past year. You will read in this report about the impact we have achieved including supporting 143 children in primary school and 63 children in secondary school. Preparing 25 more children to join or return to school and over a thousand children have benefitted from our community library.\n",
+      "pdf": "/assets/documents/Impact-Report-2019.pdf"
+    },
+    {
+      "id": 4,
+      "name": "2018 Impact Report",
+      "description": "2018 was a good year! Great strides and achievements!\nIt was a huge milestone for us to have our first cohort of children sitting their final primary national exams in our own school. They did very well and we had 100% transition to secondary school. We returned 25 children to primary school and the Community Library offered space and support to many children throughout the year. Despite funding challenges, we gave the children the best we could. I am proud to say we ended the year on a great note.\n",
+      "pdf": "/assets/documents/Impact-Report-2018.pdf"
+    },
+    {
+      "id": 5,
+      "name": "2017 Impact Report",
+      "description": "In 2017, Turning Point continued to support children to reach their full God-given potential and worked to build stronger relationships with parents and the wider community. We saw the Foundations of Hope School grow inn capacity and in efficiency. We focused our efforts on improving the internal systems of the organization, especially the school.\n",
+      "pdf": "/assets/documents/Impact-Report-2017.pdf"
+    },
+    {
+      "id": 6,
+      "name": "2016 Impact Report",
+      "description": "During 2016 we have continued to see the Foundations of Hope School grow and support more children, providing a holistic education to the children we serve. Providing a high quality education remains at the heart of what we do, and is also supported by our transition class and community Library.\n",
+      "pdf": "/assets/documents/Impact-Report-2016.pdf"
+    },
+    {
+      "id": 7,
+      "name": "2015 Impact Report",
+      "description": "2015 has been a significant year for Turning Point in Kenya. We achieved a smooth handover of the CEO role from Jon Parsons to Judy Akoth. We are enormously grateful to Jon and Jo Parsons for their work in Kenya as the founders and those who led it as it grew. We are also delighted that Judy has taken over as CEO and made such a positive start. It has been an aim of Turning Point to be more Kenyan led, and we are very pleased to have achieved this milestone.\n",
+      "pdf": "/assets/documents/Impact-Report-2015.pdf"
+    }
   ]
 }
