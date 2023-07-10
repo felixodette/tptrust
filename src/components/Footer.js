@@ -96,7 +96,7 @@ class Footer extends Component {
                                     <div className="col footer-item footer-item3">
                                         <h3 className="widget__title">links</h3>
                                         <ul className="foot__links">
-                                            <li><a href="#/">Podcasts</a></li>
+                                            <li><a href="/assets/documents/Gift%20Aid%20Declaration%202021.doc">Gift Aid Declaration</a></li>
                                             <li><a href="#/">Privacy Policy</a></li>
                                             <li><a href="#/">Videos</a></li>
                                             <li><a href="#/">Terms of Use</a></li>

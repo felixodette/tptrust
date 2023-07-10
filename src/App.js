@@ -36,6 +36,7 @@ import CommunityLibraryPage from "./pages/community-library";
 import SchoolSupportPage from "./pages/school-support";
 import WhereWeWorkPage from "./pages/where-we-work";
 import BlogPage from "./pages/blog";
+import OurImpactPage from "./pages/our-impact";
 
 function App(props) {
   return (
@@ -51,6 +52,7 @@ function App(props) {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog-detail/:id" element={<BlogSinglePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/our-impact" element={<OurImpactPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/volunteer" element={<VolunteerPage />} />
         <Route path="/team" element={<TeamPage />} />
