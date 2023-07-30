@@ -19,7 +19,7 @@ const Sponsor = () => {
                                             </div>
                                             <div className="col-lg-9">
                                                 <div className="sponsor-item">
-                                                    <Link to={`${item.website}`}><h3 className="sponsor__title">{item.name}</h3></Link>
+                                                    <Link to={`${item.website}`} target="_blank" rel="noopener noreferrer"><h3 className="sponsor__title">{item.name}</h3></Link>
                                                     <span className="sponsor__meta">{item.location}</span>
                                                     <p className="sponsor__text">{item.description}</p>
                                                 </div>
