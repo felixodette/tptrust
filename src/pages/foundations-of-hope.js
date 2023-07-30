@@ -27,9 +27,9 @@ const FoundationsOfHopePage = () => {
   }, []);
 
   return (
-    <Layout pageTitle="TP Trust | Foundations of Hope School">
+    <Layout pageTitle="TP Trust | Fountains of Hope School">
       <NavOne />
-      <PageHeader title="Foundations of Hope School" />
+      <PageHeader title="Fountains of Hope School" />
       <FoundationsOfHopeDetails />
       {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}

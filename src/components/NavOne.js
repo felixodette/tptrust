@@ -136,7 +136,7 @@ class NavOne extends Component {
                               <ul className="dropdown-menu-item">
                                 <li><Link to="/pre-school">ECD Programme</Link></li>
                                 <li><Link to="/school-transition">School Transition</Link></li>
-                                <li><Link to="/foundations-of-hope">Foundations of Hope</Link></li>
+                                <li><Link to="/foundations-of-hope">Fountains of Hope</Link></li>
                                 <li><Link to="/community-library">Community Library</Link></li>
                                 <li><Link to="/school-support">Secondary School Support</Link></li>
                                 <li><Link to="/where-we-work">Where We Work</Link></li>

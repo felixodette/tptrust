@@ -108,7 +108,7 @@ class Footer extends Component {
                                         <ul className="foot__links">
                                             <Link to="/pre-school"><li><a href="#/">Pre school</a></li></Link>
                                             <Link to="/school-transition"><li><a href="#/">School transition</a></li></Link>
-                                            <Link to="/foundations-of-hope"><li><a href="#/">Foundations of hope</a></li></Link>
+                                            <Link to="/foundations-of-hope"><li><a href="#/">Fountains of hope</a></li></Link>
                                             <Link to="/community-library"><li><a href="#/">Community library</a></li></Link>
                                         </ul>
                                     </div>
