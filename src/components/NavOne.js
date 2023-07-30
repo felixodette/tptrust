@@ -202,7 +202,7 @@ class NavOne extends Component {
                     <li><Link to="/school-transition">school transition</Link></li>
                     <li><Link to="/foundations-of-hope">fountains of hope</Link></li>
                     <li><Link to="/community-library">community library</Link></li>
-                    <li><Link to="/school-support">school support</Link></li>
+                    <li><Link to="/school-support">secondary school support</Link></li>
                     <li><Link to="/where-we-work">where we work</Link></li>
                     {/*<li><Link to="/causes">causes</Link></li>*/}
                     <li><Link to="https://www.globalgiving.org/donate/4620/the-turning-point-trust/">donate</Link></li>
