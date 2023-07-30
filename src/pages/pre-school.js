@@ -27,9 +27,9 @@ const PreSchoolPage = () => {
   }, [data]);
 
   return (
-    <Layout pageTitle="TP Trust | Pre-School">
+    <Layout pageTitle="TP Trust | ECD Programme">
       <NavOne />
-      <PageHeader title="Pre-School" />
+      <PageHeader title="ECD Programme" />
       <PreSchoolInfoSection />
       {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}

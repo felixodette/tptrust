@@ -38,7 +38,7 @@ const CausesArea = () => {
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                         </ul>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="https://www.globalgiving.org/donate/4620/the-turning-point-trust/" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ const CausesArea = () => {
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                         </ul>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="https://www.globalgiving.org/donate/4620/the-turning-point-trust/" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ const CausesArea = () => {
                                             <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                         </ul>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="https://www.globalgiving.org/donate/4620/the-turning-point-trust/" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>

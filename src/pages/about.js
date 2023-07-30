@@ -13,15 +13,15 @@ import CustomizedTimeline from "../components/Timeline";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="TP Trust | About Us">
+        <Layout pageTitle="TP Trust | Who We Are">
             <NavOne />
-            <PageHeader title="About" />
+            <PageHeader title="Who We Are" />
             <AboutArea />
+            <ServiceArea />
             {/*<MixerAreaTwo />*/}
             <CustomizedTimeline />
             {/*<TeamArea />*/}
             <FaqArea />
-            <ServiceArea />
             {/*<ClientsLogoTwo />*/}
             <Footer />
         </Layout>

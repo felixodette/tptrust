@@ -923,10 +923,10 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/home-slider-1.jpg");
+    background-image: url("../images/home-slider-6.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/home-slider-2.jpg");
+    background-image: url("../images/home-slider-1.jpg");
 }
 .slider-area .slide-bg3 {
     background-image: url("../images/home-slider-3.jpg");

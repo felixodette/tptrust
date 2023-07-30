@@ -28,7 +28,7 @@ const CausesDetail = ({ causeName, description, goal, raised, id}) => {
                                         </ul>
                                     </div>
                                     <div className="inner-causes-btn">
-                                        <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
+                                        <Link to="https://www.globalgiving.org/donate/4620/the-turning-point-trust/"><a href="#/" className="theme-btn">donate now</a></Link>
                                     </div>
                                 </div>
                                 <div className="blog-inner-content-2">

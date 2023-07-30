@@ -32,7 +32,7 @@ class MixerArea extends Component {
                                     </div>
                                     <h2 className="section__title text__white">Fundraising for the people and causes you
                                         care about</h2>
-                                    <a href="/donate" className="theme-btn">start donation</a>
+                                    <a href="https://www.globalgiving.org/donate/4620/the-turning-point-trust/" className="theme-btn">start donation</a>
                                 </div>
                             </div>
                         </div>

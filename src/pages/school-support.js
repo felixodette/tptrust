@@ -33,7 +33,7 @@ const SchoolSupportPage = () => {
   return (
     <Layout pageTitle="TP Trust | School Support">
       <NavOne />
-      <PageHeader title="School Support" />
+      <PageHeader title="Secondary School Support" />
       <SchoolSupportInfoSection />
       {/*<MixerAreaTwo />*/}
       {/*<TeamArea />*/}

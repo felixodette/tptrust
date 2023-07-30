@@ -42,22 +42,34 @@ const ClientsLogo = () => {
                         <div className="client-logo">
                             <Swiper {...params}>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/AAR%20logo.jpg" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/AF%20Academy.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/Cheza%20sports.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/Daraja-logo.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/Garden%20of%20Hope.png" alt="brand image" />
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    <img src="/assets/images/partners/KGSA%20logo.jpg" alt="brand image" />
+                                </div>
+                                <div className="client-logo-item">
+                                    <img src="/assets/images/partners/Kraft%20Therapy.png" alt="brand image" />
+                                </div>
+                                <div className="client-logo-item">
+                                    <img src="/assets/images/partners/SGGC%20Logo.png" alt="brand image" />
+                                </div>
+                                <div className="client-logo-item">
+                                    <img src="/assets/images/partners/shofco-logo.png" alt="brand image" />
+                                </div>
+                                <div className="client-logo-item">
+                                    <img src="/assets/images/partners/Uweza%20Foundation.jpg" alt="brand image" />
                                 </div>
                             </Swiper>
                         </div>

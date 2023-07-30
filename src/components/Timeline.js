@@ -12,7 +12,19 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import FlagIcon from '@mui/icons-material/Flag';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
-
+import PlayCircleOutlineRoundedIcon from '@mui/icons-material/PlayCircleOutlineRounded';
+import TransferWithinAStationRoundedIcon from '@mui/icons-material/TransferWithinAStationRounded';
+import CabinRoundedIcon from '@mui/icons-material/CabinRounded';
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
+import AgricultureRoundedIcon from '@mui/icons-material/AgricultureRounded';
+import MoneyRoundedIcon from '@mui/icons-material/MoneyRounded';
+import ToysRoundedIcon from '@mui/icons-material/ToysRounded';
+import LandscapeRoundedIcon from '@mui/icons-material/LandscapeRounded';
+import OpenInFullRoundedIcon from '@mui/icons-material/OpenInFullRounded';
+import LibraryBooksRoundedIcon from '@mui/icons-material/LibraryBooksRounded';
+import ReceiptLongRoundedIcon from '@mui/icons-material/ReceiptLongRounded';
+import DeveloperBoardRoundedIcon from '@mui/icons-material/DeveloperBoardRounded';
+import CelebrationRoundedIcon from '@mui/icons-material/CelebrationRounded';
 export default function CustomizedTimeline() {
     return (
         <section className="team-area text-center">
@@ -33,7 +45,7 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2002
+                                        <b>2002</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
@@ -56,12 +68,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2003
+                                        <b>2003</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary">
-                                            <LaptopMacIcon />
+                                            <PlayCircleOutlineRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -69,7 +81,7 @@ export default function CustomizedTimeline() {
                                         <Typography variant="h6" component="span">
                                             Beginnings
                                         </Typography>
-                                        <Typography>Our work started in Kibera with a bowl full of porridge and 5 kids.</Typography>
+                                        <Typography>Our work started in Kibera with a bowl full of porridge and 7 children.</Typography>
                                     </TimelineContent>
                                 </TimelineItem>
                                 <TimelineItem>
@@ -79,12 +91,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2004
+                                        <b>2004</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary" variant="outlined">
-                                            <HotelIcon />
+                                            <TransferWithinAStationRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                     </TimelineSeparator>
@@ -102,12 +114,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2005
+                                        <b>2005</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                         <TimelineDot color="secondary">
-                                            <RepeatIcon />
+                                            <CabinRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -125,12 +137,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2006
+                                        <b>2006</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <SchoolRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -147,12 +159,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2007
+                                        <b>2007</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary">
-                                            <LaptopMacIcon />
+                                            <AgricultureRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -170,12 +182,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2008
+                                        <b>2008</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary" variant="outlined">
-                                            <HotelIcon />
+                                            <MoneyRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                     </TimelineSeparator>
@@ -193,18 +205,18 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2009
+                                        <b>2009</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                         <TimelineDot color="secondary">
-                                            <RepeatIcon />
+                                            <ToysRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                                         <Typography variant="h6" component="span">
-                                            Kianda PreSchool
+                                            Kianda Pre-School
                                         </Typography>
                                         <Typography>We opened our second children’s centre in Kianda village, Kibera.</Typography>
                                     </TimelineContent>
@@ -216,12 +228,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2011
+                                        <b>2011</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <LandscapeRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -239,12 +251,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2012
+                                        <b>2012</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary">
-                                            <LaptopMacIcon />
+                                            <OpenInFullRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -262,12 +274,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2014
+                                        <b>2014</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot color="primary" variant="outlined">
-                                            <HotelIcon />
+                                            <LibraryBooksRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                     </TimelineSeparator>
@@ -286,7 +298,7 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2015
+                                        <b>2015</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
@@ -310,12 +322,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2018
+                                        <b>2018</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <SchoolRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -333,12 +345,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2019
+                                        <b>2019</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <ReceiptLongRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -357,12 +369,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2021
+                                        <b>2021</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <LaptopMacIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -381,12 +393,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2022
+                                        <b>2022</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <DeveloperBoardRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -406,12 +418,12 @@ export default function CustomizedTimeline() {
                                         variant="body2"
                                         color="text.secondary"
                                     >
-                                        2023
+                                        <b>2023</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
                                         <TimelineDot>
-                                            <FastfoodIcon />
+                                            <CelebrationRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>

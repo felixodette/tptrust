@@ -22,20 +22,21 @@ const AboutArea = () => {
                 <div className="section-icon">
                   <img src="/assets/images/section-icon.png" alt="section-icon"/>
                 </div>
-                {/*<h2 className="section__title">Discover About TP Trust</h2>*/}
+                <h3 className="section__title">Our Mission & Vision</h3>
                 {/*<p className="section__meta">learn about non profit agency</p>*/}
                 <p className="section__desc">
-                  “Our Mission” – Our mission is to demonstrate God’s heart for the poor through
-                  programmes that relieve poverty, transform lives and restore home amongst vulnerable families
-                  and children in Kibera informal settlement. These programmes:
-                  <ul style={{listStyle: "circle"}}>
-                    <li>Provide access to quality holistic education at preschool and primary level</li>
-                    <li>Support Support students to attend secondary school</li>
-                    <li>Offer learning resources and opportunities to children</li>
-                    <li>Offer spiritual teaching, psychosocial and mentorship support to children and their families</li>
-                    <li>Develop friendships with all the families we work with and demonstrate God’s love through
-                      practical support</li>
-                  </ul>
+                  Our <b>mission</b> is to demonstrate God’s heart for the poor through holistic education programmes that help relieve poverty, transform lives, and restore hope amongst vulnerable children and families in Kibera informal settlement.
+                    <br/>
+                    <br/>
+                  Our <b>vision</b> is to see vulnerable children and families from Kibera informal settlement are empowered to reach their full God-given potential.
+                  {/*<ul style={{listStyle: "circle"}}>*/}
+                  {/*  <li>Provide access to quality holistic education at preschool and primary level</li>*/}
+                  {/*  <li>Support Support students to attend secondary school</li>*/}
+                  {/*  <li>Offer learning resources and opportunities to children</li>*/}
+                  {/*  <li>Offer spiritual teaching, psychosocial and mentorship support to children and their families</li>*/}
+                  {/*  <li>Develop friendships with all the families we work with and demonstrate God’s love through*/}
+                  {/*    practical support</li>*/}
+                  {/*</ul>*/}
                 </p>
               </div>
             </div>

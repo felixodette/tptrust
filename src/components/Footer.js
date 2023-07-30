@@ -94,12 +94,13 @@ class Footer extends Component {
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item3">
-                                        <h3 className="widget__title">links</h3>
+                                        <h3 className="widget__title">Downloads</h3>
                                         <ul className="foot__links">
                                             <li><a href="/assets/documents/Gift%20Aid%20Declaration%202021.doc">Gift Aid Declaration</a></li>
-                                            <li><a href="#/">Privacy Policy</a></li>
-                                            <li><a href="#/">Videos</a></li>
-                                            <li><a href="#/">Terms of Use</a></li>
+                                            <li><a href="/assets/documents/Impact-Report-2022.pdf">Impact Report 2022</a></li>
+                                            <li><a href="/assets/documents/Impact-Report-2021.pdf">Impact Report 2021</a></li>
+                                            <li><a href="/assets/documents/Impact-Report-2020.pdf">Impact Report 2020</a></li>
+                                            <li><a href="/assets/documents/Impact-Report-2019.pdf">Impact Report 2019</a></li>
                                         </ul>
                                     </div>
                                     <div className="col footer-item footer-item3">

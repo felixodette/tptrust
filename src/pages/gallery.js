@@ -8,9 +8,9 @@ import CallToActionTwo from "../components/CallToActionTwo";
 
 const GalleryPage = () => {
     return (
-        <Layout pageTitle="TP Trust | Gallery">
+        <Layout pageTitle="TP Trust | Media Center">
             <NavOne />
-            <PageHeader title="Gallery" />
+            <PageHeader title="Media Center" />
             <Gallery />
             {/*<CallToActionTwo />*/}
             <Footer />

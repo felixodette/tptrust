@@ -123,23 +123,22 @@ class NavOne extends Component {
                               {/*  <li><Link to="/index2">Home 2</Link></li>*/}
                               {/*</ul>*/}
                             </li>
-                            <li><a href="#/">about</a>
+                            <li><a href="#/">About</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link to="/about">about us</Link></li>
+                                <li><Link to="/about">Who We Are</Link></li>
                                 <li><Link to="/team">our team</Link></li>
                                 <li><Link to="/our-impact">our impact</Link></li>
-                                <li><Link to="/gallery">gallery</Link></li>
-                                <li><Link to="/volunteer">become a volunteer</Link></li>
-                                <li><Link to="/sponsor">sponsors</Link></li>
+                                <li><Link to="/gallery">Media Center</Link></li>
+                                <li><Link to="/sponsor">Partners</Link></li>
                               </ul>
                             </li>
                             <li><a href="#/">our work</a>
                               <ul className="dropdown-menu-item">
-                                <li><Link to="/pre-school">Pre School</Link></li>
+                                <li><Link to="/pre-school">ECD Programme</Link></li>
                                 <li><Link to="/school-transition">School Transition</Link></li>
                                 <li><Link to="/foundations-of-hope">Foundations of Hope</Link></li>
                                 <li><Link to="/community-library">Community Library</Link></li>
-                                <li><Link to="/school-support">School Support</Link></li>
+                                <li><Link to="/school-support">Secondary School Support</Link></li>
                                 <li><Link to="/where-we-work">Where We Work</Link></li>
                                 {/*<li><Link to="/donate">donate now</Link></li>*/}
                               </ul>
@@ -147,6 +146,7 @@ class NavOne extends Component {
                             <li><Link to="/events">get involved</Link>
                               <ul className="dropdown-menu-item">
                                 <li><Link to="/causes">Christmas Gifts</Link></li>
+                                <li><Link to="/volunteer">become a volunteer</Link></li>
                                 {/*<li><Link to="/events-detail">donate</Link></li>*/}
                                 {/*<li><Link to="/events-detail">volunteer with us</Link></li>*/}
                                 {/*<li><Link to="/events-detail">partner with us</Link></li>*/}
@@ -190,7 +190,7 @@ class NavOne extends Component {
                 <li className="sidenav__item"><a href="#/">about</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link to="/about">about</Link></li>
+                    <li><Link to="/about">Who We Are</Link></li>
                     <li><Link to="/team">our team</Link></li>
                     <li><Link to="/volunteer">volunteer</Link></li>
                   </ul>
@@ -198,14 +198,14 @@ class NavOne extends Component {
                 <li className="sidenav__item"><a href="#/">our work</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
-                    <li><Link to="/pre-school">pre school</Link></li>
+                    <li><Link to="/pre-school">ECD Programme</Link></li>
                     <li><Link to="/school-transition">school transition</Link></li>
-                    <li><Link to="/foundations-of-hope">foundations of hope</Link></li>
+                    <li><Link to="/foundations-of-hope">fountains of hope</Link></li>
                     <li><Link to="/community-library">community library</Link></li>
                     <li><Link to="/school-support">school support</Link></li>
                     <li><Link to="/where-we-work">where we work</Link></li>
                     {/*<li><Link to="/causes">causes</Link></li>*/}
-                    <li><Link to="/donate">donate</Link></li>
+                    <li><Link to="https://www.globalgiving.org/donate/4620/the-turning-point-trust/">donate</Link></li>
                   </ul>
                 </li>
                 {/*<li className="sidenav__item"><a href="#/">causes</a>*/}
@@ -246,7 +246,7 @@ class NavOne extends Component {
                 <li><a href="https://www.instagram.com/tptrustkenya/"><i className="fa fa-instagram"></i></a></li>
               </ul>
               <div className="side-btn">
-                <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
+                <Link to="https://www.globalgiving.org/donate/4620/the-turning-point-trust/"><a href="#/" className="theme-btn">donate now</a></Link>
               </div>
             </div>
           </div>

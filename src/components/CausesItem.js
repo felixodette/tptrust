@@ -16,7 +16,7 @@ const CausesItem = ({ itemVal, causeTitle, causePreview, goal, raised, id, img }
                             <li><i className="icon-target"></i> Goal: <span>${goal}</span></li>
                             <li><i className="fa fa-line-chart"></i> Raised: <span>{raised}</span></li>
                         </ul>
-                        <Link to="/donate"><a href="#/" className="theme-btn">donate now</a></Link>
+                        <Link to="https://www.globalgiving.org/donate/4620/the-turning-point-trust/"><a href="#/" className="theme-btn">donate now</a></Link>
                     </div>
                 </div>
             </div>

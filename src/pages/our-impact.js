@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
-import AboutDetails from "../components/AboutDetails";
-import MixerAreaTwo from "../components/MixerAreaTwo";
+// import AboutDetails from "../components/AboutDetails";
+// import MixerAreaTwo from "../components/MixerAreaTwo";
 // import TeamArea from "../components/TeamArea";
 // import FaqArea from "../components/FaqArea";
 // import ServiceArea from "../components/ServiceArea";
@@ -33,7 +33,6 @@ const OurImpactPage = () => {
             <NavOne />
             <PageHeader title="Our Impact" />
             <OurImpact />
-            {/*<PdfViewer file="../data/Felix_Odete___myAgro.pdf"/>*/}
             {/*<MixerAreaTwo />*/}
             {/*<TeamArea />*/}
             {/*<FaqArea />*/}

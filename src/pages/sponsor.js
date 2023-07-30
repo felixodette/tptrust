@@ -8,9 +8,9 @@ import Sponsor from "../components/Sponsor";
 
 const SponsorPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Sponsors">
+        <Layout pageTitle="TP Trust | Partners">
             <NavOne />
-            <PageHeader title="Sponsors" />
+            <PageHeader title="Partners" />
             <Sponsor />
             <Footer />
         </Layout>

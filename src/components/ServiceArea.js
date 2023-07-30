@@ -14,15 +14,14 @@ const ServiceArea = () => {
       {/*<img src="/assets/images/heart-icon9.png" alt="" className="heart-icon heart-icon-9"/>*/}
       {/*<img src="/assets/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10"/>*/}
       {/*<img src="/assets/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11"/>*/}
-      <div className="container">
+      <div className="container" style={{paddingTop: 1, marginTop: 1}}>
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <div className="section-heading service-heading">
               <div className="section-icon">
                 <img src="/assets/images/section-icon.png" alt="section-icon"/>
               </div>
-              {/*<h2 className="section__title">We Believe that*/}
-              {/*  We can Save More Lives with you</h2>*/}
+              <h2 className="section__title">Our Values</h2>
               {/*<p className="section__meta">help us now</p>*/}
             </div>
           </div>
@@ -37,7 +36,7 @@ const ServiceArea = () => {
                 <div className="service-content">
                   <h4 className="service__title">Holistic</h4>
                   <p className="service__desc">
-                    We aim to see the people we serve develop physically, socially and spiritually.
+                    We aim to see the people we serve develop intellectually, physically, socially, and spiritually.
                   </p>
                 </div>
               </div>
@@ -67,32 +66,32 @@ const ServiceArea = () => {
                 <div className="service-content">
                   <h4 className="service__title">Hopeful</h4>
                   <p className="service__desc">
-                    We aim to inspire hope by pointing people to Jesus and to the innate potential He has planted in them.
+                    We aim to inspire hope by pointing people to Jesus and the innate potential He has planted in them.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="service-item service-item4">
-              <div className="service-item-inner">
-                <div className="service-icon">
-                  <i className="icon-heart"></i>
-                </div>
-                <div className="service-content">
-                  <h4 className="service__title">donation</h4>
-                  <p className="service__desc">
-                    Empower vulnerable children in Kibera with your generous donations of hope.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/*<div className="col">*/}
+          {/*  <div className="service-item service-item4">*/}
+          {/*    <div className="service-item-inner">*/}
+          {/*      <div className="service-icon">*/}
+          {/*        <i className="icon-heart"></i>*/}
+          {/*      </div>*/}
+          {/*      <div className="service-content">*/}
+          {/*        <h4 className="service__title">donation</h4>*/}
+          {/*        <p className="service__desc">*/}
+          {/*          Empower vulnerable children in Kibera with your generous donations of hope.*/}
+          {/*        </p>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
         <div className="row">
           <div className="col-lg-12">
             <div className="button-shared">
-              <a href="/donate" className="theme-btn">donate
+              <a href="https://www.globalgiving.org/donate/4620/the-turning-point-trust/" className="theme-btn">donate
                 now</a>
             </div>
           </div>
