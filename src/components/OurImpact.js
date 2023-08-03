@@ -24,7 +24,7 @@ const OurImpact = (props) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="about-large-img">
-              <img src="/assets/images/foundation-of-hope-page-1.jpg" alt=""/>
+              <img src="/assets/images/our-impact.png" alt=""/>
             </div>
           </div>
           <div className="col-lg-5">

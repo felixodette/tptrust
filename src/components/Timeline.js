@@ -34,7 +34,7 @@ export default function CustomizedTimeline() {
                             <div className="section-icon">
                                 <img src="/assets/images/section-icon.png" alt="section-icon" />
                             </div>
-                            <h2 className="section__title">Our Story</h2>
+                            <h2 className="section__title">Our Journey</h2>
                             {/*<p className="section__meta">meet professionals</p>*/}
                             <Timeline position="alternate">
                                 <TimelineItem>
