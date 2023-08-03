@@ -83,16 +83,16 @@ class Footer extends Component {
                                             <Link to="/sponsor"><li><a href="#/">partners</a></li></Link>
                                         </ul>
                                     </div>
-                                    <div className="col footer-item footer-item2">
-                                        <h3 className="widget__title">explore</h3>
-                                        <ul className="foot__links">
-                                            <li><a href="#/">Press Release</a></li>
-                                            <Link to="/contact"><li><a href="#/">contact</a></li></Link>
-                                            <Link to="/blog"><li><a href="#/">Blog Posts</a></li></Link>
-                                            <li><a href="#/">Social Connect</a></li>
-                                            <li><a href="#/">Help Topics</a></li>
-                                        </ul>
-                                    </div>
+                                    {/*<div className="col footer-item footer-item2">*/}
+                                    {/*    <h3 className="widget__title">explore</h3>*/}
+                                    {/*    <ul className="foot__links">*/}
+                                    {/*        <li><a href="#/">Press Release</a></li>*/}
+                                    {/*        <Link to="/contact"><li><a href="#/">contact</a></li></Link>*/}
+                                    {/*        <Link to="/blog"><li><a href="#/">Blog Posts</a></li></Link>*/}
+                                    {/*        <li><a href="#/">Social Connect</a></li>*/}
+                                    {/*        <li><a href="#/">Help Topics</a></li>*/}
+                                    {/*    </ul>*/}
+                                    {/*</div>*/}
                                     <div className="col footer-item footer-item3">
                                         <h3 className="widget__title">Downloads</h3>
                                         <ul className="foot__links">
@@ -106,7 +106,7 @@ class Footer extends Component {
                                     <div className="col footer-item footer-item3">
                                         <h3 className="widget__title">Our Work</h3>
                                         <ul className="foot__links">
-                                            <Link to="/pre-school"><li><a href="#/">Pre school</a></li></Link>
+                                            <Link to="/pre-school"><li><a href="#/">ECD Programme</a></li></Link>
                                             <Link to="/school-transition"><li><a href="#/">School transition</a></li></Link>
                                             <Link to="/foundations-of-hope"><li><a href="#/">Fountains of hope</a></li></Link>
                                             <Link to="/community-library"><li><a href="#/">Community library</a></li></Link>
@@ -116,7 +116,7 @@ class Footer extends Component {
                                         <h3 className="widget__title">contact</h3>
                                         <ul className="contact__info">
                                             <li>Yaya Center, Nairobi</li>
-                                            <li><a href="mailto:info@tptrust.com">info@tptrust.com</a></li>
+                                            <li><a href="mailto:info@tptrust.org">info@tptrust.org</a></li>
                                             <li><a href="tel:0794402478"> +254 794 402 478</a></li>
                                         </ul>
                                         <div className="footer__social">
@@ -144,7 +144,7 @@ class Footer extends Component {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="copyright-desc">
-                                            <p>© Copyright 2023 by <a href="#/">tptrust.com</a></p>
+                                            <p>© Copyright 2023 by <a href="#/">tptrust.org</a></p>
                                         </div>
                                     </div>
                                 </div>

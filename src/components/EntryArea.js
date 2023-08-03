@@ -30,7 +30,7 @@ class EntryArea extends Component {
                 <div className="row">
                   <div className="col-lg-4">
                     <div className="entry-video-img">
-                      <img src="/assets/images/lillian.png" alt="entry-video-img" />
+                      <img src="/assets/images/youtube_vid.png" alt="entry-video-img" />
                       <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='FmjBktNEKL8' onClose={this.handleModal} />
                       <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                            title="Play Video"><i className="fa fa-play"></i>

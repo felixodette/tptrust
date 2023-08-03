@@ -28,7 +28,7 @@ const AboutArea = () => {
                   Our <b>mission</b> is to demonstrate God’s heart for the poor through holistic education programmes that help relieve poverty, transform lives, and restore hope amongst vulnerable children and families in Kibera informal settlement.
                     <br/>
                     <br/>
-                  Our <b>vision</b> is to see vulnerable children and families from Kibera informal settlement are empowered to reach their full God-given potential.
+                  Our <b>vision</b> is to see vulnerable children and families from Kibera informal settlement empowered to reach their full God-given potential.
                   {/*<ul style={{listStyle: "circle"}}>*/}
                   {/*  <li>Provide access to quality holistic education at preschool and primary level</li>*/}
                   {/*  <li>Support Support students to attend secondary school</li>*/}

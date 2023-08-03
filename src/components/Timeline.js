@@ -6,25 +6,24 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import FlagIcon from '@mui/icons-material/Flag';
-import RepeatIcon from '@mui/icons-material/Repeat';
+import VerifiedUserOutlinedIcon from '@mui/icons-material/VerifiedUserOutlined';
+import HowToRegOutlinedIcon from '@mui/icons-material/HowToRegOutlined';
 import Typography from '@mui/material/Typography';
-import PlayCircleOutlineRoundedIcon from '@mui/icons-material/PlayCircleOutlineRounded';
-import TransferWithinAStationRoundedIcon from '@mui/icons-material/TransferWithinAStationRounded';
+import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
+import AutoStoriesOutlinedIcon from '@mui/icons-material/AutoStoriesOutlined';
 import CabinRoundedIcon from '@mui/icons-material/CabinRounded';
-import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
+import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
 import AgricultureRoundedIcon from '@mui/icons-material/AgricultureRounded';
 import MoneyRoundedIcon from '@mui/icons-material/MoneyRounded';
-import ToysRoundedIcon from '@mui/icons-material/ToysRounded';
+import AbcOutlinedIcon from '@mui/icons-material/AbcOutlined';
 import LandscapeRoundedIcon from '@mui/icons-material/LandscapeRounded';
-import OpenInFullRoundedIcon from '@mui/icons-material/OpenInFullRounded';
-import LibraryBooksRoundedIcon from '@mui/icons-material/LibraryBooksRounded';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import ReceiptLongRoundedIcon from '@mui/icons-material/ReceiptLongRounded';
 import DeveloperBoardRoundedIcon from '@mui/icons-material/DeveloperBoardRounded';
 import CelebrationRoundedIcon from '@mui/icons-material/CelebrationRounded';
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 export default function CustomizedTimeline() {
     return (
         <section className="team-area text-center">
@@ -43,14 +42,14 @@ export default function CustomizedTimeline() {
                                         sx={{ m: 'auto 0' }}
                                         align="right"
                                         variant="body2"
-                                        color="text.secondary"
+                                        color="text.primary"
                                     >
                                         <b>2002</b>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
-                                            <FlagIcon />
+                                        <TimelineDot color="error">
+                                            <VerifiedUserOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -72,8 +71,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary">
-                                            <PlayCircleOutlineRoundedIcon />
+                                        <TimelineDot color="inherit">
+                                            <SoupKitchenIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -95,8 +94,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary" variant="outlined">
-                                            <TransferWithinAStationRoundedIcon />
+                                        <TimelineDot color="warning" >
+                                            <AutoStoriesOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                     </TimelineSeparator>
@@ -118,7 +117,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                                        <TimelineDot color="secondary">
+                                        <TimelineDot color="error">
                                             <CabinRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -141,8 +140,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
-                                            <SchoolRoundedIcon />
+                                        <TimelineDot color="inherit">
+                                            <PeopleOutlineOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -163,7 +162,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary">
+                                        <TimelineDot color="warning">
                                             <AgricultureRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -186,7 +185,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary" variant="outlined">
+                                        <TimelineDot color="error">
                                             <MoneyRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
@@ -209,8 +208,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                                        <TimelineDot color="secondary">
-                                            <ToysRoundedIcon />
+                                        <TimelineDot color="inherit">
+                                            <AbcOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -232,7 +231,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
+                                        <TimelineDot color="warning">
                                             <LandscapeRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -255,8 +254,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary">
-                                            <OpenInFullRoundedIcon />
+                                        <TimelineDot color="error">
+                                            <HomeOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -278,8 +277,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot color="primary" variant="outlined">
-                                            <LibraryBooksRoundedIcon />
+                                        <TimelineDot color="inherit">
+                                            <LocalLibraryOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                                     </TimelineSeparator>
@@ -302,8 +301,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                                        <TimelineDot color="secondary">
-                                            <RepeatIcon />
+                                        <TimelineDot color="warning">
+                                            <HowToRegOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -326,8 +325,8 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
-                                            <SchoolRoundedIcon />
+                                        <TimelineDot color="error">
+                                            <SchoolOutlinedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
                                     </TimelineSeparator>
@@ -349,7 +348,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
+                                        <TimelineDot color="inherit">
                                             <ReceiptLongRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -373,7 +372,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
+                                        <TimelineDot color="warning">
                                             <LaptopMacIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -397,7 +396,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
+                                        <TimelineDot color="error">
                                             <DeveloperBoardRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />
@@ -422,7 +421,7 @@ export default function CustomizedTimeline() {
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
                                         <TimelineConnector />
-                                        <TimelineDot>
+                                        <TimelineDot color="inherit">
                                             <CelebrationRoundedIcon />
                                         </TimelineDot>
                                         <TimelineConnector />

@@ -10,6 +10,7 @@ import ServiceArea from "../components/ServiceArea";
 // import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
 import CustomizedTimeline from "../components/Timeline";
+import EntryArea from "../components/EntryArea";
 
 const AboutPage = () => {
     return (
@@ -18,6 +19,7 @@ const AboutPage = () => {
             <PageHeader title="Who We Are" />
             <AboutArea />
             <ServiceArea />
+            <EntryArea />
             {/*<MixerAreaTwo />*/}
             <CustomizedTimeline />
             {/*<TeamArea />*/}

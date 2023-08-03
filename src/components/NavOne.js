@@ -79,8 +79,8 @@ class NavOne extends Component {
                   <div className="top-action-content info-action-content">
                     <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                       <ul className="top-action-list d-flex align-items-center">
-                        <li className="action__text"><a href="#/">login</a></li>
-                        <li className="action__text"><a href="#/">register</a></li>
+                        {/*<li className="action__text"><a href="#/">login</a></li>*/}
+                        {/*<li className="action__text"><a href="#/">register</a></li>*/}
                         <li><a href="https://twitter.com/tptrust" target="_blank"><i className="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/tptrust" target="_blank"><i className="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/tptrust/" target="_blank"><i className="fa fa-linkedin"></i></a></li>

@@ -99,7 +99,8 @@ const Contact = () => {
               <h3 className="contact__title">Kenya</h3>
               <p className="contact__desc">
                 The Turning Point Trust
-                PO BOX 76392-00508, Yaya Centre
+                P.O. Box 76392-00508,<br />
+                Yaya Centre. <br/>
                 Nairobi, Kenya.
               </p>
             </div>

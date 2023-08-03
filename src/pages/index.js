@@ -28,7 +28,7 @@ const HomePage = () => {
           <NavOne />
           {/*<Parallax />*/}
           <SliderOne />
-          <EntryArea />
+          {/*<EntryArea />*/}
           <ServiceArea />
           {/*<CallToActionTwo />*/}
           {/*<HiwArea />*/}
