@@ -20,6 +20,8 @@ import BlogHome from "../components/BlogHome";
 import ReactGA from 'react-ga';
 import reportWebVitals from "../reportWebVitals";
 import CallToActionTwo from "../components/CallToActionTwo";
+import AboutArea from "../components/AboutArea";
+import AboutAreaHome from "../components/AboutAreaHome";
 
 ReactGA.initialize('G-GQGN0SM8FF');
 const HomePage = () => {
@@ -28,6 +30,7 @@ const HomePage = () => {
           <NavOne />
           {/*<Parallax />*/}
           <SliderOne />
+          <AboutAreaHome />
           {/*<EntryArea />*/}
           <ServiceArea />
           {/*<CallToActionTwo />*/}

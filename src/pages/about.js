@@ -11,19 +11,20 @@ import ServiceArea from "../components/ServiceArea";
 import Footer from "../components/Footer";
 import CustomizedTimeline from "../components/Timeline";
 import EntryArea from "../components/EntryArea";
+import HistoryArea from "../components/HistoryArea";
 
 const AboutPage = () => {
     return (
         <Layout pageTitle="TP Trust | Who We Are">
             <NavOne />
             <PageHeader title="Who We Are" />
-            <AboutArea />
-            <ServiceArea />
+            <HistoryArea />
+            {/*<ServiceArea />*/}
             <EntryArea />
             {/*<MixerAreaTwo />*/}
             <CustomizedTimeline />
             {/*<TeamArea />*/}
-            <FaqArea />
+            {/*<FaqArea />*/}
             {/*<ClientsLogoTwo />*/}
             <Footer />
         </Layout>

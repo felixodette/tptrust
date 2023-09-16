@@ -115,7 +115,8 @@ class Footer extends Component {
                                     <div className="col footer-item footer-item4">
                                         <h3 className="widget__title">contact</h3>
                                         <ul className="contact__info">
-                                            <li>Yaya Center, Nairobi</li>
+                                            <li>Box 76392-00508,</li>
+                                            <li>Yaya Center, Nairobi.</li>
                                             <li><a href="mailto:info@tptrust.org">info@tptrust.org</a></li>
                                             <li><a href="tel:0794402478"> +254 794 402 478</a></li>
                                         </ul>

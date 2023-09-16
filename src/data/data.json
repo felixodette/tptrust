@@ -317,77 +317,77 @@
       "designation": "School HeadTeacher",
       "picture": "/assets/images/our-team-page-8.jpg",
       "alt_pic": "Jenipher Samson | Head Teacher",
-      "class_style": "team-item team-item5"
+      "class_style": "team-item team-item1"
     },
     {
       "name": "Collins Keverenge",
       "designation": "Deputy School HeadTeacher",
       "picture": "/assets/images/our-team-page-10.jpg",
       "alt_pic": "Collins Keverenge | Deputy HeadTeacher",
-      "class_style": "team-item team-item6"
+      "class_style": "team-item team-item2"
     },
     {
       "name": "Veronicah Karithu",
       "designation": "ECD Manager",
       "picture": "/assets/images/Veronicah-Karithu.jpeg",
       "alt_pic": "Veronicah Karithu | ECD Manager",
-      "class_style": "team-item team-item7"
+      "class_style": "team-item team-item3"
     },
     {
       "name": "Jacqueline Amanyole",
       "designation": "Transition Programme Coordinator",
       "picture": "/assets/images/Jacqueline-Amonyole.jpg",
       "alt_pic": "Jacqueline Amanyole | Transition Programme Coordinator",
-      "class_style": "team-item team-item8"
+      "class_style": "team-item team-item4"
     },
     {
       "name": "Pastor David",
       "designation": "Discipleship Pastor",
       "picture": "/assets/images/our-team-page-9.jpg",
       "alt_pic": "Pastor David | Discipline",
-      "class_style": "team-item team-item9"
+      "class_style": "team-item team-item1"
     },
     {
       "name": "Rose Amukoye",
       "designation": "Community Library Manager",
       "picture": "/assets/images/Rose - Community Library Manager.jpg",
       "alt_pic": "Rose Amukoye | Community Library Manager",
-      "class_style": "team-item team-item10"
+      "class_style": "team-item team-item2"
     },
     {
       "name": "Nathan Manywanda",
       "designation": "TPFC Coach",
       "picture": "/assets/images/Brian - TPFC Coach.jpg",
       "alt_pic": "Nathan Manywanda | TPFC Coach",
-      "class_style": "team-item team-item11"
+      "class_style": "team-item team-item3"
     },
     {
       "name": "Leonard Orieny",
       "designation": "ICT Manager",
       "picture": "/assets/images/our-team-page-6.jpg",
       "alt_pic": "Leonard Orieny | ICT Manager",
-      "class_style": "team-item team-item12"
+      "class_style": "team-item team-item4"
     },
     {
       "name": "Eric Gaka",
       "designation": "Fundraising, Communications & Marketing Manager",
       "picture": "/assets/images/Eric-Gaka.jpg",
       "alt_pic": "Eric Gaka | Fundraising & Communications Manager",
-      "class_style": "team-item team-item13"
+      "class_style": "team-item team-item1"
     },
     {
       "name": "Sharon Karanja",
       "designation": "Admin/HR Officer",
       "picture": "/assets/images/our-team-page-7.jpg",
       "alt_pic": "Sharon Karanja | Administrator",
-      "class_style": "team-item team-item14"
+      "class_style": "team-item team-item2"
     },
     {
       "name": "Jackline Waweru",
       "designation": "Accounts Officer",
       "picture": "/assets/images/Jackline-Waweru.jpg",
       "alt_pic": "Jackline Waweru | Accounts Officer",
-      "class_style": "team-item team-item15"
+      "class_style": "team-item team-item3"
     }
   ],
   "causes": [
@@ -699,5 +699,6 @@
       "pdf": "/assets/documents/Impact-Report-2022.pdf",
       "image": "/assets/images/impact-report-2022.jpg"
     }
-  ]
+  ],
+  "tptrustBackground" : "The Turning Point Trust is a UK-registered charity and a registered non-governmental organization(NGO) in Kenya formed in 2003 to serve vulnerable children and families in the Kibera informal settlement in Nairobi, Kenya.<br /><br />On the 3rd of March 2003, our founders Jo and Jon Parsons, together with the very first staff members:\nJohn Kariuki, Rev. Shadrack Mulinge and Eunice Mulinge, began Turning Point&#39;s journey of seeking\nvulnerable children. On this day, it all started with a pot of porridge and seven children. Over time, the\nnumbers grew, and they knew those that came daily were those who needed to benefit, hence the need\nto start an education programme for the children to attend.<br /><br />For 20 years, we have helped vulnerable children and their families by running a holistic range of\nprogrammes to achieve our vision of seeing children and families in Kibera achieving their full God-given\npotential.\nThe programmes we offer include, a remedial education programme; a free pre-school and primary\nschool; secondary school support, and a community library.<br /><br />To achieve holistic value, we run a school\nfeeding programme, a discipleship programme, a psychosocial support programme and after-school\nactivities alongside the education programmes.\nOur mission has been to demonstrate God&#39;s heart for the poor by offering programmes that relieve\npoverty, transform lives, and restore hope."
 }

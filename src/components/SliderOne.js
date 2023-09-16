@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css';
-import 'swiper/swiper-bundle.css';
+// import 'swiper/swiper-bundle.css';
 // import 'swiper/components/navigation/navigation.min.css';
 // import 'swiper/components/pagination/pagination.min.css';
 // import SwiperCore, { Navigation, Pagination } from 'swiper/core';
@@ -18,10 +18,10 @@ import 'swiper/swiper-bundle.css';
 // import styles bundle
 // import 'swiper/css/bundle';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
 
 
 const SliderOne = () => {
@@ -43,10 +43,14 @@ const SliderOne = () => {
     <section className="slider-area">
       <div className="homepage-slide1">
 
-        <Swiper getSwiper={setSwiper}
+        <Swiper onSwiper={setSwiper}
                 modules={[Navigation, Pagination, A11y]}
                 // spaceBetween={50}
                 slidesPerView={1}
+                autoplay={{
+                  delay: 1000,
+                  disableOnInteraction: false,
+                }}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}>
