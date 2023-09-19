@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ModalVideo from 'react-modal-video';
+import 'react-modal-video/scss/modal-video.scss';
 
 class EntryArea extends Component {
   constructor(){
@@ -31,7 +32,12 @@ class EntryArea extends Component {
                   <div className="col-lg-4">
                     <div className="entry-video-img">
                       <img src="/assets/images/youtube_vid.png" alt="entry-video-img" />
-                      <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='FmjBktNEKL8' onClose={this.handleModal} />
+                      <ModalVideo 
+                      channel='youtube' 
+                      isOpen={this.state.isOpen} 
+                      videoId='FmjBktNEKL8' 
+                      onClose={this.handleModal} 
+                      />
                       <div onClick={this.handleModal} className="mfp-iframe video-play-btn"
                            title="Play Video"><i className="fa fa-play"></i>
                       </div>

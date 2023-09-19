@@ -4772,6 +4772,14 @@ html {
 }
 
 /* Add this CSS to your existing CSS file or create a new one */
+.modal-video-body{
+    width: 80vw;
+    max-width: 100%;
+}
+.modal-video-inner{
+    width: 100% !important;
+    padding: 0;
+}
 .modal-overlay {
     position: fixed;
     top: 0;
