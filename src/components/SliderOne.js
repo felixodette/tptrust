@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 // import Swiper from 'react-id-swiper';
 // import 'swiper/css/swiper.css';
 import 'swiper/swiper-bundle.css';
@@ -44,11 +44,11 @@ const SliderOne = () => {
       <div className="homepage-slide1">
 
         <Swiper onSwiper={setSwiper}
-                modules={[Navigation, Pagination, A11y]}
+                modules={[Navigation, Pagination, A11y, Autoplay]}
                 // spaceBetween={50}
                 slidesPerView={1}
                 autoplay={{
-                  delay: 1000,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 navigation
