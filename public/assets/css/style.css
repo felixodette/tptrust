@@ -4602,6 +4602,10 @@ a:hover {
     text-transform: capitalize;
     margin-bottom: 23px;
 }
+.footer-area .footer-widget-wrap .footer-item .contact__info li:nth-child(3) a{
+text-transform: lowercase;
+}
+
 .footer-area .footer-widget-wrap .footer-item .footer__social {
     margin-top: 29px;
 }
