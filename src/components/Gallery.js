@@ -4,49 +4,38 @@ import GLightbox from 'glightbox';
 const galleryItems = [
     {
         id: 1,
-        image: "/assets/images/gallery-img-transition.png",
-        video:"https://youtu.be/FmjBktNEKL8?si=ltiWVYiW16LzQDFi",
+        image: "/assets/images/gallery-img-feeding-programme.png",
+        video: "https://youtu.be/0jvTSi5e36k?si=MMC3ceOeGTOxAlKv",
     },
     {
         id: 2,
-        image: "/assets/images/gallery-img-TPFC.png",
-        video:"https://youtu.be/f9D8RshMq4Y?si=QgoUuiJh9UPtihQ8",
+        image: "/assets/images/gallery-img-transiotion.png",
+        video:"https://youtu.be/ml9GgBMnGyM?si=e5dLeNzn0kG5AzVd",
     },
     {
         id: 3,
-        image: "/assets/images/gallery-img-TP's-Journey.png",
-        video:"https://youtu.be/MyEHJKGYY5g?si=Va_FA5QmFcfbUKuM",
+        image: "/assets/images/gallery-img-discipleship.png",
+        video:"https://youtu.be/6SBcQYqeVM0?si=VDMGSG8C1L1cEeXx",
     },
     {
         id: 4,
-        image: "/assets/images/gallery-img-feeding.png",
-        video:"https://youtu.be/j9unrj2VtRY?si=cDs6wkdJanouuhor",
+        image: "/assets/images/gallery-img-TPFC.png",
+        video:"https://youtu.be/QlFuBldgoGU?si=WnlQWoStL05uo2_Z",
     },
     {
         id: 5,
-        image: "/assets/images/gallery-img-desciplenship.png",
-        video:"https://youtu.be/IZXsZpv4558?si=Ss67pkU2rjGDSdZ_",
+        image: "/assets/images/gallery-img-anniversary.png",
+        video:"https://youtu.be/eeTuwPYrJ48?si=YvtMFj_c10Z-ExdE",
     },
     {
         id: 6,
-        image: "/assets/images/gallery-img-anniversary.png",
-        video:"https://www.youtube.com/watch?v=WVr17--kixo"
+        image: "/assets/images/gallery-img-20thanniversary.png",
+        video:"https://youtu.be/G3r1XUgMrdE?si=vPrxTKgvKx9jgsgZ"
     },
-
     {
         id: 7,
-        image: "/assets//images/gallery-img10.jpg",
-        video:"/assets/images/gallery-img10.jpg"
-    },
-    {
-        id: 8,
-        image: "/assets//images/gallery-img10.jpg",
-        video:"/assets/images/gallery-img10.jpg"
-    },
-    {
-        id: 9,
-        image: "/assets//images/gallery-img10.jpg",
-        video:"/assets/images/gallery-img10.jpg"
+        image: "/assets/images/gallery-img-tpjourney.ong.png",
+        video:"https://youtu.be/C1g0XEWThII?si=LbU5Iihb1bsWZMlS"
     }
 
 ];
