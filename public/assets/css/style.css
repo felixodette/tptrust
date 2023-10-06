@@ -3482,6 +3482,13 @@ a:hover {
 .gallery-area2 .gallery-item:after {
     left: -76px;
 }
+
+
+.gallery-area2 .gallery-item img {
+    width: 370px;
+    height: 390px;
+}
+
 /*=============================
    PACKAGE AREA
  =============================*/
