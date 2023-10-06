@@ -3484,10 +3484,20 @@ a:hover {
 }
 
 
-.gallery-area2 .gallery-item img {
-    width: 370px;
+.gallery-area2 .gallery-item {
+    width: auto;
     height: 390px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #efefef;
 }
+
+.gallery-area2 .gallery-item img {
+    width: auto;
+    height: 100%;
+
+}
+
 
 /*=============================
    PACKAGE AREA
