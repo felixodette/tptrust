@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import GLightbox from 'glightbox';
 
 const galleryImagesNames = [
-    "tc-9991.jpg",
+"tc-9991.jpg",
 "tc-9987.jpg",
 "tc-9984.jpg",
 "tc-9982.jpg",
@@ -46,46 +46,42 @@ const galleryImagesNames = [
 "tc-0046.jpg",
 ]
 
-const galleryImgArray = galleryImagesNames.map((name) => ({image: `/assets/images/mediaGallery/${name}`, id: 15}))
-// console.log(galleryImgArray);
-
-
-
+const galleryImgArray = galleryImagesNames.map((name,index ) => ({image: `/assets/images/mediaGallery/${name}`, id: index + 1}))
 
 
 const galleryItems = [
     {
-        id: 1,
+        id: 1001,
         image: "/assets/images/gallery-img-feeding-programme.png",
         video: "https://youtu.be/0jvTSi5e36k?si=MMC3ceOeGTOxAlKv",
     },
     {
-        id: 2,
+        id: 1002,
         image: "/assets/images/gallery-img-transiotion.png",
         video:"https://youtu.be/ml9GgBMnGyM?si=e5dLeNzn0kG5AzVd",
     },
     {
-        id: 3,
+        id: 1003,
         image: "/assets/images/gallery-img-discipleship.png",
         video:"https://youtu.be/6SBcQYqeVM0?si=VDMGSG8C1L1cEeXx",
     },
     {
-        id: 4,
+        id: 1004,
         image: "/assets/images/gallery-img-TPFC.png",
         video:"https://youtu.be/QlFuBldgoGU?si=WnlQWoStL05uo2_Z",
     },
     {
-        id: 5,
+        id: 1005,
         image: "/assets/images/gallery-img-anniversary.png",
         video:"https://youtu.be/eeTuwPYrJ48?si=YvtMFj_c10Z-ExdE",
     },
     {
-        id: 6,
+        id: 1006,
         image: "/assets/images/gallery-img-20thanniversary.png",
         video:"https://youtu.be/G3r1XUgMrdE?si=vPrxTKgvKx9jgsgZ"
     },
     {
-        id: 7,
+        id: 1007,
         image: "/assets/images/gallery-img-tpjourney.ong.png",
         video:"https://youtu.be/C1g0XEWThII?si=LbU5Iihb1bsWZMlS"
     },
@@ -93,9 +89,8 @@ const galleryItems = [
 ];
 
 
-const combinedArray = galleryItems.concat(galleryImgArray);
-console.log(combinedArray);
 
+const combinedArray = galleryItems.concat(galleryImgArray);
 
 
 const Gallery = () => {
@@ -126,7 +121,7 @@ const Gallery = () => {
                             <i className="fa fa-play"></i>
                                 </div>
                             )}
-                            <img src={item.image} alt="" />
+                            <img src={item.image} alt="" loading="lazy" />
                             <a href={item.video || item.image} className="glightbox">
                                 <span className="gallery-icon"></span>
                             </a>
