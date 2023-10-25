@@ -130,6 +130,8 @@ class NavOne extends Component {
                                 <li><Link to="/our-impact">our impact</Link></li>
                                 <li><Link to="/gallery">Media Center</Link></li>
                                 <li><Link to="/sponsor">Partners</Link></li>
+                                <li><Link to="/blog">Blogs</Link></li>
+
                               </ul>
                             </li>
                             <li><a href="#/">our work</a>
