@@ -11,14 +11,14 @@ const BlogSingle = ({ date, title, text, picture_blog }) => {
         const input = event.target.value.toLowerCase();
         setSearchTerm(input);
 
-        const results = data.blog.filter(post => post.title.toLowerCase().includes(input));
-        setSearchResults(results);
+        // const results = data.blog.filter(post => post.title.toLowerCase().includes(input));
+        // setSearchResults(results);
     }
 
-    useEffect(() => {
-        const sortedPosts = data.blog.sort((a, b) => new Date(b.date) - new Date(a.date));
-        setPosts(sortedPosts.slice(0, 3));
-    }, []);
+    // useEffect(() => {
+    //     const sortedPosts = data.blog.sort((a, b) => new Date(b.date) - new Date(a.date));
+    //     setPosts(sortedPosts.slice(0, 3));
+    // }, []);
 
     return (
         <section className="causes-detail-area news-detail-area">
@@ -36,7 +36,7 @@ const BlogSingle = ({ date, title, text, picture_blog }) => {
                                         <h3 className="blog__title"><a href="#/">{title}</a>
                                         </h3>
                                         <ul className="blog__list">
-                                            <li className="blog__dot-active"><a href="#/">christine eve</a></li>
+                                            <li className="blog__dot-active"><a href="#/"></a></li>
                                             <li><a href="#/">2 comments</a></li>
                                         </ul>
                                     </div>

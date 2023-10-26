@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import data from '../data/data.json';
 import { Link } from "react-router-dom";
 import dropinblogConfig from "../configs/dropinblog-config";
 
@@ -24,12 +23,9 @@ const BlogHome = () => {
     fetch(allPostsUrl)
       .then((response) => response.json())
       .then((res) => {
-        console.log("blogebiu", res);
         const allPosts = res.data.posts;
         setPosts(allPosts.slice(1, allPosts.length));
         setSpecialPost(allPosts[0]);
-        console.log(allPosts[0]);
-        console.log(allPosts,"allPostebi");
       })
       .catch((error) => console.error("Error:", error));
   }, [apiKey]);
