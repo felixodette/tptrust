@@ -27,9 +27,13 @@ ReactGA.initialize('G-GQGN0SM8FF');
 const HomePage = () => {
     return (
         <Layout pageTitle="TP Trust">
-          <NavOne />
+            <div className='responsive-slider'>
+              <NavOne /> 
+               <SliderOne />
+            </div>
+          
           {/*<Parallax />*/}
-          <SliderOne />
+          
           <AboutAreaHome />
           {/*<EntryArea />*/}
           <ServiceArea />
