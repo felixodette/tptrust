@@ -578,9 +578,7 @@
     480px
 ------------------------------*/
 @media (max-width:480px) {
-    .slider-area .single-slide-item {
-        height: 750px;
-    }
+
     .slider-area .slider-heading .slider__title {
         font-size: 65px;
         line-height: 80px;
@@ -596,9 +594,7 @@
     425px
 ------------------------------*/
 @media (max-width:425px) {
-    .slider-area .single-slide-item {
-        height: 650px;
-    }
+
     .slider-area .slider-heading .slider__title {
         font-size: 55px;
         line-height: 70px;
@@ -769,9 +765,6 @@
 @media (max-width:320px) {
     .header-area .header-top-action .top-action-content .info-box ul.top-action-list li {
         margin-right: 15px;
-    }
-    .slider-area .single-slide-item {
-        height: 600px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 46px;
