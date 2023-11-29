@@ -264,6 +264,13 @@ a:hover {
     line-height: 32px;
     position: relative;
     z-index: 2;
+    flex: initial;
+}
+.homepage-slide1{
+    height: 100%;
+}
+.swiper{
+    height: 100%;
 }
 .header-area .header-top-action .top-action-content {
     background: #424242;
@@ -891,16 +898,22 @@ a:hover {
 /*===================================
         SLIDER AREA
  =====================================*/
+ .responsive-slider {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+ }
 .slider-area  {
     position: relative;
     z-index: 1;
+    flex: 1;
 }
 .slider-area .single-slide-item {
     background-color: #eee;
     background-position: center center;
     background-size: cover;
     color: #fff;
-    height: 840px;
+    height: 100%;
     position: relative;
     z-index: 1;
     overflow: hidden;
