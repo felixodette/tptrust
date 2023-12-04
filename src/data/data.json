@@ -516,6 +516,20 @@
       },
       "themeBtn": 3,
       "image": "/assets/images/cause-pre-school-supplies.jpg"
+    },
+    {
+      "id": 10,
+      "cause_name": "School Holiday feeding (To be a mini-project of Feeding Programme)",
+      "description": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
+      "preview": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
+      "donatePound": "40",
+      "donateKsh": "7,200",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "HOLIDAYFEEDING"
+      },
+      "themeBtn": 3,
+      "image": "/assets/images/cause-art-supplies.jpg"
     }
   ],
   "events": [
