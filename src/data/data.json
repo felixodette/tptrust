@@ -394,92 +394,142 @@
     {
       "id": 1,
       "cause_name": "Bibles",
-      "description": "£5 will purchase a bible for a child, enabling them to learn about the love of God. Pastors teach our kids from the bible and help them apply what they learn in their daily lives.",
-      "preview": "£5 will purchase a bible for a child, enabling them to learn about the love of God.",
-      "goal": "5.00",
-      "raised": "0.00",
+      "description": "Ksh.1,500/£10 per year will purchase a bible and a bible storybook for one child, enabling them to learn about the love of God. Pastors teach our kids from the bible and help them apply what they learn in their daily lives.",
+      "preview": "Ksh.1,500/£10 per year will purchase a bible and a bible storybook for one child.",
+      "donatePound": "10",
+      "donateKsh": "1500",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "PRIMARYSCHOOL"
+      },
       "themeBtn": 1,
       "image": "/assets/images/cause-bible.jpg"
     },
     {
       "id": 2,
       "cause_name": "Stationery",
-      "description": "£5 provides all the pens, pencils and exercise books one child needs for a year in our Transition Class. In this class, street-children are rehabilitated and prepare to return to school.",
-      "preview": "£5 provides all the pens, pencils and exercise books one child needs for a year.",
-      "goal": "5.00",
-      "raised": "0.00",
+      "description": "Ksh.1,500/£10 provides all the pens, pencils and exercise books one child needs for a year in our Transition Class. In this class, street-children are rehabilitated and prepare to return to school.",
+      "preview": "Ksh.1,500/£10 will provide stationery for 1 child for a year.",
+      "donatePound": "10",
+      "donateKsh": "1,500",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "PRIMARYSCHOOL"
+      },
       "themeBtn": 2,
       "image": "/assets/images/cause-pre-school-supplies-1.jpg"
     },
     {
       "id": 3,
-      "cause_name": "School Dinners",
-      "description": "£15 will serve up breakfast and lunch to a child every weekday for one month. Daily food ensures children turn up to school everyday and are not tempted by hunger back to the streets.",
-      "preview": "£15 will serve up breakfast and lunch to a child every weekday for one month.",
-      "goal": "15.00",
-      "raised": "0.00",
+      "cause_name": "School Nutrition ",
+      "description": "Ksh. 3,000/£15 will serve up breakfast and lunch to a child every weekday for one month. Daily food ensures children turn up to school everyday and are not tempted by hunger back to the streets.",
+      "preview": "Ksh. 3,000/£15 will feed one child with hot breakfast and lunch for a whole month",
+      "donatePound": "15",
+      "donateKsh": "3,000",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "SCHOOLFEEDING"
+      },
       "themeBtn": 3,
       "image": "/assets/images/cause-school-dinners.jpg"
     },
     {
       "id": 4,
-      "cause_name": "School Trip",
-      "description": "£20 will take 10 children on a school trip. These trips expose children to life beyond the slum and provide fun opportunities to learn about Kenya's history, natural environment and culture.",
-      "preview": "£20 will take 10 children on a school trip. Expose children to life beyond the slum.",
-      "goal": "20.00",
-      "raised": "0.00",
+      "cause_name": "School Trips",
+      "description": "Ksh. 3,500/£ 20 will take 10 children on a school trip. These trips expose children to life beyond the slum and provide fun opportunities to learn about Kenya's history, natural environment and culture.",
+      "preview": "Ksh. 3,500/£ 20 will sponsor 10 children for an academic trip within a year",
+      "donatePound": "20",
+      "donateKsh": "3,500",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "SCHOOLFEEDING"
+      },
       "themeBtn": 1,
       "image": "/assets/images/cause-school-trips.jpg"
     },
     {
       "id": 5,
       "cause_name": "Library Books",
-      "description": "With £6 we can purchase 2 new books for the Community Library in Kibera. Here children come after school and during holidays to do homework, read stories or read up on their favourite subjects.",
-      "preview": "With £6 we can purchase 2 new books for the Community Library in Kibera.",
-      "goal": "6.00",
-      "raised": "0.00",
+      "description": "With Ksh. 1,000/£10 we can purchase 2 new books for the Community Library in Kibera. Here children come after school and during holidays to do homework, read stories or read up on their favourite subjects.",
+      "preview": "Ksh. 1,000/£10 will equip our community library with 3 age-appopriate storybooks. ",
+      "donatePound": "10",
+      "donateKsh": "1,000",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "LIBRARY"
+      },
       "themeBtn": 2,
       "image": "/assets/images/cause-library-books.jpg"
     },
     {
       "id": 6,
       "cause_name": "Art Supplies",
-      "description": "£10 will provide art supplies for the children at the Fountains of Hope Primary School to explore their creative sides through drawing, painting and crafts. Children will get a chance to develop their talents.",
-      "preview": "£10 will provide art supplies the children use to explore their creative sides.",
-      "goal": "10.00",
-      "raised": "0.00",
+      "description": "Ksh. 3,500/£ 20 will provide art supplies for the children at the Fountains of Hope Primary School to explore their creative sides through drawing, painting and crafts. Children will get a chance to develop their talents.",
+      "preview": "Ksh. 3,500/£ 20 will equip our ECDE Centre with art and creative learning materials for the children",
+      "donatePound": "20",
+      "donateKsh": "3,500",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "ECDE"
+      },
       "themeBtn": 3,
       "image": "/assets/images/cause-art-supplies.jpg"
     },
     {
       "id": 7,
       "cause_name": "Football",
-      "description": "£15 will help to equip our after-school football club with footballs, kits, bibs, boots and more. The club keeps children off the street and engaged in a healthy activity. The football club also offers kids friendship and discipleship.",
-      "preview": "£15 will help to equip our after-school football club with footballs kits.",
-      "goal": "15.00",
-      "raised": "0.00",
+      "description": "Ksh. 16,000/£100 will help to equip our after-school football club with footballs, kits, bibs, boots and more. The club keeps children off the street and engaged in a healthy activity. The football club also offers kids friendship and discipleship.",
+      "preview": "Ksh. 16,000/£100 will support Turning Point Football Club in its sporting activities",
+      "donatePound": "100",
+      "donateKsh": "16,000",
+      "mpesaDetails": {
+        "paybill":"4122379, ITS/c",
+        "account": "AFTERSCHOOL"
+      },
       "themeBtn": 1,
       "image": "/assets/images/cause-football.jpg"
     },
     {
       "id": 8,
       "cause_name": "Secondary School Support",
-      "description": "£35 supports a child at the Fountains of Hope Primary School for one month. This covers tuition, learning resources and daily meals. Children receive a quality education from our committed team.",
-      "preview": "£35 supports a child at the Fountains of Hope Primary School for one month.",
-      "goal": "35.00",
-      "raised": "0.00",
+      "description": "Ksh. 16,200/£ 90 supports a child at the Fountains of Hope Primary School for one month. This covers tuition, learning resources and daily meals. Children receive a quality education from our committed team.",
+      "preview": "Ksh. 16,200/£ 90 supports a student's secondary school education for 1 year",
+      "donatePound": "90",
+      "donateKsh": "16,200",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "SECONDARYSCHOOL"
+      },
       "themeBtn": 2,
       "image": "/assets/images/cause-school-support.jpg"
     },
     {
       "id": 9,
-      "cause_name": "Pre-School Support",
-      "description": "£20 will help to equip a pre-school classroom with all the puzzles, playdough, building blocks, paint, glue and crayons needed to give kids a head start in education. Children learn as they play guided by our expert teachers.",
-      "preview": "£20 will help to equip a pre-school classroom with all the puzzles and playdough.",
-      "goal": "20.00",
-      "raised": "0.00",
+      "cause_name": " Primary School & ECDE support",
+      "description": "Ksh. 8,100/£45 will help to equip a pre-school classroom with all the puzzles, playdough, building blocks, paint, glue and crayons needed to give kids a head start in education. Children learn as they play guided by our expert teachers.",
+      "preview": "Ksh. 8,100/£45 can sponsor a child at our primary school or ECDE Centre for one year",
+      "donatePound": "45",
+      "donateKsh": "8,100",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "PRIMARYSCHOOL"
+      },
       "themeBtn": 3,
       "image": "/assets/images/cause-pre-school-supplies.jpg"
+    },
+    {
+      "id": 10,
+      "cause_name": "School Holiday feeding (To be a mini-project of Feeding Programme)",
+      "description": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
+      "preview": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
+      "donatePound": "40",
+      "donateKsh": "7,200",
+      "mpesaDetails": {
+        "paybill":"4122379, A/c",
+        "account": "HOLIDAYFEEDING"
+      },
+      "themeBtn": 3,
+      "image": "/assets/images/cause-art-supplies.jpg"
     }
   ],
   "events": [

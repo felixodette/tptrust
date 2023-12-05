@@ -14,8 +14,9 @@ const Causes = () => {
                                                itemVal={item.themeBtn}
                                                causeTitle={item.cause_name}
                                                causePreview={item.preview}
-                                               goal={item.goal}
-                                               raised={item.raised}
+                                               donatePound={item.donatePound}
+                                               donateKsh = {item.donateKsh}
+                                               mpesaDetails={item.mpesaDetails}
                                                img={item.image}
                             />;
                         })
