@@ -403,7 +403,8 @@
         "account": "PRIMARYSCHOOL"
       },
       "themeBtn": 1,
-      "image": "/assets/images/cause-bible.jpg"
+      "image": "/assets/images/cause-bible.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
     },
     {
       "id": 2,
@@ -417,7 +418,8 @@
         "account": "PRIMARYSCHOOL"
       },
       "themeBtn": 2,
-      "image": "/assets/images/cause-pre-school-supplies-1.jpg"
+      "image": "/assets/images/cause-pre-school-supplies-1.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
     },
     {
       "id": 3,
@@ -431,7 +433,8 @@
         "account": "SCHOOLFEEDING"
       },
       "themeBtn": 3,
-      "image": "/assets/images/cause-school-dinners.jpg"
+      "image": "/assets/images/cause-school-dinners.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
     },
     {
       "id": 4,
@@ -442,10 +445,11 @@
       "donateKsh": "3,500",
       "mpesaDetails": {
         "paybill":"4122379, A/c",
-        "account": "SCHOOLFEEDING"
+        "account": "AFTERSCHOOL"
       },
       "themeBtn": 1,
-      "image": "/assets/images/cause-school-trips.jpg"
+      "image": "/assets/images/cause-school-trips.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
     },
     {
       "id": 5,
@@ -459,7 +463,8 @@
         "account": "LIBRARY"
       },
       "themeBtn": 2,
-      "image": "/assets/images/cause-library-books.jpg"
+      "image": "/assets/images/cause-library-books.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
     },
     {
       "id": 6,
@@ -473,7 +478,8 @@
         "account": "ECDE"
       },
       "themeBtn": 3,
-      "image": "/assets/images/cause-art-supplies.jpg"
+      "image": "/assets/images/cause-art-supplies.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
     },
     {
       "id": 7,
@@ -487,7 +493,8 @@
         "account": "AFTERSCHOOL"
       },
       "themeBtn": 1,
-      "image": "/assets/images/cause-football.jpg"
+      "image": "/assets/images/cause-football.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
     },
     {
       "id": 8,
@@ -501,7 +508,8 @@
         "account": "SECONDARYSCHOOL"
       },
       "themeBtn": 2,
-      "image": "/assets/images/cause-school-support.jpg"
+      "image": "/assets/images/cause-school-support.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
     },
     {
       "id": 9,
@@ -515,11 +523,12 @@
         "account": "PRIMARYSCHOOL"
       },
       "themeBtn": 3,
-      "image": "/assets/images/cause-pre-school-supplies.jpg"
+      "image": "/assets/images/cause-pre-school-supplies.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
     },
     {
       "id": 10,
-      "cause_name": "School Holiday feeding (To be a mini-project of Feeding Programme)",
+      "cause_name": "School Holiday Feeding",
       "description": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
       "preview": "Ksh. 7,200/£40 will feed a family for a month during the school holiday",
       "donatePound": "40",
@@ -529,7 +538,8 @@
         "account": "HOLIDAYFEEDING"
       },
       "themeBtn": 3,
-      "image": "/assets/images/cause-art-supplies.jpg"
+      "image": "/assets/images/cause-art-supplies.jpg",
+      "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
     }
   ],
   "events": [
