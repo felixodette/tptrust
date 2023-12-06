@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CausesItem = ({ itemVal, causeTitle, causePreview, donatePound,donateKsh, mpesaDetails, id, img, causeLink }) => {
+const CausesItem = ({ itemVal, causeTitle, causePreview, donatePound,donateKsh, mpesaDetails, id, img, causeLink, giftCard }) => {
     return (
         <div className="col-lg-6">
             <div className="blog-content d-flex h-100">
@@ -16,6 +16,7 @@ const CausesItem = ({ itemVal, causeTitle, causePreview, donatePound,donateKsh, 
                             <li><i className="icon-target"></i> Donate: <span>Ksh {donateKsh} /</span> <span>£{donatePound}</span></li>
                             <li><i className="fa fa-line-chart"></i> MPESA: <span>Paybill: {mpesaDetails.paybill}; {mpesaDetails.account}</span>
                             </li>
+                            <li><i className="fa fa-gift" aria-hidden="true"></i><a href={giftCard}>Download your gift card here!</a></li>
                         </ul>
                         <a href={causeLink} target="_blank" className="theme-btn">donate now</a>
                     </div>

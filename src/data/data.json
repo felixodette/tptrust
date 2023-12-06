@@ -402,6 +402,7 @@
         "paybill":"4122379, A/c",
         "account": "PRIMARYSCHOOL"
       },
+      "giftCard": "/assets/documents/Bible Gift Card.pdf",
       "themeBtn": 1,
       "image": "/assets/images/cause-bible.jpg",
       "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
@@ -417,6 +418,7 @@
         "paybill":"4122379, A/c",
         "account": "PRIMARYSCHOOL"
       },
+      "giftCard": "/assets/documents/Stationery Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-pre-school-supplies-1.jpg",
       "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
@@ -432,6 +434,7 @@
         "paybill":"4122379, A/c",
         "account": "SCHOOLFEEDING"
       },
+      "giftCard": "/assets/documents/School Nutrition Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-school-dinners.jpg",
       "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
@@ -447,6 +450,7 @@
         "paybill":"4122379, A/c",
         "account": "AFTERSCHOOL"
       },
+      "giftCard": "/assets/documents/School Trip Gift Card.pdf",
       "themeBtn": 1,
       "image": "/assets/images/cause-school-trips.jpg",
       "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
@@ -462,6 +466,7 @@
         "paybill":"4122379, A/c",
         "account": "LIBRARY"
       },
+      "giftCard": "/assets/documents/Library Books Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-library-books.jpg",
       "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
@@ -477,6 +482,7 @@
         "paybill":"4122379, A/c",
         "account": "ECDE"
       },
+      "giftCard": "/assets/documents/Art Supplies Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-art-supplies.jpg",
       "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
@@ -492,6 +498,7 @@
         "paybill":"4122379, ITS/c",
         "account": "AFTERSCHOOL"
       },
+      "giftCard": "/assets/documents/Football Gift Card.pdf",
       "themeBtn": 1,
       "image": "/assets/images/cause-football.jpg",
       "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
@@ -507,6 +514,7 @@
         "paybill":"4122379, A/c",
         "account": "SECONDARYSCHOOL"
       },
+      "giftCard": "/assets/documents/Secondary School Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-school-support.jpg",
       "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
@@ -522,6 +530,7 @@
         "paybill":"4122379, A/c",
         "account": "PRIMARYSCHOOL"
       },
+      "giftCard": "/assets/documents/School Support Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-pre-school-supplies.jpg",
       "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
@@ -537,6 +546,7 @@
         "paybill":"4122379, A/c",
         "account": "HOLIDAYFEEDING"
       },
+      "giftCard": "/assets/documents/School Nutrition Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-art-supplies.jpg",
       "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
