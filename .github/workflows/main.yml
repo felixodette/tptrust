@@ -8,8 +8,18 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20.5.0'
+
     - name: 🔨 Build Project
       run: |
+        echo "Before npm install - Current Directory: $(pwd)"
+        ls -la
         npm install
         npm run build
     
