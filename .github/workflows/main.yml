@@ -1,0 +1,23 @@
+name: Deploy Workflow
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+    
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./build
+        exclude-pattern: "./assets/**"
