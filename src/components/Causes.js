@@ -18,6 +18,8 @@ const Causes = () => {
                                                donateKsh = {item.donateKsh}
                                                mpesaDetails={item.mpesaDetails}
                                                img={item.image}
+                                               causeLink={item.causeLink}
+                                               giftCard={item.giftCard}
                             />;
                         })
                     }
