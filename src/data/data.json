@@ -390,6 +390,101 @@
       "class_style": "team-item team-item3"
     }
   ],
+  "boardOfDirectors": [
+    {
+      "name": "Peter Wichmann",
+      "designation": "Chairman",
+      "picture": "/assets/images/our-team-page-12.jpg",
+      "alt_pic": "Peter Wichmann | Chairman",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Ivy Wanjiru Kimori",
+      "designation": "Finance Director",
+      "picture": "/assets/images/Brenda - Programmes Coordinator.jpg",
+      "alt_pic": "Ivy Wanjiru Kimori | Finance Director",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "James Ngeene Kingara",
+      "designation": "Secretary",
+      "picture": "/assets/images/Eunice - Children Welfare Overseer.jpg",
+      "alt_pic": "James Ngeene Kingara | Secretary",
+      "class_style": "team-item team-item3"
+    },
+    {
+      "name": "Nancy Wanjiku Njagi",
+      "designation": "Member",
+      "picture": "/assets/images/Margaret - Senior Social Worker.jpg",
+      "alt_pic": "Nancy Wanjiku Njagi | Member",
+      "class_style": "team-item team-item4"
+    },
+    {
+      "name": "Faith Noel Balongo",
+      "designation": "Member",
+      "picture": "/assets/images/our-team-page-8.jpg",
+      "alt_pic": "Faith Noel Balongo | Member",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Anne W. Njine",
+      "designation": "Member",
+      "picture": "/assets/images/our-team-page-10.jpg",
+      "alt_pic": "Anne W. Njine | Member",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "Esther Kamaara",
+      "designation": "Member",
+      "picture": "/assets/images/Veronicah-Karithu.jpeg",
+      "alt_pic": "Esther Kamaara | Member",
+      "class_style": "team-item team-item3"
+    }
+  ],
+  "boardOfTrustees": [
+    {
+      "name": "Peter Wichmann",
+      "designation": "Chairman",
+      "picture": "/assets/images/our-team-page-12.jpg",
+      "alt_pic": "Peter Wichmann | Chairman",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Lorna Jones",
+      "designation": "Treasurer",
+      "picture": "/assets/images/Brenda - Programmes Coordinator.jpg",
+      "alt_pic": "Brenda Kaloki | Programme Coordinator",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "Nicola Quibell",
+      "designation": "Administrator",
+      "picture": "/assets/images/Eunice - Children Welfare Overseer.jpg",
+      "alt_pic": "Nicola Quibell | Administrator",
+      "class_style": "team-item team-item3"
+    },
+    {
+      "name": "Steeve Dew",
+      "designation": "Trustee",
+      "picture": "/assets/images/Margaret - Senior Social Worker.jpg",
+      "alt_pic": "Steeve Dew | Trustee",
+      "class_style": "team-item team-item4"
+    },
+    {
+      "name": "Scott Soper",
+      "designation": "Trustee",
+      "picture": "/assets/images/our-team-page-8.jpg",
+      "alt_pic": "Scott Soper | Trustee",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Lucy Woodcock",
+      "designation": "Trustee",
+      "picture": "/assets/images/our-team-page-10.jpg",
+      "alt_pic": "Lucy Woodcock | Trustee",
+      "class_style": "team-item team-item2"
+    }
+  ],
   "causes": [
     {
       "id": 1,
