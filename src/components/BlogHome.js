@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import dropinblogConfig from "../configs/dropinblog-config";
+import { API_ENDPOINTS } from "../configs/blogsConfig";
 
 const BlogHome = () => {
   const [posts, setPosts] = useState([]);
   const [specialPost, setSpecialPost] = useState(null);
-  const apiKey = dropinblogConfig.apiKey; // Your API key
 
   // useEffect(() => {
   //     const sortedPosts = data.blog.sort((a,b) => new Date(b.date) - new Date(a.date));
@@ -18,17 +17,23 @@ const BlogHome = () => {
   // }, []);
 
   useEffect(() => {
-    const allPostsUrl = `https://api.dropinblog.com/v1/json/?b=${apiKey}&limit=4&includecontent=0`;
+    const fetchWordPressPosts = async (url) => {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
 
-    fetch(allPostsUrl)
-      .then((response) => response.json())
-      .then((res) => {
-        const allPosts = res.data.posts;
-        setPosts(allPosts.slice(1, allPosts.length));
-        setSpecialPost(allPosts[0]);
-      })
-      .catch((error) => console.error("Error:", error));
-  }, [apiKey]);
+        // Extract the first two posts for homepage
+        const homepagePosts = data.posts.slice(0, 2);
+        setSpecialPost(homepagePosts[0]); // Set the first post as specialPost
+        setPosts(homepagePosts.slice(1)); // Set the remaining post for the regular list
+      } catch (error) {
+        console.error("Error fetching WordPress posts:", error);
+      }
+    };
+
+    // Call the function with the appropriate API endpoint
+    fetchWordPressPosts(API_ENDPOINTS.FETCH_HOME_POSTS);
+  }, []);
 
   return (
     <section className="blog-area">
