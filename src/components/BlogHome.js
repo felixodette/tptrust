@@ -15,24 +15,22 @@ const BlogHome = () => {
 
   //     setPosts(filteredPosts.slice(0, 3));
   // }, []);
+  
 
   useEffect(() => {
-    const fetchWordPressPosts = async (url) => {
-      try {
-        const response = await fetch(url);
-        const data = await response.json();
+    const allPostsUrl = API_ENDPOINTS.FETCH_ALL_POSTS;
 
-        // Extract the first two posts for homepage
-        const homepagePosts = data.posts.slice(0, 2);
-        setSpecialPost(homepagePosts[0]); // Set the first post as specialPost
-        setPosts(homepagePosts.slice(1)); // Set the remaining post for the regular list
-      } catch (error) {
-        console.error("Error fetching WordPress posts:", error);
-      }
-    };
-
-    // Call the function with the appropriate API endpoint
-    fetchWordPressPosts(API_ENDPOINTS.FETCH_HOME_POSTS);
+    fetch(allPostsUrl)
+      .then((response) => response.json())
+      .then((res) => {
+        console.log("blogebiu", res);
+        const allPosts = res.posts;
+        setPosts(allPosts.slice(1,4, allPosts.length));
+        setSpecialPost(allPosts[0]);
+        console.log(allPosts[0]);
+        console.log(allPosts,"allPostebi");
+      })
+      .catch((error) => console.error("Error:", error));
   }, []);
 
   return (
@@ -56,9 +54,9 @@ const BlogHome = () => {
               <div className="recent-item">
                 <div className="recent__img">
                   <span className="meta__date-date">
-                    {specialPost.publishedAt}
+                    {specialPost.date}
                   </span>
-                  <img src={specialPost.featuredImage} alt="service" />
+                  <img src={specialPost.featured_image} alt="service" />
                 </div>
                 <div className="news__content">
                   {/* <Link to={`/blog-detail/${specialPost.id}`}><h3 className="news__content-title"><a href="#/">{specialPost.title}</a></h3></Link> */}
@@ -72,10 +70,12 @@ const BlogHome = () => {
                     </li>
                     <li>{specialPost.comments} comments</li>
                   </ul>
-                  <p className="news__content-text">{specialPost.summary}</p>
+                  <p className="news__content-text"  dangerouslySetInnerHTML={{ __html: specialPost.excerpt }} >
+                    {/* {specialPost.excerpt} */}
+                    </p>
                   <Link to={`/blog-detail/${specialPost.slug}`}><a href="#/" className="theme-btn">read more</a></Link>
                 </div>
-              </div>
+                </div>
             )}
           </div>
           <div className="col-lg-6">
@@ -87,25 +87,25 @@ const BlogHome = () => {
                       <a href="/blog-item.js">
                         <img
                           style={{ width: 170, height: 137 }}
-                          src={post.featuredImage}
+                          src={post.featured_image}
                           alt=""
                         />
                       </a>
                     </div>
                     <div className="recent__content">
-                      <span>{post.publishedAt}</span>
-                      <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                      <span>{post.date}</span>
+                      {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt }} /> */}
                       <Link to={`/blog-detail/${post.slug}`}>
                         <h4>
                           <a href="#/">{post.title}</a>
                         </h4>
                       </Link>
                     </div>
-                  </li>
+                    </li>
                 ))}
               </ul>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     </section>
@@ -113,3 +113,4 @@ const BlogHome = () => {
 };
 
 export default BlogHome;
+

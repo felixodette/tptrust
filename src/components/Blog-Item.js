@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BlogItem = ({date, preview, title, picture, id}) => {
+    
     return (
         <div className="col-lg-6 col-sm-6">
             <div className="recent-item">
@@ -15,8 +16,8 @@ const BlogItem = ({date, preview, title, picture, id}) => {
                         <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
                         <li><a href="#/">3 comments</a></li>
                     </ul>
-                    <p className="news__content-text">
-                        {preview}
+                    <p className="news__content-text" dangerouslySetInnerHTML={{ __html: preview }} >
+                        {/* {preview} */}
                     </p>
                     <Link to={`/blog-detail/${id}`}><a href="#/" className="theme-btn">read more</a></Link>
                 </div>

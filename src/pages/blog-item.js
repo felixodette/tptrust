@@ -5,30 +5,28 @@ import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import BlogSingle from "../components/BlogSingle";
 import { useParams } from "react-router-dom";
-import dropinblogConfig from '../configs/dropinblog-config';
+import { API_ENDPOINTS } from '../configs/blogsConfig';
 
 const BlogSinglePage = () => {
-    const apiKey = dropinblogConfig.apiKey; // Your API key
     const { id } = useParams();
-    const [post, setPost] = useState(null);
+    const [posts, setPosts] = useState([]);
 
     
     useEffect(() => {
 
-        const singlePostUrl = `https://api.dropinblog.com/v1/json/post/?b=${apiKey}&post=${id}`
-        fetch(singlePostUrl)
-      .then((response) => response.json())
-      .then((res) => {
-        const singleBlog = res.data.post;
-        setPost(singleBlog);
+        const allPostsUrl = API_ENDPOINTS.FETCH_ALL_POSTS;
+
+        fetch(allPostsUrl)
+            .then((response) => response.json())
+            .then((res) => {
+            const allPosts = res.posts;
+            setPosts(allPosts);
 
       })
       .catch((error) => console.error("Error:", error));
-  }, [apiKey]);
+  }, [id]);
 
-    
-
-
+  const post = posts.find((post) => post.slug === id);
 
     if (!post) {
         return (
@@ -45,10 +43,15 @@ const BlogSinglePage = () => {
         <Layout pageTitle={`TP Trust | ${post.title}`}>
             <NavOne />
             <PageHeader title={`${post.title}`} />
-            <BlogSingle title={post.title} date={post.publishedAt} text={post.content} picture_blog={post.featuredImage} />
+            <BlogSingle title={post.title} date={post.date} text={post.content} picture_blog={post.featured_image} />
             <Footer />
         </Layout>
     );
 };
 
 export default BlogSinglePage;
+
+
+
+
+
