@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { API_ENDPOINTS } from "../configs/blogsConfig";
+import { generateLocalDate } from "../utils/common-functions";
 
 const BlogHome = () => {
   const [posts, setPosts] = useState([]);
@@ -18,17 +19,14 @@ const BlogHome = () => {
   
 
   useEffect(() => {
-    const allPostsUrl = API_ENDPOINTS.FETCH_ALL_POSTS;
+    const latestPostsUrl = API_ENDPOINTS.FETCH_LATEST_POSTS(4);
 
-    fetch(allPostsUrl)
+    fetch(latestPostsUrl)
       .then((response) => response.json())
       .then((res) => {
-        console.log("blogebiu", res);
         const allPosts = res.posts;
-        setPosts(allPosts.slice(1,4, allPosts.length));
+        setPosts(allPosts.slice(1,allPosts.length));
         setSpecialPost(allPosts[0]);
-        console.log(allPosts[0]);
-        console.log(allPosts,"allPostebi");
       })
       .catch((error) => console.error("Error:", error));
   }, []);
@@ -54,7 +52,7 @@ const BlogHome = () => {
               <div className="recent-item">
                 <div className="recent__img">
                   <span className="meta__date-date">
-                    {specialPost.date}
+                    {generateLocalDate(specialPost.date)}
                   </span>
                   <img src={specialPost.featured_image} alt="service" />
                 </div>
@@ -73,7 +71,7 @@ const BlogHome = () => {
                   <p className="news__content-text"  dangerouslySetInnerHTML={{ __html: specialPost.excerpt }} >
                     {/* {specialPost.excerpt} */}
                     </p>
-                  <Link to={`/blog-detail/${specialPost.slug}`}><a href="#/" className="theme-btn">read more</a></Link>
+                  <Link to={`/blog-detail/${specialPost.ID}`}><a href="#/" className="theme-btn">read more</a></Link>
                 </div>
                 </div>
             )}
@@ -93,9 +91,9 @@ const BlogHome = () => {
                       </a>
                     </div>
                     <div className="recent__content">
-                      <span>{post.date}</span>
+                      <span>{generateLocalDate(post.date)}</span>
                       {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt }} /> */}
-                      <Link to={`/blog-detail/${post.slug}`}>
+                      <Link to={`/blog-detail/${post.ID}`}>
                         <h4>
                           <a href="#/">{post.title}</a>
                         </h4>
