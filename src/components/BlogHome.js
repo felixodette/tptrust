@@ -43,7 +43,7 @@ const BlogHome = () => {
                                         <Link to={`/blog-detail/${specialPost.id}`}><h3 className="news__content-title"><a href="#/">{specialPost.title}</a></h3></Link>
                                         <ul className="news__content-list">
                                             <li className="news__content-active__dot"><a href="#/">mike hardson</a></li>
-                                            <li><a href="#/">3 comments </a></li>
+                                            <li><a href="#/">3 comments</a></li>
                                         </ul>
                                         <p className="news__content-text">
                                             {specialPost.preview}
