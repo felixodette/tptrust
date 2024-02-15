@@ -2,7 +2,7 @@
   "preSchool": {
     "theChallenge": {
       "title": "The Challenge",
-      "text": "Pre-school builds the foundations for life-long learning and yet 16% of children in Kenya do not attend pre-school. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal settlement of Kibera. Evans’ parents are already paying school fees for three older siblings in primary school and cannot afford the fees to send Evans to pre-school as well.When both parents are busy making ends meet, Evans is left with a neighbour. She keeps an eye on him but its easy enough for the inquisitive child to wander off exploring. The risks are numerous to a small child in Kibera. Turning Point’s ECD Programme provides a safe environment for children like Evans to learn and thrive."
+      "text": "Pre-school builds the foundations for life-long learning and yet 16% of children in Kenya do not attend pre-school. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal settlement of Kibera. Evans’ parents are already paying school fees for three older siblings in primary school and cannot afford the fees to send Evans to pre-school as well.When both parents are busy making ends meet, Evans is left with a neighbour. She keeps an eye on him but its easy enough for the inquisitive child to wander off exploring. The risks are numerous to a small child in Kibera. Turning Point’s ECDE Programme provides a safe environment for children like Evans to learn and thrive."
     },
     "ourApproach": {
       "title": "Our Approach",
@@ -328,9 +328,9 @@
     },
     {
       "name": "Veronicah Karithu",
-      "designation": "ECD Manager",
+      "designation": "ECDE Manager",
       "picture": "/assets/images/Veronicah-Karithu.jpeg",
-      "alt_pic": "Veronicah Karithu | ECD Manager",
+      "alt_pic": "Veronicah Karithu | ECDE Manager",
       "class_style": "team-item team-item3"
     },
     {
