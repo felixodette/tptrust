@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 // import AboutDetails from "../components/AboutDetails";
-import MixerAreaTwo from "../components/MixerAreaTwo";
+// import MixerAreaTwo from "../components/MixerAreaTwo";
 // import TeamArea from "../components/TeamArea";
 // import FaqArea from "../components/FaqArea";
 // import ServiceArea from "../components/ServiceArea";

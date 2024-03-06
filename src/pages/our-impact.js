@@ -11,10 +11,10 @@ import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 // import OurWorkInfoSection from "../components/OurWorkInfoSection";
 import '../data/data.json';
-import FoundationsOfHopeDetails from "../components/FoundationsOfHopeDetails";
-import myJson from "../data/data.json";
+// import FoundationsOfHopeDetails from "../components/FoundationsOfHopeDetails";
+// import myJson from "../data/data.json";
 import OurImpact from "../components/OurImpact";
-import PdfViewer from "../components/PdfViewer";
+// import PdfViewer from "../components/PdfViewer";
 const OurImpactPage = () => {
     const [data, setData] = useState([]);
 
