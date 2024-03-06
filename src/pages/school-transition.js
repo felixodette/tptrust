@@ -13,7 +13,6 @@ import Footer from "../components/Footer";
 // import OurWorkInfoSection from "../components/OurWorkInfoSection";
 import '../data/data.json';
 import OurWorkInfoSection from "../components/OurWorkInfoSection";
-import myJson from "../data/data.json";
 const SchoolTransitionPage = () => {
   const [data, setData] = useState([]);
 
