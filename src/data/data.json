@@ -2,7 +2,7 @@
   "preSchool": {
     "theChallenge": {
       "title": "The Challenge",
-      "text": "Pre-school builds the foundations for life-long learning and yet 16% of children in Kenya do not attend pre-school. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal settlement of Kibera. Evans’ parents are already paying school fees for three older siblings in primary school and cannot afford the fees to send Evans to pre-school as well.When both parents are busy making ends meet, Evans is left with a neighbour. She keeps an eye on him but its easy enough for the inquisitive child to wander off exploring. The risks are numerous to a small child in Kibera. Turning Point’s ECD Programme provides a safe environment for children like Evans to learn and thrive."
+      "text": "Pre-school builds the foundations for life-long learning and yet 16% of children in Kenya do not attend pre-school. Like five-year-old Evans whose parents live on less than $2 a day in the sprawling informal settlement of Kibera. Evans’ parents are already paying school fees for three older siblings in primary school and cannot afford the fees to send Evans to pre-school as well.When both parents are busy making ends meet, Evans is left with a neighbour. She keeps an eye on him but its easy enough for the inquisitive child to wander off exploring. The risks are numerous to a small child in Kibera. Turning Point’s ECDE Programme provides a safe environment for children like Evans to learn and thrive."
     },
     "ourApproach": {
       "title": "Our Approach",
@@ -268,7 +268,7 @@
       "id": 21,
       "title": "Spread the Word Not the Virus",
       "date": "June 23, 2020",
-      "preview": "he coronavirus being a completely new disease, we’ve all had to learn about the sickness...",
+      "preview": "The coronavirus being a completely new disease, we’ve all had to learn about the sickness...",
       "text": "The coronavirus being a completely new disease, we’ve all had to learn about the sickness itself, how it spreads and how to keep ourselves safe. Many of us have google at our fingertips or receive public health messages through our TVs and radios. In Kibera, this is more of a challenge. One of our first responses to coronavirus was to start printing posters about the virus from trusted sources – the Centre for Disease Control and the Kenyan Ministry of Health – to put up around Kibera.<br><br>At first, we struggled to find the information in Kiswahili until a local organisation, Shujaaz Inc, developed their own posters in sheng, a kind of slang spoken in Nairobi, which has been so useful to share with the children in our programmes.<br><br>When our staff went out to set up handwashing stations and distribute posters in the first few days after the first case was reported in Kenya, they were jumped on by the area chief. He asked to use the posters to talk to people coming out of prayers at the local mosque. He drew quite a crowd and used the posters to share information on how to stop the spread. Clearly, the crowd was not a great example of social distancing but he had to start somewhere!<br><br>More recently, when our team were out refilling soap at our handwashing stations, one plot of households invited the team to come and explain more about coronavirus. In Kibera, one-room homes are often gathered into plots where rows of homes share a small entryway and some amenities like a long-drop toilet. The small group of families that lived in this plot had already set up a shared handwashing station and wanted to know more about how to protect themselves. Our team took time to talk through the steps they can take and to encourage them that they are already doing a great job with their handwashing station.<br><br>It’s great to see this thoughtful group of families doing what they can to stay safe. We celebrate the area chief working hard to spread good information in his community. We celebrate countless other community groups and individuals who are doing their bit in Kibera to minimise the spread of coronavirus.",
       "picture": "/assets/images/blog-spread-the-word.jpeg",
       "picture_blog": "/assets/images/blog-full-spread-the-word.jpeg"
@@ -328,9 +328,9 @@
     },
     {
       "name": "Veronicah Karithu",
-      "designation": "ECD Manager",
+      "designation": "ECDE Manager",
       "picture": "/assets/images/Veronicah-Karithu.jpeg",
-      "alt_pic": "Veronicah Karithu | ECD Manager",
+      "alt_pic": "Veronicah Karithu | ECDE Manager",
       "class_style": "team-item team-item3"
     },
     {
@@ -388,6 +388,101 @@
       "picture": "/assets/images/Jackline-Waweru.jpg",
       "alt_pic": "Jackline Waweru | Accounts Officer",
       "class_style": "team-item team-item3"
+    }
+  ],
+  "boardOfDirectors": [
+    {
+      "name": "Peter Wichmann",
+      "designation": "Chairman",
+      "picture": "/assets/images/our-team-page-12.jpg",
+      "alt_pic": "Peter Wichmann | Chairman",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Ivy Wanjiru Kimori",
+      "designation": "Finance Director",
+      "picture": "/assets/images/Brenda - Programmes Coordinator.jpg",
+      "alt_pic": "Ivy Wanjiru Kimori | Finance Director",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "James Ngeene Kingara",
+      "designation": "Secretary",
+      "picture": "/assets/images/Eunice - Children Welfare Overseer.jpg",
+      "alt_pic": "James Ngeene Kingara | Secretary",
+      "class_style": "team-item team-item3"
+    },
+    {
+      "name": "Nancy Wanjiku Njagi",
+      "designation": "Member",
+      "picture": "/assets/images/Margaret - Senior Social Worker.jpg",
+      "alt_pic": "Nancy Wanjiku Njagi | Member",
+      "class_style": "team-item team-item4"
+    },
+    {
+      "name": "Faith Noel Balongo",
+      "designation": "Member",
+      "picture": "/assets/images/our-team-page-8.jpg",
+      "alt_pic": "Faith Noel Balongo | Member",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Anne W. Njine",
+      "designation": "Member",
+      "picture": "/assets/images/our-team-page-10.jpg",
+      "alt_pic": "Anne W. Njine | Member",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "Esther Kamaara",
+      "designation": "Member",
+      "picture": "/assets/images/Veronicah-Karithu.jpeg",
+      "alt_pic": "Esther Kamaara | Member",
+      "class_style": "team-item team-item3"
+    }
+  ],
+  "boardOfTrustees": [
+    {
+      "name": "Peter Wichmann",
+      "designation": "Chairman",
+      "picture": "/assets/images/our-team-page-12.jpg",
+      "alt_pic": "Peter Wichmann | Chairman",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Lorna Jones",
+      "designation": "Treasurer",
+      "picture": "/assets/images/Brenda - Programmes Coordinator.jpg",
+      "alt_pic": "Brenda Kaloki | Programme Coordinator",
+      "class_style": "team-item team-item2"
+    },
+    {
+      "name": "Nicola Quibell",
+      "designation": "Administrator",
+      "picture": "/assets/images/Eunice - Children Welfare Overseer.jpg",
+      "alt_pic": "Nicola Quibell | Administrator",
+      "class_style": "team-item team-item3"
+    },
+    {
+      "name": "Steeve Dew",
+      "designation": "Trustee",
+      "picture": "/assets/images/Margaret - Senior Social Worker.jpg",
+      "alt_pic": "Steeve Dew | Trustee",
+      "class_style": "team-item team-item4"
+    },
+    {
+      "name": "Scott Soper",
+      "designation": "Trustee",
+      "picture": "/assets/images/our-team-page-8.jpg",
+      "alt_pic": "Scott Soper | Trustee",
+      "class_style": "team-item team-item1"
+    },
+    {
+      "name": "Lucy Woodcock",
+      "designation": "Trustee",
+      "picture": "/assets/images/our-team-page-10.jpg",
+      "alt_pic": "Lucy Woodcock | Trustee",
+      "class_style": "team-item team-item2"
     }
   ],
   "causes": [
