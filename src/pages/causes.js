@@ -7,9 +7,9 @@ import Footer from "../components/Footer";
 
 const CausesPage = () => {
     return (
-        <Layout pageTitle="TP Trust | Christmas Gifts">
+        <Layout pageTitle="TP Trust | Support a Child">
             <NavOne />
-            <PageHeader title="Donate Christmas Gifts" />
+            <PageHeader title="Support a Child" />
             <Causes />
             <Footer />
         </Layout>
