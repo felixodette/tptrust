@@ -145,7 +145,7 @@ class NavOne extends Component {
                             </li>
                             <li><Link to="/events">get involved</Link>
                               <ul className="dropdown-menu-item">
-                                <li><Link to="/causes">Christmas Gifts</Link></li>
+                                <li><Link to="/causes">support a child</Link></li>
                                 <li><Link to="/volunteer">become a volunteer</Link></li>
                                 {/*<li><Link to="/events-detail">donate</Link></li>*/}
                                 {/*<li><Link to="/events-detail">volunteer with us</Link></li>*/}
