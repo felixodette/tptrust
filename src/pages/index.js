@@ -45,7 +45,7 @@ const HomePage = () => {
           {/*<HelpingArea />*/}
           {/*<TeamArea />*/}
           {/*<CallToAction />*/}
-          <BlogHome />
+          {/*<BlogHome />*/}
           {/*<Map />*/}
 
           <Footer />
