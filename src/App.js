@@ -43,7 +43,7 @@ function App(props) {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/causes" element={<CausesPage />} />
+        <Route path="/support" element={<CausesPage />} />
         <Route path="/causes-detail/:id" element={<CausesPageDetail />} />
         <Route path="/contacts" element={<ContactsPage />} />
         <Route path="/donate" element={<DonatePage />} />
