@@ -153,6 +153,7 @@ class NavOne extends Component {
                                 {/*<li><Link to="/events-detail">fundraise for us</Link></li>*/}
                                 <li><Link to="/blog">read our stories</Link></li>
                                 <li><Link to="/events">events</Link></li>
+                                <li><Link to="https://forms.gle/E5Nfmmgibv5FXMss6">become a friend of TP Trust</Link></li>
                               </ul>
                             </li>
                             {/*<li><Link to="/blog">Blog</Link>*/}
