@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CausesItem = ({ itemVal, causeTitle, causePreview, donatePound,donateKsh, mpesaDetails, id, img, causeLink, giftCard }) => {
     return (
-        <div className="col-lg-6">
+        <div className="col-lg-4">
             <div className="blog-content d-flex h-100">
                 <div className={`blog-item blog-item${itemVal} card flex-fill`}>
                     <div className="blog-img">
