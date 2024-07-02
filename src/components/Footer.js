@@ -97,6 +97,7 @@ class Footer extends Component {
                                         <h3 className="widget__title">Downloads</h3>
                                         <ul className="foot__links">
                                             <li><a href="/assets/documents/Gift%20Aid%20Declaration%202021.doc">Gift Aid Declaration</a></li>
+                                            <li><a href="/assets/documents/Impact-Report-2023.pdf">Impact Report 2023</a></li>
                                             <li><a href="/assets/documents/Impact-Report-2022.pdf">Impact Report 2022</a></li>
                                             <li><a href="/assets/documents/Impact-Report-2021.pdf">Impact Report 2021</a></li>
                                             <li><a href="/assets/documents/Impact-Report-2020.pdf">Impact Report 2020</a></li>
