@@ -224,7 +224,7 @@
       "title": "Catching Up In Reading",
       "date": "June 15, 2021",
       "preview": "“Teacher, Teacher!” the children call out as they strain to raise their hand higher than the...",
-      "text": "“Teacher, Teacher!” the children call out as they strain to raise their hand higher than the other kids. Finally, Robai is chosen to answer.<br><br>“School!” she says, and the word is duly scribed on the board. Now the children call out words related to this first word and a spider-like mind map slowly fills the board. Once all the children have contributed a word to the map, they settle down to write sentences using words in the mind map.<br><br>This is one of the games that the Community Library team are using to help children catch up in reading and writing. In Kenya, 60% of children aged 7 to 13 cannot answer a reading and maths test aimed at a 7-year-old. Learning outcomes are particularly low in semi-arid areas of the country and urban slums like Kibera. For this reason, ZiziAfrique developed the Accelerated Learning Programme designed to help children in Grade 3 to 5 to catch up in literacy and numeracy. They trained our team in this approach last year as we reported in the January Viewpoint. Now, 16 children aged 9 and 10 years old are meeting every Monday morning to take part in the Accelerated Learning Programme run by the Community Library team.<br><br>We are running the programme for a group of Grade 4 students who are currently out of school due to the phased reopening of schools in Kenya. So far, the children are enjoying the sessions and we are tracking their progress. We have further plans to repeat the programme with another group of children in the library later in the year and incorporate the approach in our School Transition Programme.",
+      "text": "“Teacher, Teacher!” the children call out as they strain to raise their hand higher than the other kids. Finally, Robai is chosen to answer.<br><br>“School!” she says, and the word is duly scribed on the board. Now the children call out words related to this first word and a spider-like mind map slowly fills the board. Once all the children have contributed a word to the map, they settle down to write sentences using words in the mind map.<br><br>This is one of the games that the school library team are using to help children catch up in reading and writing. In Kenya, 60% of children aged 7 to 13 cannot answer a reading and maths test aimed at a 7-year-old. Learning outcomes are particularly low in semi-arid areas of the country and urban slums like Kibera. For this reason, ZiziAfrique developed the Accelerated Learning Programme designed to help children in Grade 3 to 5 to catch up in literacy and numeracy. They trained our team in this approach last year as we reported in the January Viewpoint. Now, 16 children aged 9 and 10 years old are meeting every Monday morning to take part in the Accelerated Learning Programme run by the Community Library team.<br><br>We are running the programme for a group of Grade 4 students who are currently out of school due to the phased reopening of schools in Kenya. So far, the children are enjoying the sessions and we are tracking their progress. We have further plans to repeat the programme with another group of children in the library later in the year and incorporate the approach in our School Transition Programme.",
       "picture": "/assets/images/blog-catching-up-reading.png",
       "picture_blog": "/assets/images/blog-full-catching-up-reading.png"
     },
@@ -384,22 +384,7 @@
     }
   ],
   "causes": [
-    {
-      "id": 1,
-      "cause_name": "Bibles",
-      "description": "Ksh 1,500/£10 per year will purchase a bible and a bible storybook for one child, enabling them to learn about the love of God. Pastors teach our kids from the bible and help them apply what they learn in their daily lives.",
-      "preview": "Ksh 1,500/£10 per year will purchase a bible and a bible storybook for one child.",
-      "donatePound": "10",
-      "donateKsh": "1500",
-      "mpesaDetails": {
-        "paybill":"4122379, A/C",
-        "account": "PRIMARYSCHOOL"
-      },
-      "giftCard": "/assets/documents/Bible Gift Card.pdf",
-      "themeBtn": 1,
-      "image": "/assets/images/cause-bible.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
-    },
+
     {
       "id": 2,
       "cause_name": "Stationery",
@@ -414,7 +399,7 @@
       "giftCard": "/assets/documents/Stationery Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-pre-school-supplies-1.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
+      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
     },
     {
       "id": 3,
@@ -430,7 +415,7 @@
       "giftCard": "/assets/documents/School Nutrition Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-school-dinners.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
+      "causeLink": "https://donate.justgiving.com/campaign/tptrustschoolfeeding/donation-amount"
     },
     {
       "id": 4,
@@ -446,13 +431,13 @@
       "giftCard": "/assets/documents/School Trip Gift Card.pdf",
       "themeBtn": 1,
       "image": "/assets/images/cause-school-trips.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
+      "causeLink": "https://donate.justgiving.com/campaign/tptecdeducation/donation-amount"
     },
     {
       "id": 5,
       "cause_name": "Library Books",
       "description": "With Ksh 1,000/£10 we can purchase 2 new books for the Community Library in Kibera. Here children come after school and during holidays to do homework, read stories or read up on their favourite subjects.",
-      "preview": "Ksh 1,000/£10 will equip our community library with 3 age-appropriate storybooks.",
+      "preview": "Ksh 1,000/£10 will equip our school library with 3 age-appropriate storybooks.",
       "donatePound": "10",
       "donateKsh": "1,000",
       "mpesaDetails": {
@@ -462,7 +447,7 @@
       "giftCard": "/assets/documents/Library Books Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-library-books.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
+      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
     },
     {
       "id": 6,
@@ -478,40 +463,10 @@
       "giftCard": "/assets/documents/Art Supplies Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-art-supplies.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
+      "causeLink": "https://donate.justgiving.com/campaign/tptecdeducation/donation-amount"
     },
-    {
-      "id": 7,
-      "cause_name": "Football",
-      "description": "Ksh 16,000/£100 will help to equip our after-school football club with footballs, kits, bibs, boots and more. The club keeps children off the street and engaged in a healthy activity. The football club also offers kids friendship and discipleship.",
-      "preview": "Ksh. 16,000/£100 will support Turning Point Football Club in its sporting activities.",
-      "donatePound": "100",
-      "donateKsh": "16,000",
-      "mpesaDetails": {
-        "paybill":"4122379, A/C",
-        "account": "AFTERSCHOOL"
-      },
-      "giftCard": "/assets/documents/Football Gift Card.pdf",
-      "themeBtn": 1,
-      "image": "/assets/images/cause-football.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/turning-point-quality-education-kibera-kenya/"
-    },
-    {
-      "id": 8,
-      "cause_name": "Secondary School Support",
-      "description": "Ksh 16,200/£90 supports a child at the Fountains of Hope Primary School for one month. This covers tuition, learning resources and daily meals. Children receive a quality education from our committed team.",
-      "preview": "Ksh 16,200/£90 supports a student's secondary school education for 1 year.",
-      "donatePound": "90",
-      "donateKsh": "16,200",
-      "mpesaDetails": {
-        "paybill":"4122379, A/C",
-        "account": "SECONDARYSCHOOL"
-      },
-      "giftCard": "/assets/documents/Secondary School Gift Card.pdf",
-      "themeBtn": 2,
-      "image": "/assets/images/cause-school-support.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
-    },
+
+
     {
       "id": 9,
       "cause_name": " Primary School & ECDE support",
@@ -526,24 +481,9 @@
       "giftCard": "/assets/documents/School Support Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-pre-school-supplies.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/return-children-from-kibera-to-school/"
-    },
-    {
-      "id": 10,
-      "cause_name": "School Holiday Feeding",
-      "description": "Ksh 7,200/£40 will feed a family for a month during the school holiday.",
-      "preview": "Ksh 7,200/£40 will feed a family for a month during the school holiday.",
-      "donatePound": "40",
-      "donateKsh": "7,200",
-      "mpesaDetails": {
-        "paybill":"4122379, A/C",
-        "account": "HOLIDAYFEEDING"
-      },
-      "giftCard": "/assets/documents/School Nutrition Gift Card.pdf",
-      "themeBtn": 3,
-      "image": "/assets/images/cause-school-holiday-meals.jpg",
-      "causeLink": "https://www.globalgiving.org/projects/feed-100-children/"
+      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
     }
+
   ],
   "events": [
     {
@@ -731,7 +671,7 @@
     {
       "id": 3,
       "name": "2019 Impact Report",
-      "description": "God has enabled us to empower more children and families in Kibera throughout the past year. You will read in this report about the impact we have achieved including supporting 143 children in primary school and 63 children in secondary school. Preparing 25 more children to join or return to school and over a thousand children have benefitted from our community library.\n",
+      "description": "God has enabled us to empower more children and families in Kibera throughout the past year. You will read in this report about the impact we have achieved including supporting 143 children in primary school and 63 children in secondary school. Preparing 25 more children to join or return to school and over a thousand children have benefitted from our school library.\n",
       "pdf": "/assets/documents/Impact-Report-2019.pdf",
       "image": "/assets/images/impact-report-2019.png"
     },
