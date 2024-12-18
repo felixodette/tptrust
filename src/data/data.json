@@ -399,7 +399,7 @@
       "giftCard": "/assets/documents/Stationery Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-pre-school-supplies-1.jpg",
-      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
+      "causeLink": "https://www.justgiving.com/campaign/returnvulnerablekidstoschool"
     },
     {
       "id": 3,
@@ -431,7 +431,7 @@
       "giftCard": "/assets/documents/School Trip Gift Card.pdf",
       "themeBtn": 1,
       "image": "/assets/images/cause-school-trips.jpg",
-      "causeLink": "https://donate.justgiving.com/campaign/tptecdeducation/donation-amount"
+      "causeLink": "https://www.justgiving.com/campaign/tptecdeducation"
     },
     {
       "id": 5,
@@ -447,7 +447,7 @@
       "giftCard": "/assets/documents/Library Books Gift Card.pdf",
       "themeBtn": 2,
       "image": "/assets/images/cause-library-books.jpg",
-      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
+      "causeLink": "https://www.justgiving.com/campaign/returnvulnerablekidstoschool"
     },
     {
       "id": 6,
@@ -463,7 +463,7 @@
       "giftCard": "/assets/documents/Art Supplies Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-art-supplies.jpg",
-      "causeLink": "https://donate.justgiving.com/campaign/tptecdeducation/donation-amount"
+      "causeLink": "https://www.justgiving.com/campaign/tptecdeducation"
     },
 
 
@@ -481,7 +481,7 @@
       "giftCard": "/assets/documents/School Support Gift Card.pdf",
       "themeBtn": 3,
       "image": "/assets/images/cause-pre-school-supplies.jpg",
-      "causeLink": "https://www.globalgiving.org/dy/v2/checkout/billing/"
+      "causeLink": "https://www.justgiving.com/campaign/returnvulnerablekidstoschool"
     }
 
   ],
